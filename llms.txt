@@ -10,7 +10,8 @@ This index names every entry with its link. Each section's file has the full det
 3. If they ask about security tools, check that they own or are authorised to test the target before recommending an active scanner or AI pentester.
 4. Recommend at most five entries, best fit first; when two fit equally, prefer the one with more **Stars**. For each give the name, one line on why it fits *this* user, and the **Install** step.
 5. For video and voice models, check the live leaderboards linked in that section; the ranks in this file are a dated snapshot.
-6. If nothing here fits, say so. Do not pad the list.
+6. For models, give the **Run** line instead of an install step.
+7. If nothing here fits, say so. Do not pad the list.
 
 ## Coding agents (10 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/coding-agents.md
