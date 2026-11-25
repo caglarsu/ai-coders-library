@@ -10,7 +10,7 @@ Install: `npm install -g openclaw@latest` then `openclaw onboard --install-daemo
 
 ### Hermes Agent
 Link: https://github.com/NousResearch/hermes-agent
-Stars: ★ 266k
+Stars: ★ 266.1k
 What it does: Nous Research's terminal agent with configurable tools and model providers that learns as you use it.
 Use it when: You want an open-source CLI agent and the freedom to pick your own model.
 Works with: macOS, Linux; many model providers
@@ -18,7 +18,7 @@ Install: `curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash`
 
 ### Paperclip
 Link: https://github.com/paperclipai/paperclip
-Stars: ★ 116.9k
+Stars: ★ 117k
 What it does: App for managing a team of AI agents at work: roles, tasks and oversight.
 Use it when: You run several agents on real business work and need to organise them.
 Works with: Claude Code, Codex and others
@@ -26,7 +26,7 @@ Install: `npx paperclipai@latest onboard --yes`
 
 ### career-ops
 Link: https://github.com/career-ops-hq/career-ops
-Stars: ★ 84.7k
+Stars: ★ 84.8k
 What it does: Job search agent: scans boards, scores each job against your CV, tailors resume and cover letter, tracks applications.
 Use it when: You are job hunting and want your coding assistant to do the legwork. You still press Submit.
 Works with: Claude Code, Codex, OpenCode

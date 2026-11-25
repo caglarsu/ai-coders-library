@@ -2,7 +2,7 @@
 
 ### Matt Pocock's skills
 Link: https://github.com/mattpocock/skills
-Stars: ★ 332.6k
+Stars: ★ 332.7k
 What it does: Matt Pocock's own engineering skills, straight from his agent setup.
 Use it when: You want battle-tested everyday skills from a well-known TypeScript educator.
 Works with: Claude Code, Codex
@@ -10,7 +10,7 @@ Install: `claude plugin install mattpocock-skills@claude-plugins-official`
 
 ### Superpowers
 Link: https://github.com/obra/superpowers
-Stars: ★ 326.3k
+Stars: ★ 326.4k
 What it does: Skills framework that makes the agent brainstorm, plan, write tests first, debug systematically and verify before claiming done.
 Use it when: Your assistant jumps straight to code, skips tests, or says "fixed" without checking.
 Works with: Claude Code, Codex, Gemini CLI, OpenCode, Cursor
@@ -18,7 +18,7 @@ Install: `/plugin install superpowers@claude-plugins-official`
 
 ### ECC
 Link: https://github.com/affaan-m/ECC
-Stars: ★ 310.5k
+Stars: ★ 310.6k
 What it does: Agent harness pack: skills, instincts, memory, security checks and research-first development.
 Use it when: You want one install that tunes your whole agent setup rather than single skills.
 Works with: Claude Code, Codex, OpenCode, Cursor
@@ -26,7 +26,7 @@ Install: `npx ecc-universal@2.2.3 setup`
 
 ### Karpathy Skills
 Link: https://github.com/multica-ai/andrej-karpathy-skills
-Stars: ★ 235.6k
+Stars: ★ 235.7k
 What it does: One CLAUDE.md that counters the LLM coding pitfalls Andrej Karpathy described.
 Use it when: You want a single drop-in file that makes the agent more careful.
 Works with: Claude Code and any agent that reads CLAUDE.md
@@ -34,7 +34,7 @@ Install: `curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andre
 
 ### Anthropic Skills
 Link: https://github.com/anthropics/skills
-Stars: ★ 200.3k
+Stars: ★ 200.4k
 What it does: Anthropic's official agent skills: documents, design, testing and more, plus examples to copy.
 Use it when: You want the reference skills, or a template for writing your own.
 Works with: Claude Code, Claude apps, API
@@ -42,7 +42,7 @@ Install: `/plugin marketplace add anthropics/skills`
 
 ### Ponytail
 Link: https://github.com/DietrichGebert/ponytail
-Stars: ★ 198.5k
+Stars: ★ 198.6k
 What it does: Makes the agent take the simplest solution that works: stdlib before dependencies, one line before fifty.
 Use it when: Your assistant over-engineers: extra abstractions, new dependencies, boilerplate "for later".
 Works with: Claude Code, Codex
@@ -50,7 +50,7 @@ Install: `/plugin marketplace add DietrichGebert/ponytail` then `/plugin install
 
 ### UI UX Pro Max
 Link: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
-Stars: ★ 154k
+Stars: ★ 154.1k
 What it does: Design intelligence skill for professional UI across web and mobile.
 Use it when: Your agent's interfaces look amateur and you want design rules applied.
 Works with: Claude Code and other agents
@@ -66,7 +66,7 @@ Install: `uv tool install graphifyy`, then `/graphify` in your assistant
 
 ### Spec Kit
 Link: https://github.com/github/spec-kit
-Stars: ★ 151.3k
+Stars: ★ 151.4k
 What it does: GitHub's toolkit for spec-driven development: write the spec, then let the agent build to it.
 Use it when: Your agent drifts on larger features and you want a spec it must follow.
 Works with: Copilot, Claude Code, Gemini CLI and others
@@ -98,7 +98,7 @@ Install: `npx skills add JuliusBrussee/caveman -g`
 
 ### Taste Skill
 Link: https://github.com/Leonxlnx/taste-skill
-Stars: ★ 121.4k
+Stars: ★ 121.5k
 What it does: Gives agents design taste: art direction, reference images and a browser check.
 Use it when: You want pages that do not look like generic AI output.
 Works with: Claude Code and other agents
@@ -106,7 +106,7 @@ Install: `/plugin marketplace add Leonxlnx/taste-skill` then `/plugin install ta
 
 ### Addy Osmani's agent skills
 Link: https://github.com/addyosmani/agent-skills
-Stars: ★ 120.3k
+Stars: ★ 120.4k
 What it does: 26 production-grade engineering skills, such as code review, testing and performance.
 Use it when: You want a broad, well-maintained set of engineering habits for your agent.
 Works with: Claude Code, Codex, Cursor and others
@@ -114,7 +114,7 @@ Install: `npx skills add addyosmani/agent-skills`
 
 ### Impeccable
 Link: https://github.com/pbakaus/impeccable
-Stars: ★ 116.6k
+Stars: ★ 116.7k
 What it does: Design vocabulary for your agent: commands to polish, critique and audit UI, and a detector for AI-slop design.
 Use it when: Your agent builds UI that looks generic and you want it to look designed.
 Works with: Claude Code and other agents; Chrome or Edge for page scans
@@ -130,7 +130,7 @@ Install: `npx skills use tt-a1i/archify@archify --agent codex` (swap the agent n
 
 ### Understand Anything
 Link: https://github.com/Egonex-AI/Understand-Anything
-Stars: ★ 94.3k
+Stars: ★ 94.4k
 What it does: Builds an interactive knowledge graph of your code with guided tours, a dashboard and Q&A.
 Use it when: You are new to a codebase, or onboarding someone, and want to see its architecture.
 Works with: Claude Code, Codex, Cursor, Copilot, Gemini CLI
@@ -146,7 +146,7 @@ Install: `npm install -g @fission-ai/openspec@latest`
 
 ### last30days
 Link: https://github.com/mvanhorn/last30days-skill
-Stars: ★ 74.8k
+Stars: ★ 74.9k
 What it does: Researches a topic across Reddit, X, YouTube, Hacker News, Polymarket and the web, then writes a grounded summary.
 Use it when: You need to know what people are saying about a tool or topic right now.
 Works with: Claude Code and other agents
@@ -154,7 +154,7 @@ Install: `/plugin marketplace add mvanhorn/last30days-skill` then `/plugin insta
 
 ### Humanizer
 Link: https://github.com/blader/humanizer
-Stars: ★ 73.4k
+Stars: ★ 73.5k
 What it does: Removes the tell-tale signs of AI-generated writing from text.
 Use it when: Your docs, posts or emails read like a chatbot wrote them.
 Works with: Claude Code, Codex and others
@@ -162,7 +162,7 @@ Install: `/plugin marketplace add blader/humanizer` then `/plugin install humani
 
 ### Diagram Design
 Link: https://github.com/cathrynlavery/diagram-design
-Stars: ★ 72.6k
+Stars: ★ 72.8k
 What it does: 52 editorial diagram types as self-contained HTML and SVG, styled to match your site.
 Use it when: You want diagrams for docs or a blog that look like they belong there, not like Mermaid.
 Works with: Claude Code, Codex, Copilot, Cursor and others
@@ -170,7 +170,7 @@ Install: `npx skills add cathrynlavery/diagram-design`
 
 ### CLI-Anything
 Link: https://github.com/HKUDS/CLI-Anything
-Stars: ★ 65.4k
+Stars: ★ 65.5k
 What it does: Generates agent-friendly CLIs for desktop software (CAD, 3D, office, media) and hosts a hub of community-built ones.
 Use it when: You want your agent to drive an app that has no API or CLI of its own.
 Works with: Claude Code, any agent that runs shell commands
@@ -224,6 +224,14 @@ Use it when: You want to port a TypeScript or Python CLI, server or library to R
 Works with: Claude Code; Rust toolchain
 Install: `cargo install rust-anything`
 
+### OpenFilm
+Link: https://github.com/openfilm/openfilm
+Stars: ★ 9.4k
+What it does: Open-source AI video agent: your coding agent finds footage, music and voices, writes each shot and cuts the film while you watch, and you can point at anything or edit it by hand.
+Use it when: You want an agent to make a whole video and then change it yourself on a timeline.
+Works with: Claude Code, Codex; desktop app for macOS and Windows
+Install: `npx skills add openfilm/openfilm` (Node 22.2+, ffmpeg), or the desktop app from its releases
+
 ### App Store Compliance
 Link: https://github.com/mjmirza/app-store-compliance
 Stars: ★ 6.3k
@@ -231,3 +239,11 @@ What it does: Pre-submission guard with 124 documented App Store and Google Play
 Use it when: You are about to submit a mobile app and want to avoid a rejection.
 Works with: Any agent that reads files
 Install: `git clone https://github.com/mjmirza/app-store-compliance`
+
+### motionmaxxing
+Link: https://github.com/Tejashmakwana/motionmaxxing
+Stars: ★ 1.8k
+What it does: Agent skill for launch films, promos, brand stings and kinetic type, with timing measured from professional motion work; it renders the film and checks it with scripts. Early release.
+Use it when: Your AI-made videos look generic and you want motion-designer timing and typography.
+Works with: Claude Code and any agent that reads `SKILL.md`; Node 22+, Python 3, ffmpeg, Chrome
+Install: `git clone https://github.com/Tejashmakwana/motionmaxxing ~/.claude/skills/motionmaxxing`, then `bash ~/.claude/skills/motionmaxxing/install.sh`

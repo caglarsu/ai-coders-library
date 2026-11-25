@@ -1,6 +1,6 @@
 # Video creation
 
-Tools here have more than 30,000 stars.
+Tools here have more than 30,000 stars. Smaller agent skills for video, such as OpenFilm and motionmaxxing, are under [Skills](#skills).
 
 ### ComfyUI
 Link: https://github.com/Comfy-Org/ComfyUI
@@ -12,7 +12,7 @@ Install: Desktop app from comfy.org, or clone and `pip install -r requirements.t
 
 ### MoneyPrinterTurbo
 Link: https://github.com/harry0703/MoneyPrinterTurbo
-Stars: ★ 145.6k
+Stars: ★ 145.7k
 What it does: Generates a finished short video (script, stock footage, voice, subtitles, music) from a topic.
 Use it when: You need many short vertical videos fast and stock footage is acceptable.
 Works with: Docker; OpenAI, DeepSeek, Ollama and others
@@ -20,7 +20,7 @@ Install: `git clone https://github.com/harry0703/MoneyPrinterTurbo.git`, then `d
 
 ### VoiceStudio
 Link: https://github.com/debpalash/VoiceStudio
-Stars: ★ 118.1k
+Stars: ★ 118.2k
 What it does: Fully local voice cloning, voice design and video dubbing. AGPL.
 Use it when: Your video needs a voiceover or dub and you do not want to send audio to a cloud API. Clone only voices you have consent for.
 Works with: macOS, Linux, Windows
@@ -36,7 +36,7 @@ Install: See its README
 
 ### Manim
 Link: https://github.com/3b1b/manim
-Stars: ★ 96.9k
+Stars: ★ 97k
 What it does: 3Blue1Brown's engine for precise animated maths and diagrams.
 Use it when: You explain an algorithm or concept and want exact, code-defined animation.
 Works with: Python
@@ -44,7 +44,7 @@ Install: `pip install manimgl`
 
 ### HyperFrames
 Link: https://github.com/heygen-com/hyperframes
-Stars: ★ 89.9k
+Stars: ★ 90k
 What it does: HeyGen's open-source video editor: your agent writes HTML compositions and renders them to MP4.
 Use it when: You want Claude Code or Codex to make promos, explainers or captioned clips from a prompt, a URL or your footage.
 Works with: Claude Code, Codex; Node
@@ -52,7 +52,7 @@ Install: `npx skills add heygen-com/hyperframes`, then `npx hyperframes init my-
 
 ### OpenMontage
 Link: https://github.com/OpenMontageInc/OpenMontage
-Stars: ★ 83.2k
+Stars: ★ 83.3k
 What it does: Agentic video production system with production pipelines, tools and agent skills. AGPL.
 Use it when: You want an agent to run a whole production: script, assets, edit, render.
 Works with: Claude Code and other agents
@@ -68,7 +68,7 @@ Install: `brew install --cask obs`
 
 ### Remotion
 Link: https://github.com/remotion-dev/remotion
-Stars: ★ 75.6k
+Stars: ★ 75.7k
 What it does: Make videos programmatically with React components.
 Use it when: You know React and want data-driven or templated videos rendered in code or CI. Companies above 3 people need a paid licence.
 Works with: Node, React; agent skills at `remotion-dev/skills`

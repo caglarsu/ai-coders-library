@@ -2,7 +2,7 @@
 
 ### REA
 Link: https://github.com/morluto/rea
-Stars: ★ 477.9k
+Stars: ★ 478.1k
 What it does: Reverse engineering with agents, from app behaviour down to native binaries.
 Use it when: You need to understand a binary, app bundle or web app you do not have the source for.
 Works with: Claude Code, Codex and other agents; MCP
@@ -18,7 +18,7 @@ Install: `docker run -it --rm -p 5678:5678 docker.n8n.io/n8nio/n8n`
 
 ### Firecrawl
 Link: https://github.com/firecrawl/firecrawl
-Stars: ★ 209.6k
+Stars: ★ 209.8k
 What it does: Search, scrape and crawl the web into clean data for agents. AGPL; self-hosting is free, the hosted API is paid.
 Use it when: Your agent needs reliable web pages, search results or site crawls as input.
 Works with: Any agent; CLI, API, MCP
@@ -58,7 +58,7 @@ Install: `brew install --cask cc-switch`
 
 ### Orca
 Link: https://github.com/stablyai/orca
-Stars: ★ 137.3k
+Stars: ★ 137.6k
 What it does: Runs a fleet of agents on your own subscriptions, on desktop, mobile or a remote runtime.
 Use it when: You want many agents working in parallel without paying for API usage.
 Works with: Claude Code, Codex, Grok and others
@@ -90,7 +90,7 @@ Install: `npx claude-mem install`
 
 ### Agent-Reach
 Link: https://github.com/Panniantong/Agent-Reach
-Stars: ★ 114.6k
+Stars: ★ 114.7k
 What it does: One CLI for your agent to read and search X, Reddit, YouTube, GitHub and more without API fees.
 Use it when: Your agent needs social and video sites as sources.
 Works with: Claude Code and other agents
@@ -98,7 +98,7 @@ Install: See its README
 
 ### Playwright
 Link: https://github.com/microsoft/playwright
-Stars: ★ 101k
+Stars: ★ 101.1k
 What it does: Web testing and automation across Chromium, Firefox and WebKit.
 Use it when: You want your agent to write and run real end-to-end tests.
 Works with: Node, Python, Java, .NET
@@ -114,7 +114,7 @@ Install: `npx -y @modelcontextprotocol/server-memory` (one per server)
 
 ### Crawl4AI
 Link: https://github.com/unclecode/crawl4ai
-Stars: ★ 87.8k
+Stars: ★ 87.9k
 What it does: Open-source web crawler and scraper that outputs LLM-ready Markdown.
 Use it when: Your agent needs web pages as clean input and you want to self-host.
 Works with: Python; MCP
@@ -146,7 +146,7 @@ Install: `pip install headroom-ai`
 
 ### T3 Code
 Link: https://github.com/pingdotgg/t3code
-Stars: ★ 78.8k
+Stars: ★ 79.1k
 What it does: Control Claude Code, Codex and other agents from any computer or phone.
 Use it when: You want to check on or steer your agents when you are away from your desk.
 Works with: Claude Code, Codex
@@ -271,3 +271,11 @@ What it does: Self-hosted secure development environments for developers and the
 Use it when: Your team wants agents working in governed cloud workspaces instead of laptops.
 Works with: Any IDE or agent; Docker, Kubernetes, cloud VMs
 Install: `curl -fsSL https://coder.com/install.sh | sh`
+
+### SwarmChat
+Link: https://github.com/Pranjal2041/swarmchat
+Stars: ★ 245
+What it does: Open-source Slack for AI agents: channels, DMs, threads and files through a CLI, plus a live browser view of every chat. `swarmchat wait` blocks until a reply arrives, so a waiting agent spends no tokens.
+Use it when: Several agents need to talk to each other and you want to watch the conversation.
+Works with: Claude Code and any agent with a shell; Python 3.9+, no dependencies
+Install: `pip install swarmchat`, then `swarmchat serve`
