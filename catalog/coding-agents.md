@@ -18,7 +18,7 @@ Install: `curl -fsSL https://opencode.ai/v2/install | bash`
 
 ### Claude Code
 Link: https://github.com/anthropics/claude-code
-Stars: ★ 157k
+Stars: ★ 157.1k
 What it does: Anthropic's agentic coding tool for the terminal, IDE and desktop.
 Use it when: You want the agent most skills in this library are built for. Needs a Claude plan or API key.
 Works with: macOS, Linux, Windows

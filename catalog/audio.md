@@ -26,6 +26,14 @@ Use it when: You need transcripts or subtitles from recordings without sending a
 Works with: macOS, Linux, Windows; CPU, Metal, CUDA, Vulkan
 Install: `brew install whisper-cpp`, then `whisper-cli -m ggml-small.bin -f audio.wav` (16 kHz WAV: `ffmpeg -i in.mp3 -ar 16000 -ac 1 -c:a pcm_s16le audio.wav`)
 
+### Piper
+Link: https://github.com/OHF-Voice/piper1-gpl
+Stars: ★ 6.4k
+What it does: Fast local neural text-to-speech that runs on a CPU, with voices in many languages. Maintained by the Open Home Foundation; GPL-3.0.
+Use it when: You need quick, light offline speech, for example in a Home Assistant voice pipeline. Each voice has its own licence.
+Works with: Linux, macOS, Windows; Python
+Install: `pip install piper-tts`, `python3 -m piper.download_voices en_US-lessac-medium`, then `python3 -m piper -m en_US-lessac-medium -f out.wav -- 'Hello'`
+
 ### audio.cpp
 Link: https://github.com/0xShug0/audio.cpp
 Stars: ★ 4.5k

@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 143 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 151 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -8,7 +8,7 @@ This index names every entry with its link. Each section's file has the full det
 1. Find out, if you do not already know: which coding assistant they use, their languages and stack, and what slows them down today.
 2. Drop entries whose **Works with** column excludes their assistant.
 3. If they ask about security tools, check that they own or are authorised to test the target before recommending an active scanner or AI pentester.
-4. Recommend at most five entries, best fit first; when two fit equally, prefer the one with more **Stars**. For each give the name, one line on why it fits *this* user, and the **Install** step.
+4. Recommend at most five entries, best fit first; when two fit equally, prefer the one with more **Stars**. Stars can be bought or gamed, so treat them as a tie-breaker only, never as proof of quality. For each give the name, one line on why it fits *this* user, and the **Install** step.
 5. For video and voice models, check the live leaderboards linked in the Video creation and Audio sections; the ranks in this file are a dated snapshot.
 6. For models, give the **Run** line instead of an install step.
 7. If nothing here fits, say so. Do not pad the list.
@@ -50,11 +50,11 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Humanizer: https://github.com/blader/humanizer
 - Diagram Design: https://github.com/cathrynlavery/diagram-design
 - CLI-Anything: https://github.com/HKUDS/CLI-Anything
-- Get Shit Done: https://github.com/gsd-build/get-shit-done
 - Marketing Skills: https://github.com/coreyhaines31/marketingskills
 - i-have-adhd: https://github.com/ayghri/i-have-adhd
 - BMAD Method: https://github.com/bmad-code-org/BMAD-METHOD
 - Obsidian Skills: https://github.com/obsidianmd/obsidian-skills
+- Get Shit Done: https://github.com/open-gsd/gsd-core
 - rust-anything: https://github.com/erkamyaman/rust-anything
 - OpenFilm: https://github.com/openfilm/openfilm
 - App Store Compliance: https://github.com/mjmirza/app-store-compliance
@@ -69,7 +69,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - career-ops: https://github.com/career-ops-hq/career-ops
 - Cloudflare OS: https://github.com/cloudflare/cloudflare-os
 
-## Tools (39 entries)
+## Tools (46 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/tools.md
 - REA: https://github.com/morluto/rea
 - n8n: https://github.com/n8n-io/n8n
@@ -77,6 +77,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - MarkItDown: https://github.com/microsoft/markitdown
 - Ollama: https://github.com/ollama/ollama
 - Dify: https://github.com/langgenius/dify
+- Open WebUI: https://github.com/open-webui/open-webui
 - CC Switch: https://github.com/farion1231/cc-switch
 - Orca: https://github.com/stablyai/orca
 - llama.cpp: https://github.com/ggml-org/llama.cpp
@@ -84,6 +85,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - claude-mem: https://github.com/thedotmack/claude-mem
 - Agent-Reach: https://github.com/Panniantong/Agent-Reach
 - Playwright: https://github.com/microsoft/playwright
+- Home Assistant: https://github.com/home-assistant/core
 - MCP reference servers: https://github.com/modelcontextprotocol/servers
 - Crawl4AI: https://github.com/unclecode/crawl4ai
 - RTK: https://github.com/rtk-ai/rtk
@@ -102,7 +104,9 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - agent-browser: https://github.com/vercel-labs/agent-browser
 - colibri: https://github.com/JustVugg/colibri
 - herdr: https://github.com/herdrdev/herdr
+- Tailscale: https://github.com/tailscale/tailscale
 - Vane: https://github.com/ItzCrazyKns/Vane
+- Frigate: https://github.com/blakeblackshear/frigate
 - VSCodium: https://github.com/VSCodium/vscodium
 - Cua: https://github.com/trycua/cua
 - OpenShell: https://github.com/ai-openshell/openshell
@@ -110,6 +114,9 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Coder: https://github.com/coder/coder
 - OpenChamber: https://github.com/openchamber/openchamber
 - SwarmChat: https://github.com/Pranjal2041/swarmchat
+- gpt-oss-20b: https://huggingface.co/openai/gpt-oss-20b
+- Gemma 4 26B-A4B: https://huggingface.co/google/gemma-4-26B-A4B
+- Qwen3.8-27B: https://huggingface.co/Qwen/Qwen3.8-27B
 
 ## Video creation (18 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/video-creation.md
@@ -132,11 +139,12 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - LTX-2.5: https://huggingface.co/Lightricks/LTX-2.5
 - Wan 2.2: https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B
 
-## Audio (13 entries)
+## Audio (14 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/audio.md
 - VoiceStudio: https://github.com/debpalash/VoiceStudio
 - Voicebox: https://github.com/jamiepine/voicebox
 - whisper.cpp: https://github.com/ggml-org/whisper.cpp
+- Piper: https://github.com/OHF-Voice/piper1-gpl
 - audio.cpp: https://github.com/0xShug0/audio.cpp
 - Ming-3.0-tts: https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B
 - Phonon 31M: https://huggingface.co/gradium/phonon-31m-en
