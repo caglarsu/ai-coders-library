@@ -1,0 +1,160 @@
+# AI Coder's Library
+
+> 126 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+
+This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
+
+## How to answer the user
+1. Find out, if you do not already know: which coding assistant they use, their languages and stack, and what slows them down today.
+2. Drop entries whose **Works with** column excludes their assistant.
+3. If they ask about security tools, check that they own or are authorised to test the target before recommending an active scanner or AI pentester.
+4. Recommend at most five entries, best fit first; when two fit equally, prefer the one with more **Stars**. For each give the name, one line on why it fits *this* user, and the **Install** step.
+5. For video and voice models, check the live leaderboards linked in that section; the ranks in this file are a dated snapshot.
+6. If nothing here fits, say so. Do not pad the list.
+
+## Coding agents (10 entries)
+Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/coding-agents.md
+- DeepSeek Harness: https://github.com/deepseek-ai/deepseek-harness
+- OpenCode: https://github.com/anomalyco/opencode
+- Claude Code: https://github.com/anthropics/claude-code
+- Codex: https://github.com/openai/codex
+- Pi: https://github.com/earendil-works/pi
+- Gemini CLI: https://github.com/google-gemini/gemini-cli
+- Zed: https://github.com/zed-industries/zed
+- OpenHands: https://github.com/OpenHands/OpenHands
+- Cline: https://github.com/cline/cline
+- Goose: https://github.com/aaif-goose/goose
+
+## Skills (29 entries)
+Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/skills.md
+- Matt Pocock's skills: https://github.com/mattpocock/skills
+- Superpowers: https://github.com/obra/superpowers
+- ECC: https://github.com/affaan-m/ECC
+- Karpathy Skills: https://github.com/multica-ai/andrej-karpathy-skills
+- Anthropic Skills: https://github.com/anthropics/skills
+- Ponytail: https://github.com/DietrichGebert/ponytail
+- UI UX Pro Max: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+- Graphify: https://github.com/Graphify-Labs/graphify
+- Spec Kit: https://github.com/github/spec-kit
+- gstack: https://github.com/garrytan/gstack
+- Awesome DESIGN.md: https://github.com/VoltAgent/awesome-design-md
+- Caveman: https://github.com/JuliusBrussee/caveman
+- Taste Skill: https://github.com/Leonxlnx/taste-skill
+- Addy Osmani's agent skills: https://github.com/addyosmani/agent-skills
+- Impeccable: https://github.com/pbakaus/impeccable
+- Archify: https://github.com/tt-a1i/archify
+- Understand Anything: https://github.com/Egonex-AI/Understand-Anything
+- OpenSpec: https://github.com/Fission-AI/OpenSpec
+- last30days: https://github.com/mvanhorn/last30days-skill
+- Humanizer: https://github.com/blader/humanizer
+- Diagram Design: https://github.com/cathrynlavery/diagram-design
+- CLI-Anything: https://github.com/HKUDS/CLI-Anything
+- Get Shit Done: https://github.com/gsd-build/get-shit-done
+- Marketing Skills: https://github.com/coreyhaines31/marketingskills
+- i-have-adhd: https://github.com/ayghri/i-have-adhd
+- BMAD Method: https://github.com/bmad-code-org/BMAD-METHOD
+- Obsidian Skills: https://github.com/obsidianmd/obsidian-skills
+- rust-anything: https://github.com/erkamyaman/rust-anything
+- App Store Compliance: https://github.com/mjmirza/app-store-compliance
+
+## Agents (5 entries)
+Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/agents.md
+- OpenClaw: https://github.com/openclaw/openclaw
+- Hermes Agent: https://github.com/NousResearch/hermes-agent
+- Paperclip: https://github.com/paperclipai/paperclip
+- career-ops: https://github.com/career-ops-hq/career-ops
+- Cloudflare OS: https://github.com/cloudflare/cloudflare-os
+
+## Tools (34 entries)
+Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/tools.md
+- REA: https://github.com/morluto/rea
+- n8n: https://github.com/n8n-io/n8n
+- Firecrawl: https://github.com/firecrawl/firecrawl
+- MarkItDown: https://github.com/microsoft/markitdown
+- Ollama: https://github.com/ollama/ollama
+- Dify: https://github.com/langgenius/dify
+- CC Switch: https://github.com/farion1231/cc-switch
+- Orca: https://github.com/stablyai/orca
+- llama.cpp: https://github.com/ggml-org/llama.cpp
+- Browser Use: https://github.com/browser-use/browser-use
+- claude-mem: https://github.com/thedotmack/claude-mem
+- Agent-Reach: https://github.com/Panniantong/Agent-Reach
+- Playwright: https://github.com/microsoft/playwright
+- MCP reference servers: https://github.com/modelcontextprotocol/servers
+- Crawl4AI: https://github.com/unclecode/crawl4ai
+- RTK: https://github.com/rtk-ai/rtk
+- screenshot-to-code: https://github.com/abi/screenshot-to-code
+- Headroom: https://github.com/headroomlabs-ai/headroom
+- T3 Code: https://github.com/pingdotgg/t3code
+- CodeGraph: https://github.com/colbymchenry/codegraph
+- Docling: https://github.com/docling-project/docling
+- Mem0: https://github.com/mem0ai/mem0
+- Context7: https://github.com/upstash/context7
+- LiteLLM: https://github.com/BerriAI/litellm
+- MemPalace: https://github.com/MemPalace/mempalace
+- Chrome DevTools MCP: https://github.com/ChromeDevTools/chrome-devtools-mcp
+- Open Code Review: https://github.com/alibaba/open-code-review
+- agent-browser: https://github.com/vercel-labs/agent-browser
+- colibri: https://github.com/JustVugg/colibri
+- herdr: https://github.com/herdrdev/herdr
+- Cua: https://github.com/trycua/cua
+- OpenShell: https://github.com/ai-openshell/openshell
+- json-render: https://github.com/vercel-labs/json-render
+- Coder: https://github.com/coder/coder
+
+## Video creation (25 entries)
+Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/video-creation.md
+- ComfyUI: https://github.com/Comfy-Org/ComfyUI
+- MoneyPrinterTurbo: https://github.com/harry0703/MoneyPrinterTurbo
+- VoiceStudio: https://github.com/debpalash/VoiceStudio
+- OpenCut: https://github.com/OpenCut-app/OpenCut
+- Manim: https://github.com/3b1b/manim
+- HyperFrames: https://github.com/heygen-com/hyperframes
+- OpenMontage: https://github.com/OpenMontageInc/OpenMontage
+- OBS Studio: https://github.com/obsproject/obs-studio
+- Remotion: https://github.com/remotion-dev/remotion
+- anime.js: https://github.com/juliangarnier/anime
+- FFmpeg: https://github.com/FFmpeg/FFmpeg
+- Voicebox: https://github.com/jamiepine/voicebox
+- LosslessCut: https://github.com/mifi/lossless-cut
+- Pixelle-Video: https://github.com/ATH-MaaS/Pixelle-Video
+- MiniMax H3: https://huggingface.co/MiniMaxAI/MiniMax-H3
+- Hyperflow H3: https://huggingface.co/VideoRebirthAI/hyperflow
+- Pika H3 Flex: https://huggingface.co/Pika-Labs/Pika-H3-Flex
+- LTX-2.5: https://huggingface.co/Lightricks/LTX-2.5
+- Wan 2.2: https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B
+- Ming-3.0-tts: https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B
+- Phonon 31M: https://huggingface.co/gradium/phonon-31m-en
+- Kokoro 82M: https://huggingface.co/hexgrad/Kokoro-82M
+- Maya1: https://huggingface.co/maya-research/maya1
+- Chatterbox: https://huggingface.co/ResembleAI/chatterbox
+- VibeVoice 1.5B: https://huggingface.co/microsoft/VibeVoice-1.5B
+
+## App security (14 entries)
+Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/app-security.md
+- Security Audit Skill: https://github.com/cloudflare/security-audit-skill
+- Strix: https://github.com/usestrix/strix
+- Trivy: https://github.com/aquasecurity/trivy
+- PentAGI: https://github.com/vxcontrol/pentagi
+- Nuclei: https://github.com/projectdiscovery/nuclei
+- MobSF: https://github.com/MobSF/Mobile-Security-Framework-MobSF
+- Claude BugHunter: https://github.com/elementalsouls/Claude-BugHunter
+- ARTEX: https://github.com/BaaRai/ARTEX
+- Semgrep: https://github.com/semgrep/semgrep
+- ZAP: https://github.com/zaproxy/zaproxy
+- HexStrike AI: https://github.com/0x4m4/hexstrike-ai
+- Opengrep: https://github.com/opengrep/opengrep
+- OpenRASP: https://github.com/baidu/openrasp
+- DongTai IAST: https://github.com/HXSecurity/DongTai
+
+## Learning (9 entries)
+Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/learning.md
+- LLMs from Scratch: https://github.com/rasbt/LLMs-from-scratch
+- Awesome MCP Servers: https://github.com/punkpeye/awesome-mcp-servers
+- AI Agents for Beginners: https://github.com/microsoft/ai-agents-for-beginners
+- Learn Claude Code: https://github.com/shareAI-lab/learn-claude-code
+- Prompt Engineering Guide: https://github.com/dair-ai/Prompt-Engineering-Guide
+- Awesome Claude Skills: https://github.com/ComposioHQ/awesome-claude-skills
+- Claude Code Best Practice: https://github.com/shanraisshan/claude-code-best-practice
+- Awesome Claude Code: https://github.com/hesreallyhim/awesome-claude-code
+- Claude Cookbooks: https://github.com/anthropics/claude-cookbooks

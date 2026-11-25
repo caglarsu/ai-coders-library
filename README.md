@@ -7,9 +7,11 @@ Every entry is something we have used and would recommend, with a line on why.
 
 Paste this into your coding assistant:
 
-> Read https://github.com/caglarsu/ai-coders-library and tell me which entries are worth installing for how I work. Ask me what you need to know first.
+> Read https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/llms.txt and the section files it links to that matter for me, then tell me which entries are worth installing for how I work. Ask me what you need to know first.
 
 ## For AI assistants reading this
+
+This page is long and may reach you cut off or summarised. Read the plain-text index instead: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/llms.txt. It names every entry with its link and points to one small file per section ([catalog/](catalog/)).
 
 A user sent you this repo to find out which entries suit them. To answer:
 
@@ -217,6 +219,8 @@ None yet.
 ## Contributing
 
 Open a pull request that adds one row anywhere in the right table; rows are kept in star order. Fill every column except **Stars**, which a daily job updates from GitHub. **Use it when** is what lets an AI match the entry to a reader, so name the situation, not the feature.
+
+Edit only this README. `llms.txt` and `catalog/` are rebuilt from it by the daily job, or locally with `python3 scripts/build_catalog.py`.
 
 ## License
 
