@@ -116,7 +116,7 @@ Install: `git clone https://github.com/ATH-MaaS/Pixelle-Video.git`, then `uv run
 
 ### Best free video generation models
 
-Only open-weights models you can download and run without paying; closed and API-only models are left out. Ranks are from the [Artificial Analysis](https://artificialanalysis.ai/video/leaderboard/text-to-video) blind-vote boards, read on 2026-11-25. They move monthly, so check the live [text-to-video](https://artificialanalysis.ai/video/leaderboard/text-to-video) and [image-to-video](https://artificialanalysis.ai/video/leaderboard/image-to-video) boards. Run any of them locally with ComfyUI.
+Only open-weights models you can download and run without paying; closed and API-only models are left out. Ranks are from the [Artificial Analysis](https://artificialanalysis.ai/video/leaderboard/text-to-video) blind-vote boards, read on 2026-11-25. They move monthly, so check the live [text-to-video](https://artificialanalysis.ai/video/leaderboard/text-to-video) and [image-to-video](https://artificialanalysis.ai/video/leaderboard/image-to-video) boards. The **Run** column says how to start each one; ComfyUI runs most of them.
 
 ### MiniMax H3
 Link: https://huggingface.co/MiniMaxAI/MiniMax-H3
@@ -124,6 +124,7 @@ Maker: MiniMax
 Rank: #3 text-to-video (Elo 1164), #6 image-to-video (1135); best free model
 Licence: Free in the EU, UK, US and South Korea. Above $20M yearly revenue you need MiniMax's written permission; commercial products must show "MiniMax H3"
 Use it when: You want the best quality you can run yourself.
+Run: In ComfyUI (see the [Comfy tutorial](https://docs.comfy.org/tutorials/video/minimax/minimax-h3)), or with diffusers or vLLM
 
 ### Hyperflow H3
 Link: https://huggingface.co/VideoRebirthAI/hyperflow
@@ -131,6 +132,7 @@ Maker: Video Rebirth
 Rank: #4 text-to-video (1156), #10 image-to-video (1120)
 Licence: Same licence as MiniMax H3
 Use it when: You want a second H3-based model to compare.
+Run: `pip install "hyperflow-h3[examples] @ git+https://github.com/Video-Rebirth/hyperflow.git"`, then the diffusers example on its model card
 
 ### Pika H3 Flex
 Link: https://huggingface.co/Pika-Labs/Pika-H3-Flex
@@ -138,6 +140,7 @@ Maker: Pika
 Rank: #16 text-to-video (1123), #13 image-to-video (1116)
 Licence: Same licence as MiniMax H3
 Use it when: You mostly animate still images.
+Run: In ComfyUI (see the [Comfy tutorial](https://docs.comfy.org/tutorials/video/pika/pika-h3-flex)), or clone [Pika-H3-Flex](https://github.com/Pika-Labs/Pika-H3-Flex); one large GPU, tested on H100 80GB
 
 ### LTX-2.5
 Link: https://huggingface.co/Lightricks/LTX-2.5
@@ -145,6 +148,7 @@ Maker: Lightricks
 Rank: #32 text-to-video (938), #35 image-to-video (914)
 Licence: Free for companies under $10M yearly revenue; paid licence above
 Use it when: You want video and audio generated together in one pass.
+Run: In ComfyUI with [ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo), or `git clone https://github.com/Lightricks/LTX-2.git` then `uv sync`
 
 ### Wan 2.2
 Link: https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B
@@ -152,6 +156,7 @@ Maker: Alibaba
 Rank: Not on the boards
 Licence: Apache-2.0: free for any use, no revenue cap, region or attribution rule
 Use it when: You need a licence with no conditions at all.
+Run: In ComfyUI, or `git clone https://github.com/Wan-Video/Wan2.2.git`, `pip install -r requirements.txt`, then `python generate.py --task t2v-A14B`
 
 ### Best free voice models
 
@@ -163,6 +168,7 @@ Maker: Ant Group
 Rank: #27 (Elo 1180); best free model
 Licence: MIT
 Use it when: You want the best free voice quality, in English, Chinese, Japanese, Korean or major European languages.
+Run: `git clone https://github.com/inclusionAI/Ming-3.0-tts.git`, `pip install -r requirements.txt`, then `python infer.py`
 
 ### Phonon 31M
 Link: https://huggingface.co/gradium/phonon-31m-en
@@ -170,6 +176,7 @@ Maker: Gradium
 Rank: #46 (1109)
 Licence: Apache-2.0
 Use it when: You need English speech from a tiny model on modest hardware.
+Run: `pip install git+https://github.com/huggingface/transformers`, then load with `transformers` as its model card shows
 
 ### Kokoro 82M
 Link: https://huggingface.co/hexgrad/Kokoro-82M
@@ -177,6 +184,7 @@ Maker: hexgrad
 Rank: #68 (1061)
 Licence: Apache-2.0
 Use it when: You want a small, fast, widely supported voice model for narration.
+Run: `pip install kokoro soundfile`, then `from kokoro import KPipeline`
 
 ### Maya1
 Link: https://huggingface.co/maya-research/maya1
@@ -184,6 +192,7 @@ Maker: Maya Research
 Rank: #74 (1049)
 Licence: Apache-2.0
 Use it when: You want to describe a voice in words and add emotions like laughter or whispering.
+Run: `pip install torch transformers accelerate snac soundfile`, then load with `transformers` as its model card shows
 
 ### Chatterbox
 Link: https://huggingface.co/ResembleAI/chatterbox
@@ -191,6 +200,7 @@ Maker: Resemble AI
 Rank: #87 (1021)
 Licence: MIT
 Use it when: You need to clone a voice from a short sample, in many languages. Clone only voices you have consent for.
+Run: `pip install chatterbox-tts`, then `from chatterbox.tts import ChatterboxTTS`
 
 ### VibeVoice 1.5B
 Link: https://huggingface.co/microsoft/VibeVoice-1.5B
@@ -198,3 +208,4 @@ Maker: Microsoft
 Rank: #91 (955)
 Licence: MIT
 Use it when: You generate long, multi-speaker audio such as a podcast or dialogue.
+Run: Clone [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) and follow its install steps

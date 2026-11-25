@@ -1,7 +1,10 @@
 # AI Coder's Library
 
-Curated skills, tools and workflows for developers who build with AI coding assistants.
-Every entry is something we have used and would recommend, with a line on why.
+A curated directory of skills, tools, agents and models for developers who build with AI coding assistants.
+
+Entries are selected for practical value in day-to-day AI-assisted development. Each one has a clear purpose, a working install path and broad adoption in the developer community, and most are open source. Every entry states what it does, when it fits, what it works with and how to start; paid plans, licence limits and inactive projects are called out where they apply.
+
+Inclusion is not an endorsement or a security review. Read a tool's licence and the permissions it asks for before you install it, especially agents that run code and security tools.
 
 ## Ask your AI what fits you
 
@@ -20,7 +23,8 @@ A user sent you this repo to find out which entries suit them. To answer:
 3. If they ask about security tools, check that they own or are authorised to test the target before recommending an active scanner or AI pentester.
 4. Recommend at most five entries, best fit first; when two fit equally, prefer the one with more **Stars**. For each give the name, one line on why it fits *this* user, and the **Install** step.
 5. For video and voice models, check the live leaderboards linked in that section; the ranks in this file are a dated snapshot.
-6. If nothing here fits, say so. Do not pad the list.
+6. For models, give the **Run** line instead of an install step.
+7. If nothing here fits, say so. Do not pad the list.
 
 ## Contents
 
@@ -154,28 +158,28 @@ Tools here have more than 30,000 stars.
 
 ### Best free video generation models
 
-Only open-weights models you can download and run without paying; closed and API-only models are left out. Ranks are from the [Artificial Analysis](https://artificialanalysis.ai/video/leaderboard/text-to-video) blind-vote boards, read on 2026-11-25. They move monthly, so check the live [text-to-video](https://artificialanalysis.ai/video/leaderboard/text-to-video) and [image-to-video](https://artificialanalysis.ai/video/leaderboard/image-to-video) boards. Run any of them locally with ComfyUI.
+Only open-weights models you can download and run without paying; closed and API-only models are left out. Ranks are from the [Artificial Analysis](https://artificialanalysis.ai/video/leaderboard/text-to-video) blind-vote boards, read on 2026-11-25. They move monthly, so check the live [text-to-video](https://artificialanalysis.ai/video/leaderboard/text-to-video) and [image-to-video](https://artificialanalysis.ai/video/leaderboard/image-to-video) boards. The **Run** column says how to start each one; ComfyUI runs most of them.
 
-| Model | Maker | Rank | Licence | Use it when |
-| ----- | ----- | ---- | ------- | ----------- |
-| [MiniMax H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) | MiniMax | #3 text-to-video (Elo 1164), #6 image-to-video (1135); best free model | Free in the EU, UK, US and South Korea. Above $20M yearly revenue you need MiniMax's written permission; commercial products must show "MiniMax H3" | You want the best quality you can run yourself. |
-| [Hyperflow H3](https://huggingface.co/VideoRebirthAI/hyperflow) | Video Rebirth | #4 text-to-video (1156), #10 image-to-video (1120) | Same licence as MiniMax H3 | You want a second H3-based model to compare. |
-| [Pika H3 Flex](https://huggingface.co/Pika-Labs/Pika-H3-Flex) | Pika | #16 text-to-video (1123), #13 image-to-video (1116) | Same licence as MiniMax H3 | You mostly animate still images. |
-| [LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) | Lightricks | #32 text-to-video (938), #35 image-to-video (914) | Free for companies under $10M yearly revenue; paid licence above | You want video and audio generated together in one pass. |
-| [Wan 2.2](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) | Alibaba | Not on the boards | Apache-2.0: free for any use, no revenue cap, region or attribution rule | You need a licence with no conditions at all. |
+| Model | Maker | Rank | Licence | Use it when | Run |
+| ----- | ----- | ---- | ------- | ----------- | --- |
+| [MiniMax H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) | MiniMax | #3 text-to-video (Elo 1164), #6 image-to-video (1135); best free model | Free in the EU, UK, US and South Korea. Above $20M yearly revenue you need MiniMax's written permission; commercial products must show "MiniMax H3" | You want the best quality you can run yourself. | In ComfyUI (see the [Comfy tutorial](https://docs.comfy.org/tutorials/video/minimax/minimax-h3)), or with diffusers or vLLM |
+| [Hyperflow H3](https://huggingface.co/VideoRebirthAI/hyperflow) | Video Rebirth | #4 text-to-video (1156), #10 image-to-video (1120) | Same licence as MiniMax H3 | You want a second H3-based model to compare. | `pip install "hyperflow-h3[examples] @ git+https://github.com/Video-Rebirth/hyperflow.git"`, then the diffusers example on its model card |
+| [Pika H3 Flex](https://huggingface.co/Pika-Labs/Pika-H3-Flex) | Pika | #16 text-to-video (1123), #13 image-to-video (1116) | Same licence as MiniMax H3 | You mostly animate still images. | In ComfyUI (see the [Comfy tutorial](https://docs.comfy.org/tutorials/video/pika/pika-h3-flex)), or clone [Pika-H3-Flex](https://github.com/Pika-Labs/Pika-H3-Flex); one large GPU, tested on H100 80GB |
+| [LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) | Lightricks | #32 text-to-video (938), #35 image-to-video (914) | Free for companies under $10M yearly revenue; paid licence above | You want video and audio generated together in one pass. | In ComfyUI with [ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo), or `git clone https://github.com/Lightricks/LTX-2.git` then `uv sync` |
+| [Wan 2.2](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) | Alibaba | Not on the boards | Apache-2.0: free for any use, no revenue cap, region or attribution rule | You need a licence with no conditions at all. | In ComfyUI, or `git clone https://github.com/Wan-Video/Wan2.2.git`, `pip install -r requirements.txt`, then `python generate.py --task t2v-A14B` |
 
 ### Best free voice models
 
 Text-to-speech models with open weights and a licence that allows commercial use. Ranks are from the [Artificial Analysis speech arena](https://artificialanalysis.ai/text-to-speech/leaderboard), read on 2026-11-25; check the live board before you commit. Fish Audio Drama 3 (#9) and Breeze TTS 2 (#15) rank higher but are research or non-commercial only, so they are left out. VoiceStudio, above, runs models like these locally.
 
-| Model | Maker | Rank | Licence | Use it when |
-| ----- | ----- | ---- | ------- | ----------- |
-| [Ming-3.0-tts](https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B) | Ant Group | #27 (Elo 1180); best free model | MIT | You want the best free voice quality, in English, Chinese, Japanese, Korean or major European languages. |
-| [Phonon 31M](https://huggingface.co/gradium/phonon-31m-en) | Gradium | #46 (1109) | Apache-2.0 | You need English speech from a tiny model on modest hardware. |
-| [Kokoro 82M](https://huggingface.co/hexgrad/Kokoro-82M) | hexgrad | #68 (1061) | Apache-2.0 | You want a small, fast, widely supported voice model for narration. |
-| [Maya1](https://huggingface.co/maya-research/maya1) | Maya Research | #74 (1049) | Apache-2.0 | You want to describe a voice in words and add emotions like laughter or whispering. |
-| [Chatterbox](https://huggingface.co/ResembleAI/chatterbox) | Resemble AI | #87 (1021) | MIT | You need to clone a voice from a short sample, in many languages. Clone only voices you have consent for. |
-| [VibeVoice 1.5B](https://huggingface.co/microsoft/VibeVoice-1.5B) | Microsoft | #91 (955) | MIT | You generate long, multi-speaker audio such as a podcast or dialogue. |
+| Model | Maker | Rank | Licence | Use it when | Run |
+| ----- | ----- | ---- | ------- | ----------- | --- |
+| [Ming-3.0-tts](https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B) | Ant Group | #27 (Elo 1180); best free model | MIT | You want the best free voice quality, in English, Chinese, Japanese, Korean or major European languages. | `git clone https://github.com/inclusionAI/Ming-3.0-tts.git`, `pip install -r requirements.txt`, then `python infer.py` |
+| [Phonon 31M](https://huggingface.co/gradium/phonon-31m-en) | Gradium | #46 (1109) | Apache-2.0 | You need English speech from a tiny model on modest hardware. | `pip install git+https://github.com/huggingface/transformers`, then load with `transformers` as its model card shows |
+| [Kokoro 82M](https://huggingface.co/hexgrad/Kokoro-82M) | hexgrad | #68 (1061) | Apache-2.0 | You want a small, fast, widely supported voice model for narration. | `pip install kokoro soundfile`, then `from kokoro import KPipeline` |
+| [Maya1](https://huggingface.co/maya-research/maya1) | Maya Research | #74 (1049) | Apache-2.0 | You want to describe a voice in words and add emotions like laughter or whispering. | `pip install torch transformers accelerate snac soundfile`, then load with `transformers` as its model card shows |
+| [Chatterbox](https://huggingface.co/ResembleAI/chatterbox) | Resemble AI | #87 (1021) | MIT | You need to clone a voice from a short sample, in many languages. Clone only voices you have consent for. | `pip install chatterbox-tts`, then `from chatterbox.tts import ChatterboxTTS` |
+| [VibeVoice 1.5B](https://huggingface.co/microsoft/VibeVoice-1.5B) | Microsoft | #91 (955) | MIT | You generate long, multi-speaker audio such as a podcast or dialogue. | Clone [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) and follow its install steps |
 
 ## App security
 
@@ -190,7 +194,7 @@ Run the AI pentesters (PentAGI, HexStrike AI, Strix, ARTEX, Claude BugHunter) an
 | [Nuclei](https://github.com/projectdiscovery/nuclei) | ★ 33.3k | Template-driven scanner for known vulnerabilities in web apps, APIs, networks, DNS and cloud. | You want to check a deployed app against thousands of community-written exploit templates. | Any target you are authorised to scan | `brew install nuclei` |
 | [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | ★ 22.3k | Static and dynamic security analysis of Android, iOS and Windows apps. | You ship a mobile app and want its build checked before release. | APK, IPA, APPX | `docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest` |
 | [Claude BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | ★ 22.3k | 84 skills and 15 commands for bug hunting and red-team work, built from 681 disclosed reports. | You do authorised bug bounty or red-team work with Claude Code. | Claude Code | `/plugin marketplace add elementalsouls/Claude-BugHunter` then `/plugin install claude-bughunter@elementalsouls` |
-| [ARTEX](https://github.com/BaaRai/ARTEX) | ★ 20k | Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL. | You want an autonomous pentest of your own systems with proof for every finding. | Docker; any model provider | `git clone https://github.com/BaaRai/ARTEX.git` then `docker compose up -d --build` |
+| [ARTEX](https://github.com/BaaRai/ARTEX) | ★ 20.1k | Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL. | You want an autonomous pentest of your own systems with proof for every finding. | Docker; any model provider | `git clone https://github.com/BaaRai/ARTEX.git` then `docker compose up -d --build` |
 | [Semgrep](https://github.com/semgrep/semgrep) | ★ 17.9k | Fast static analysis with rules that look like the code they match. | You want a pre-merge check on AI-written code, or to hunt every variant of a bug you just fixed. | 30+ languages, CI | `brew install semgrep` or `pip install semgrep` |
 | [ZAP](https://github.com/zaproxy/zaproxy) | ★ 16.3k | Dynamic web app scanner and intercepting proxy (OWASP's classic DAST). | You want to scan a running web app for XSS, injection and header issues. | Any web app; Docker, CI | `docker run -t zaproxy/zap-stable zap-baseline.py -t https://your.app` |
 | [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) | ★ 13.9k | MCP server that lets your AI agent run 150+ security tools for pentesting and bug bounty work. | You want Claude or another MCP client to drive nmap, sqlmap and similar tools for you. | Any MCP client | `git clone https://github.com/0x4m4/hexstrike-ai.git` then `pip install -r requirements.txt` |
