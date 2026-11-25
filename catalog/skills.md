@@ -122,7 +122,7 @@ Install: `npx impeccable install`
 
 ### Archify
 Link: https://github.com/tt-a1i/archify
-Stars: ★ 99.8k
+Stars: ★ 99.9k
 What it does: Turns an idea, plan or codebase into a validated interactive architecture diagram.
 Use it when: You need architecture, sequence or data-flow diagrams that are checked before you see them.
 Works with: Claude Code, Codex, Cursor, OpenCode, Copilot
@@ -234,7 +234,7 @@ Install: `npx skills add openfilm/openfilm` (Node 22.2+, ffmpeg), or the desktop
 
 ### App Store Compliance
 Link: https://github.com/mjmirza/app-store-compliance
-Stars: ★ 6.3k
+Stars: ★ 6.4k
 What it does: Pre-submission guard with 124 documented App Store and Google Play rejection patterns and fixes. Free under $20M yearly revenue.
 Use it when: You are about to submit a mobile app and want to avoid a rejection.
 Works with: Any agent that reads files
