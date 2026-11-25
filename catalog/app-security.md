@@ -42,6 +42,14 @@ Use it when: You want to check a deployed app against thousands of community-wri
 Works with: Any target you are authorised to scan
 Install: `brew install nuclei`
 
+### Claude BugHunter
+Link: https://github.com/elementalsouls/Claude-BugHunter
+Stars: ★ 22.4k
+What it does: 84 skills and 15 commands for bug hunting and red-team work, built from 681 disclosed reports.
+Use it when: You do authorised bug bounty or red-team work with Claude Code.
+Works with: Claude Code
+Install: `/plugin marketplace add elementalsouls/Claude-BugHunter` then `/plugin install claude-bughunter@elementalsouls`
+
 ### MobSF
 Link: https://github.com/MobSF/Mobile-Security-Framework-MobSF
 Stars: ★ 22.3k
@@ -49,14 +57,6 @@ What it does: Static and dynamic security analysis of Android, iOS and Windows a
 Use it when: You ship a mobile app and want its build checked before release.
 Works with: APK, IPA, APPX
 Install: `docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest`
-
-### Claude BugHunter
-Link: https://github.com/elementalsouls/Claude-BugHunter
-Stars: ★ 22.3k
-What it does: 84 skills and 15 commands for bug hunting and red-team work, built from 681 disclosed reports.
-Use it when: You do authorised bug bounty or red-team work with Claude Code.
-Works with: Claude Code
-Install: `/plugin marketplace add elementalsouls/Claude-BugHunter` then `/plugin install claude-bughunter@elementalsouls`
 
 ### ARTEX
 Link: https://github.com/BaaRai/ARTEX

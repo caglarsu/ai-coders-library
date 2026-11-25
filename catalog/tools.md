@@ -210,7 +210,7 @@ Install: `npm i chrome-devtools-mcp@latest -g`
 
 ### Open Code Review
 Link: https://github.com/alibaba/open-code-review
-Stars: ★ 56.2k
+Stars: ★ 56.3k
 What it does: Code review tool combining deterministic checks with an LLM agent, with line-level findings.
 Use it when: You want automated AI review on every pull request.
 Works with: CLI, CI; agent skill
