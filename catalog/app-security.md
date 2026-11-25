@@ -60,7 +60,7 @@ Install: `docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framewor
 
 ### ARTEX
 Link: https://github.com/BaaRai/ARTEX
-Stars: ★ 20.4k
+Stars: ★ 20.5k
 What it does: Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL.
 Use it when: You want an autonomous pentest of your own systems with proof for every finding.
 Works with: Docker; any model provider

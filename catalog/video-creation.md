@@ -36,7 +36,7 @@ Install: `pip install manimgl`
 
 ### HyperFrames
 Link: https://github.com/heygen-com/hyperframes
-Stars: ★ 90k
+Stars: ★ 90.1k
 What it does: HeyGen's open-source video editor: your agent writes HTML compositions and renders them to MP4.
 Use it when: You want Claude Code or Codex to make promos, explainers or captioned clips from a prompt, a URL or your footage.
 Works with: Claude Code, Codex; Node

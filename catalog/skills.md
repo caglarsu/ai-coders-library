@@ -176,14 +176,6 @@ Use it when: You want your agent to drive an app that has no API or CLI of its o
 Works with: Claude Code, any agent that runs shell commands
 Install: `/plugin marketplace add HKUDS/CLI-Anything` then `/plugin install cli-anything`; hub: `pip install cli-anything-hub`
 
-### Get Shit Done
-Link: https://github.com/gsd-build/get-shit-done
-Stars: ★ 64.1k
-What it does: Meta-prompting, context engineering and spec-driven development system.
-Use it when: You want structure for long Claude Code projects without much ceremony.
-Works with: Claude Code
-Install: See its README
-
 ### Marketing Skills
 Link: https://github.com/coreyhaines31/marketingskills
 Stars: ★ 62.6k
@@ -210,11 +202,19 @@ Install: `npx bmad-method install`
 
 ### Obsidian Skills
 Link: https://github.com/obsidianmd/obsidian-skills
-Stars: ★ 53.7k
+Stars: ★ 53.8k
 What it does: Teaches your agent Obsidian and open formats: Markdown, Bases, JSON Canvas.
 Use it when: You keep notes or docs in Obsidian and want the agent to edit them properly.
 Works with: Claude Code and other agents
 Install: `claude plugin marketplace add obsidianmd/obsidian-skills` then `claude plugin install obsidian@obsidian-skills`
+
+### Get Shit Done
+Link: https://github.com/open-gsd/gsd-core
+Stars: ★ 11.8k
+What it does: Meta-prompting, context engineering and spec-driven development system, now maintained as GSD Core.
+Use it when: You want structure for long agent projects without much ceremony.
+Works with: Claude Code, OpenCode, Codex, Cursor, Copilot and more
+Install: `npx @opengsd/gsd-core@latest`
 
 ### rust-anything
 Link: https://github.com/erkamyaman/rust-anything

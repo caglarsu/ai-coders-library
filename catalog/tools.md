@@ -48,6 +48,14 @@ Use it when: You want to build and host an LLM app without writing a backend.
 Works with: Self-host or cloud
 Install: Clone, then `docker compose up -d` in `docker/`
 
+### Open WebUI
+Link: https://github.com/open-webui/open-webui
+Stars: ★ 159.5k
+What it does: Self-hosted chat interface for Ollama and any OpenAI-compatible API, with document chat, web search and multi-user accounts. Its licence requires keeping the "Open WebUI" branding above 50 users.
+Use it when: You want a ChatGPT-style front end for your local models, for yourself or a team.
+Works with: Ollama, llama.cpp server, vLLM, LiteLLM and other OpenAI-compatible APIs; Docker or pip
+Install: `docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main`, or `pip install open-webui`, then `open-webui serve`
+
 ### CC Switch
 Link: https://github.com/farion1231/cc-switch
 Stars: ★ 157.1k
@@ -66,7 +74,7 @@ Install: `brew install --cask stablyai/orca/orca`
 
 ### llama.cpp
 Link: https://github.com/ggml-org/llama.cpp
-Stars: ★ 136.2k
+Stars: ★ 136.3k
 What it does: Fast LLM inference in C/C++ on almost any hardware.
 Use it when: You want maximum control and speed running local models.
 Works with: CPU, CUDA, Metal, Vulkan
@@ -74,7 +82,7 @@ Install: `curl -LsSf https://llama.app/install.sh | sh`
 
 ### Browser Use
 Link: https://github.com/browser-use/browser-use
-Stars: ★ 122k
+Stars: ★ 122.1k
 What it does: Python library for AI browser agents.
 Use it when: You build an app or script where an AI drives a browser.
 Works with: Python
@@ -103,6 +111,14 @@ What it does: Web testing and automation across Chromium, Firefox and WebKit.
 Use it when: You want your agent to write and run real end-to-end tests.
 Works with: Node, Python, Java, .NET
 Install: `npm init playwright@latest`
+
+### Home Assistant
+Link: https://github.com/home-assistant/core
+Stars: ★ 92.5k
+What it does: Open-source home automation that runs locally, including a local voice pipeline: speech-to-text, an LLM, then text-to-speech (for example Whisper, Ollama and Piper over the Wyoming protocol).
+Use it when: You want voice control and automations at home with no cloud, driven by your own models.
+Works with: Home Assistant OS, Docker; Ollama
+Install: Home Assistant OS or Docker, following home-assistant.io/installation
 
 ### MCP reference servers
 Link: https://github.com/modelcontextprotocol/servers
@@ -234,7 +250,7 @@ Install: `npm install -g agent-browser`
 
 ### colibri
 Link: https://github.com/JustVugg/colibri
-Stars: ★ 53.4k
+Stars: ★ 53.5k
 What it does: Inference engine in C for large MoE models: hot experts on GPU, warm in RAM, cold streamed from NVMe.
 Use it when: You want to run a frontier open-weights model locally on hardware that cannot hold it in VRAM.
 Works with: CUDA, Vulkan, macOS
@@ -248,6 +264,14 @@ Use it when: You run several agents at once, or on remote machines, and lose tra
 Works with: Claude Code, Codex, Cursor, OpenCode and other terminal agents; macOS, Linux, Windows
 Install: `brew install herdr` or `curl -fsSL https://herdr.dev/install.sh | sh`, then `herdr`
 
+### Tailscale
+Link: https://github.com/tailscale/tailscale
+Stars: ★ 39.6k
+What it does: WireGuard mesh VPN: each device gets a private address, with no ports opened on your router. The client is open source; the coordination server is Tailscale's, with a free personal plan.
+Use it when: You want to reach your home LLM box, Open WebUI or agents from your laptop or phone, from anywhere.
+Works with: macOS, Windows, Linux, iOS, Android
+Install: App from tailscale.com/download, or on Linux `curl -fsSL https://tailscale.com/install.sh | sh`, then `tailscale up`
+
 ### Vane
 Link: https://github.com/ItzCrazyKns/Vane
 Stars: ★ 38.3k
@@ -255,6 +279,14 @@ What it does: Self-hosted AI answering engine: searches the web and answers with
 Use it when: You want a private Perplexity-style search that can run on local models through Ollama.
 Works with: Ollama, OpenAI, Claude, Gemini, Groq; Docker
 Install: `docker run -d -p 3000:3000 -v vane-data:/home/vane/data --name vane itzcrazykns1337/vane:latest`, then open localhost:3000
+
+### Frigate
+Link: https://github.com/blakeblackshear/frigate
+Stars: ★ 37.9k
+What it does: Network video recorder for IP cameras, with real-time object detection that runs locally.
+Use it when: You want camera alerts for people, cars or packages without sending video to a cloud. A GPU or AI accelerator is highly recommended.
+Works with: Docker; Home Assistant
+Install: Docker, following docs.frigate.video
 
 ### VSCodium
 Link: https://github.com/VSCodium/vscodium
@@ -311,3 +343,31 @@ What it does: Open-source Slack for AI agents: channels, DMs, threads and files 
 Use it when: Several agents need to talk to each other and you want to watch the conversation.
 Works with: Claude Code and any agent with a shell; Python 3.9+, no dependencies
 Install: `pip install swarmchat`, then `swarmchat serve`
+
+### Free local LLMs
+
+Open-weights chat models to run with Ollama, llama.cpp or Open WebUI. Sizes are Ollama's 4-bit downloads; you need that much GPU memory (or unified memory on a Mac), plus room for context.
+
+### gpt-oss-20b
+Link: https://huggingface.co/openai/gpt-oss-20b
+Maker: OpenAI
+Size: 21B total, 3.6B active (MoE); 14 GB
+Licence: Apache-2.0
+Use it when: You want a fast reasoning model with tool use on a 16 GB GPU or a Mac with 16 GB or more.
+Run: `ollama run gpt-oss:20b`
+
+### Gemma 4 26B-A4B
+Link: https://huggingface.co/google/gemma-4-26B-A4B
+Maker: Google
+Size: 26B total, 4B active (MoE); 16 GB as the official QAT build
+Licence: Apache-2.0
+Use it when: You want text and image input with fast replies for its size; the QAT build keeps quality at 4-bit. A 16 GB card is tight, 24 GB is comfortable.
+Run: `ollama run gemma4:26b-a4b-it-qat`
+
+### Qwen3.8-27B
+Link: https://huggingface.co/Qwen/Qwen3.8-27B
+Maker: Qwen (Alibaba)
+Size: 27B dense; 18 GB
+Licence: Apache-2.0
+Use it when: You want a dense model with image input for coding and reasoning, and have a 24 GB GPU or a Mac with 32 GB.
+Run: `ollama run qwen3.8:27b`
