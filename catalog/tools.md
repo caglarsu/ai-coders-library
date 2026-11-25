@@ -160,6 +160,14 @@ Use it when: Your agent spends many turns searching a large codebase.
 Works with: Claude Code, Codex, Gemini, Cursor, OpenCode and others
 Install: `npm i -g @colbymchenry/codegraph`
 
+### AFFiNE
+Link: https://github.com/toeverything/AFFiNE
+Stars: ★ 78.4k
+What it does: Local-first, open-source alternative to Notion and Miro: docs, whiteboards and databases in one place, with built-in AI. The server code is under an enterprise licence; the rest is MIT.
+Use it when: You want notes and planning boards that stay on your own disk, or a self-hosted workspace.
+Works with: macOS, Windows, Linux, web; self-host
+Install: Desktop app from affine.pro/download
+
 ### Docling
 Link: https://github.com/docling-project/docling
 Stars: ★ 71k
@@ -239,6 +247,22 @@ What it does: Terminal workspace for coding agents: sessions keep running when y
 Use it when: You run several agents at once, or on remote machines, and lose track of which one is waiting on you.
 Works with: Claude Code, Codex, Cursor, OpenCode and other terminal agents; macOS, Linux, Windows
 Install: `brew install herdr` or `curl -fsSL https://herdr.dev/install.sh | sh`, then `herdr`
+
+### Vane
+Link: https://github.com/ItzCrazyKns/Vane
+Stars: ★ 38.3k
+What it does: Self-hosted AI answering engine: searches the web and answers with sources, on your own hardware.
+Use it when: You want a private Perplexity-style search that can run on local models through Ollama.
+Works with: Ollama, OpenAI, Claude, Gemini, Groq; Docker
+Install: `docker run -d -p 3000:3000 -v vane-data:/home/vane/data --name vane itzcrazykns1337/vane:latest`, then open localhost:3000
+
+### VSCodium
+Link: https://github.com/VSCodium/vscodium
+Stars: ★ 34.3k
+What it does: VS Code built from the open-source code, without Microsoft's branding, telemetry or licence. Extensions come from Open VSX, so some Microsoft-only ones, such as Copilot, are not available.
+Use it when: You want VS Code with AI extensions like Cline pointed at local models, and no telemetry.
+Works with: macOS, Windows, Linux
+Install: `brew install --cask vscodium`
 
 ### Cua
 Link: https://github.com/trycua/cua

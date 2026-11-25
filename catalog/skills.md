@@ -2,7 +2,7 @@
 
 ### Matt Pocock's skills
 Link: https://github.com/mattpocock/skills
-Stars: ★ 332.7k
+Stars: ★ 332.8k
 What it does: Matt Pocock's own engineering skills, straight from his agent setup.
 Use it when: You want battle-tested everyday skills from a well-known TypeScript educator.
 Works with: Claude Code, Codex
@@ -10,7 +10,7 @@ Install: `claude plugin install mattpocock-skills@claude-plugins-official`
 
 ### Superpowers
 Link: https://github.com/obra/superpowers
-Stars: ★ 326.4k
+Stars: ★ 326.5k
 What it does: Skills framework that makes the agent brainstorm, plan, write tests first, debug systematically and verify before claiming done.
 Use it when: Your assistant jumps straight to code, skips tests, or says "fixed" without checking.
 Works with: Claude Code, Codex, Gemini CLI, OpenCode, Cursor
@@ -114,7 +114,7 @@ Install: `npx skills add addyosmani/agent-skills`
 
 ### Impeccable
 Link: https://github.com/pbakaus/impeccable
-Stars: ★ 116.7k
+Stars: ★ 116.8k
 What it does: Design vocabulary for your agent: commands to polish, critique and audit UI, and a detector for AI-slop design.
 Use it when: Your agent builds UI that looks generic and you want it to look designed.
 Works with: Claude Code and other agents; Chrome or Edge for page scans
@@ -146,7 +146,7 @@ Install: `npm install -g @fission-ai/openspec@latest`
 
 ### last30days
 Link: https://github.com/mvanhorn/last30days-skill
-Stars: ★ 74.9k
+Stars: ★ 75k
 What it does: Researches a topic across Reddit, X, YouTube, Hacker News, Polymarket and the web, then writes a grounded summary.
 Use it when: You need to know what people are saying about a tool or topic right now.
 Works with: Claude Code and other agents
@@ -170,7 +170,7 @@ Install: `npx skills add cathrynlavery/diagram-design`
 
 ### CLI-Anything
 Link: https://github.com/HKUDS/CLI-Anything
-Stars: ★ 65.5k
+Stars: ★ 65.6k
 What it does: Generates agent-friendly CLIs for desktop software (CAD, 3D, office, media) and hosts a hub of community-built ones.
 Use it when: You want your agent to drive an app that has no API or CLI of its own.
 Works with: Claude Code, any agent that runs shell commands
