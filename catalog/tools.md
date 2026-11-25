@@ -2,7 +2,7 @@
 
 ### REA
 Link: https://github.com/morluto/rea
-Stars: ★ 478.1k
+Stars: ★ 478.2k
 What it does: Reverse engineering with agents, from app behaviour down to native binaries.
 Use it when: You need to understand a binary, app bundle or web app you do not have the source for.
 Works with: Claude Code, Codex and other agents; MCP
@@ -58,7 +58,7 @@ Install: `brew install --cask cc-switch`
 
 ### Orca
 Link: https://github.com/stablyai/orca
-Stars: ★ 137.6k
+Stars: ★ 137.7k
 What it does: Runs a fleet of agents on your own subscriptions, on desktop, mobile or a remote runtime.
 Use it when: You want many agents working in parallel without paying for API usage.
 Works with: Claude Code, Codex, Grok and others
@@ -146,7 +146,7 @@ Install: `pip install headroom-ai`
 
 ### T3 Code
 Link: https://github.com/pingdotgg/t3code
-Stars: ★ 79.1k
+Stars: ★ 79.2k
 What it does: Control Claude Code, Codex and other agents from any computer or phone.
 Use it when: You want to check on or steer your agents when you are away from your desk.
 Works with: Claude Code, Codex
@@ -178,7 +178,7 @@ Install: `pip install mem0ai`
 
 ### Context7
 Link: https://github.com/upstash/context7
-Stars: ★ 65.4k
+Stars: ★ 65.5k
 What it does: Feeds agents up-to-date library documentation.
 Use it when: Your agent writes code against outdated APIs.
 Works with: Claude Code, Cursor, Codex and others; MCP
@@ -271,6 +271,14 @@ What it does: Self-hosted secure development environments for developers and the
 Use it when: Your team wants agents working in governed cloud workspaces instead of laptops.
 Works with: Any IDE or agent; Docker, Kubernetes, cloud VMs
 Install: `curl -fsSL https://coder.com/install.sh | sh`
+
+### OpenChamber
+Link: https://github.com/openchamber/openchamber
+Stars: ★ 13.3k
+What it does: Workspace for running and reviewing OpenCode agent work on desktop, web, VS Code and mobile: goals the agent keeps working toward, the same task run on up to five models, and a walkthrough of what changed.
+Use it when: You use OpenCode, including with local models, and want a GUI, side-by-side model runs, or to check on sessions from your phone.
+Works with: OpenCode (bundled); macOS, Windows, Linux, VS Code, iOS beta, Android
+Install: Desktop app from its releases, or `curl -fsSL https://raw.githubusercontent.com/openchamber/openchamber/main/scripts/install.sh | bash`, then `openchamber --ui-password <password>` (Node 24.14+)
 
 ### SwarmChat
 Link: https://github.com/Pranjal2041/swarmchat
