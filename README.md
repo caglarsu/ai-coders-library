@@ -17,7 +17,7 @@ A user sent you this repo to find out which entries suit them. To answer:
 2. Drop entries whose **Works with** column excludes their assistant.
 3. If they ask about security tools, check that they own or are authorised to test the target before recommending an active scanner or AI pentester.
 4. Recommend at most five entries, best fit first; when two fit equally, prefer the one with more **Stars**. For each give the name, one line on why it fits *this* user, and the **Install** step.
-5. For video generation models, check the live leaderboards linked in that section; the ranks in this file are a dated snapshot.
+5. For video and voice models, check the live leaderboards linked in that section; the ranks in this file are a dated snapshot.
 6. If nothing here fits, say so. Do not pad the list.
 
 ## Contents
@@ -25,7 +25,7 @@ A user sent you this repo to find out which entries suit them. To answer:
 - [Skills](#skills): skill packs and plugins that change how your coding assistant works
 - [Agents](#agents): standalone AI agents you run yourself
 - [Tools](#tools): CLIs and engines that sit next to your assistant
-- [Video creation](#video-creation): code-driven video, AI video pipelines, and the best generation models
+- [Video creation](#video-creation): code-driven video, AI video pipelines, and the best free video and voice models
 - [App security](#app-security): scanners and AI pentesters for the code your assistant writes
 - [Workflows](#workflows): repeatable practices that make AI-written code trustworthy
 
@@ -35,7 +35,7 @@ A user sent you this repo to find out which entries suit them. To answer:
 | ---- | ----- | ------------ | ----------- | ---------- | ------- |
 | [Superpowers](https://github.com/obra/superpowers) | ★ 326.2k |Skills framework that makes the agent brainstorm, plan, write tests first, debug systematically and verify before claiming done. | Your assistant jumps straight to code, skips tests, or says "fixed" without checking. | Claude Code, Codex, Gemini CLI, OpenCode, Cursor | `/plugin install superpowers@claude-plugins-official` |
 | [gstack](https://github.com/garrytan/gstack) | ★ 142.6k |Garry Tan's Claude Code setup: slash commands acting as CEO, eng manager, designer, reviewer, QA with a real browser, security officer and release engineer. | You ship a product alone and want product, design, QA and release roles, not just a coder. | Claude Code (others partly); needs Git and Bun | `git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup` |
-| [Ponytail](https://github.com/DietrichGebert/ponytail) | ★ 198.4k |Makes the agent take the simplest solution that works: stdlib before dependencies, one line before fifty. | Your assistant over-engineers: extra abstractions, new dependencies, boilerplate "for later". | Claude Code, Codex | `/plugin marketplace add DietrichGebert/ponytail` then `/plugin install ponytail@ponytail` |
+| [Ponytail](https://github.com/DietrichGebert/ponytail) | ★ 198.5k |Makes the agent take the simplest solution that works: stdlib before dependencies, one line before fifty. | Your assistant over-engineers: extra abstractions, new dependencies, boilerplate "for later". | Claude Code, Codex | `/plugin marketplace add DietrichGebert/ponytail` then `/plugin install ponytail@ponytail` |
 | [Graphify](https://github.com/Graphify-Labs/graphify) | ★ 153.2k |Turns a codebase, docs, SQL schemas and PDFs into a queryable knowledge graph using local AST parsing, no vector store. | Your repo is large and the agent burns tokens grepping and reading files to find its way. | Claude Code, Cursor, Codex, Gemini CLI | `uv tool install graphifyy`, then `/graphify` in your assistant |
 | [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) | ★ 94.3k |Builds an interactive knowledge graph of your code with guided tours, a dashboard and Q&A. | You are new to a codebase, or onboarding someone, and want to see its architecture. | Claude Code, Codex, Cursor, Copilot, Gemini CLI | `/plugin marketplace add Egonex-AI/Understand-Anything` then `/plugin install understand-anything` |
 | [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | ★ 65.3k |Generates agent-friendly CLIs for desktop software (CAD, 3D, office, media) and hosts a hub of community-built ones. | You want your agent to drive an app that has no API or CLI of its own. | Claude Code, any agent that runs shell commands | `/plugin marketplace add HKUDS/CLI-Anything` then `/plugin install cli-anything`; hub: `pip install cli-anything-hub` |
@@ -85,6 +85,19 @@ Only open-weights models you can download and run without paying; closed and API
 | [Pika H3 Flex](https://huggingface.co/Pika-Labs/Pika-H3-Flex) | Pika | #16 text-to-video (1123), #13 image-to-video (1116) | Same licence as MiniMax H3 | You mostly animate still images. |
 | [LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) | Lightricks | #32 text-to-video (938), #35 image-to-video (914) | Free for companies under $10M yearly revenue; paid licence above | You want video and audio generated together in one pass. |
 | [Wan 2.2](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) | Alibaba | Not on the boards | Apache-2.0: free for any use, no revenue cap, region or attribution rule | You need a licence with no conditions at all. |
+
+### Best free voice models
+
+Text-to-speech models with open weights and a licence that allows commercial use. Ranks are from the [Artificial Analysis speech arena](https://artificialanalysis.ai/text-to-speech/leaderboard), read on 2026-11-25; check the live board before you commit. Fish Audio Drama 3 (#9) and Breeze TTS 2 (#15) rank higher but are research or non-commercial only, so they are left out. VoiceStudio, above, runs models like these locally.
+
+| Model | Maker | Rank | Licence | Use it when |
+| ----- | ----- | ---- | ------- | ----------- |
+| [Ming-3.0-tts](https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B) | Ant Group | #27 (Elo 1180); best free model | MIT | You want the best free voice quality, in English, Chinese, Japanese, Korean or major European languages. |
+| [Phonon 31M](https://huggingface.co/gradium/phonon-31m-en) | Gradium | #46 (1109) | Apache-2.0 | You need English speech from a tiny model on modest hardware. |
+| [Kokoro 82M](https://huggingface.co/hexgrad/Kokoro-82M) | hexgrad | #68 (1061) | Apache-2.0 | You want a small, fast, widely supported voice model for narration. |
+| [Maya1](https://huggingface.co/maya-research/maya1) | Maya Research | #74 (1049) | Apache-2.0 | You want to describe a voice in words and add emotions like laughter or whispering. |
+| [Chatterbox](https://huggingface.co/ResembleAI/chatterbox) | Resemble AI | #87 (1021) | MIT | You need to clone a voice from a short sample, in many languages. Clone only voices you have consent for. |
+| [VibeVoice 1.5B](https://huggingface.co/microsoft/VibeVoice-1.5B) | Microsoft | #91 (955) | MIT | You generate long, multi-speaker audio such as a podcast or dialogue. |
 
 ## App security
 
