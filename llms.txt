@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 130 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 135 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -69,7 +69,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - career-ops: https://github.com/career-ops-hq/career-ops
 - Cloudflare OS: https://github.com/cloudflare/cloudflare-os
 
-## Tools (35 entries)
+## Tools (36 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/tools.md
 - REA: https://github.com/morluto/rea
 - n8n: https://github.com/n8n-io/n8n
@@ -105,9 +105,10 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - OpenShell: https://github.com/ai-openshell/openshell
 - json-render: https://github.com/vercel-labs/json-render
 - Coder: https://github.com/coder/coder
+- OpenChamber: https://github.com/openchamber/openchamber
 - SwarmChat: https://github.com/Pranjal2041/swarmchat
 
-## Video creation (25 entries)
+## Video creation (29 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/video-creation.md
 - ComfyUI: https://github.com/Comfy-Org/ComfyUI
 - MoneyPrinterTurbo: https://github.com/harry0703/MoneyPrinterTurbo
@@ -121,6 +122,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - anime.js: https://github.com/juliangarnier/anime
 - FFmpeg: https://github.com/FFmpeg/FFmpeg
 - Voicebox: https://github.com/jamiepine/voicebox
+- whisper.cpp: https://github.com/ggml-org/whisper.cpp
 - LosslessCut: https://github.com/mifi/lossless-cut
 - Pixelle-Video: https://github.com/ATH-MaaS/Pixelle-Video
 - MiniMax H3: https://huggingface.co/MiniMaxAI/MiniMax-H3
@@ -134,6 +136,9 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Maya1: https://huggingface.co/maya-research/maya1
 - Chatterbox: https://huggingface.co/ResembleAI/chatterbox
 - VibeVoice 1.5B: https://huggingface.co/microsoft/VibeVoice-1.5B
+- Tacotron 2: https://huggingface.co/speechbrain/tts-tacotron2-ljspeech
+- FastSpeech 2: https://huggingface.co/speechbrain/tts-fastspeech2-ljspeech
+- Whisper small: https://huggingface.co/openai/whisper-small
 
 ## App security (14 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/app-security.md

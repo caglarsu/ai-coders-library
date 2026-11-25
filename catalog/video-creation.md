@@ -20,7 +20,7 @@ Install: `git clone https://github.com/harry0703/MoneyPrinterTurbo.git`, then `d
 
 ### VoiceStudio
 Link: https://github.com/debpalash/VoiceStudio
-Stars: ★ 118.2k
+Stars: ★ 118.3k
 What it does: Fully local voice cloning, voice design and video dubbing. AGPL.
 Use it when: Your video needs a voiceover or dub and you do not want to send audio to a cloud API. Clone only voices you have consent for.
 Works with: macOS, Linux, Windows
@@ -97,6 +97,14 @@ What it does: Open-source AI voice studio: clone, dictate and create voiceovers 
 Use it when: You want a desktop app for voiceovers. Clone only voices you have consent for.
 Works with: macOS, Windows
 Install: Download from voicebox.sh
+
+### whisper.cpp
+Link: https://github.com/ggml-org/whisper.cpp
+Stars: ★ 55.5k
+What it does: Local speech-to-text: OpenAI's Whisper models in C/C++, fast on CPU and Apple silicon, no Python.
+Use it when: You need transcripts or subtitles from recordings without sending audio to a cloud API. Pair it with Whisper small below.
+Works with: macOS, Linux, Windows; CPU, Metal, CUDA, Vulkan
+Install: `brew install whisper-cpp`, then `whisper-cli -m ggml-small.bin -f audio.wav` (16 kHz WAV: `ffmpeg -i in.mp3 -ar 16000 -ac 1 -c:a pcm_s16le audio.wav`)
 
 ### LosslessCut
 Link: https://github.com/mifi/lossless-cut
@@ -209,3 +217,31 @@ Rank: #91 (955)
 Licence: MIT
 Use it when: You generate long, multi-speaker audio such as a podcast or dialogue.
 Run: Clone [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) and follow its install steps
+
+### Tacotron 2
+Link: https://huggingface.co/speechbrain/tts-tacotron2-ljspeech
+Maker: Google (SpeechBrain checkpoint)
+Rank: Not ranked; 2017 research model
+Licence: Apache-2.0
+Use it when: You want a small, classic English single-voice model to learn from or fine-tune on your own voice data.
+Run: `pip install speechbrain torchaudio`, then the Python snippet on its model card; it pairs with the [HiFi-GAN vocoder](https://huggingface.co/speechbrain/tts-hifigan-ljspeech)
+
+### FastSpeech 2
+Link: https://huggingface.co/speechbrain/tts-fastspeech2-ljspeech
+Maker: Microsoft (SpeechBrain checkpoint)
+Rank: Not ranked; 2020 research model
+Licence: Apache-2.0
+Use it when: Like Tacotron 2 but faster, with speed, pitch and energy you can set per call.
+Run: `pip install speechbrain torchaudio`, then the Python snippet on its model card; it pairs with the [HiFi-GAN vocoder](https://huggingface.co/speechbrain/tts-hifigan-ljspeech)
+
+### Free speech-to-text models
+
+Open-weights transcription models you can run locally; whisper.cpp, above, runs them.
+
+### Whisper small
+Link: https://huggingface.co/openai/whisper-small
+Maker: OpenAI
+Rank: Not ranked
+Licence: Apache-2.0
+Use it when: You want accurate multilingual transcription from a 244M-parameter model that runs on a laptop. Use `small.en` for English only.
+Run: In whisper.cpp: `curl -LO https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin`; in Python: `pip install openai-whisper`, then `whisper audio.mp3 --model small`
