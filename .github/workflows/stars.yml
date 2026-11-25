@@ -1,4 +1,4 @@
-name: Update star counts
+name: Update star counts and AI catalog
 on:
   schedule:
     - cron: "17 4 * * *"
@@ -13,9 +13,11 @@ jobs:
       - run: python3 scripts/update_stars.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: python3 scripts/build_catalog.py
       - run: |
-          git diff --quiet && exit 0
+          git add -A
+          git diff --cached --quiet && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Update star counts"
+          git commit -m "Update star counts and the AI catalog"
           git push
