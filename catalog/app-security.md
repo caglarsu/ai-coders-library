@@ -44,7 +44,7 @@ Install: `brew install nuclei`
 
 ### Claude BugHunter
 Link: https://github.com/elementalsouls/Claude-BugHunter
-Stars: ★ 22.4k
+Stars: ★ 22.6k
 What it does: 84 skills and 15 commands for bug hunting and red-team work, built from 681 disclosed reports.
 Use it when: You do authorised bug bounty or red-team work with Claude Code.
 Works with: Claude Code
@@ -60,7 +60,7 @@ Install: `docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framewor
 
 ### ARTEX
 Link: https://github.com/BaaRai/ARTEX
-Stars: ★ 20.1k
+Stars: ★ 20.3k
 What it does: Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL.
 Use it when: You want an autonomous pentest of your own systems with proof for every finding.
 Works with: Docker; any model provider

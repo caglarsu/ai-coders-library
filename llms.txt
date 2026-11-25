@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 126 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 129 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -26,7 +26,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Cline: https://github.com/cline/cline
 - Goose: https://github.com/aaif-goose/goose
 
-## Skills (29 entries)
+## Skills (31 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/skills.md
 - Matt Pocock's skills: https://github.com/mattpocock/skills
 - Superpowers: https://github.com/obra/superpowers
@@ -56,7 +56,9 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - BMAD Method: https://github.com/bmad-code-org/BMAD-METHOD
 - Obsidian Skills: https://github.com/obsidianmd/obsidian-skills
 - rust-anything: https://github.com/erkamyaman/rust-anything
+- OpenFilm: https://github.com/openfilm/openfilm
 - App Store Compliance: https://github.com/mjmirza/app-store-compliance
+- motionmaxxing: https://github.com/Tejashmakwana/motionmaxxing
 
 ## Agents (5 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/agents.md
@@ -66,7 +68,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - career-ops: https://github.com/career-ops-hq/career-ops
 - Cloudflare OS: https://github.com/cloudflare/cloudflare-os
 
-## Tools (34 entries)
+## Tools (35 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/tools.md
 - REA: https://github.com/morluto/rea
 - n8n: https://github.com/n8n-io/n8n
@@ -102,6 +104,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - OpenShell: https://github.com/ai-openshell/openshell
 - json-render: https://github.com/vercel-labs/json-render
 - Coder: https://github.com/coder/coder
+- SwarmChat: https://github.com/Pranjal2041/swarmchat
 
 ## Video creation (25 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/video-creation.md
