@@ -226,7 +226,7 @@ Install: `cargo install rust-anything`
 
 ### App Store Compliance
 Link: https://github.com/mjmirza/app-store-compliance
-Stars: ★ 6.2k
+Stars: ★ 6.3k
 What it does: Pre-submission guard with 124 documented App Store and Google Play rejection patterns and fixes. Free under $20M yearly revenue.
 Use it when: You are about to submit a mobile app and want to avoid a rejection.
 Works with: Any agent that reads files

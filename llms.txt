@@ -138,8 +138,8 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Trivy: https://github.com/aquasecurity/trivy
 - PentAGI: https://github.com/vxcontrol/pentagi
 - Nuclei: https://github.com/projectdiscovery/nuclei
-- MobSF: https://github.com/MobSF/Mobile-Security-Framework-MobSF
 - Claude BugHunter: https://github.com/elementalsouls/Claude-BugHunter
+- MobSF: https://github.com/MobSF/Mobile-Security-Framework-MobSF
 - ARTEX: https://github.com/BaaRai/ARTEX
 - Semgrep: https://github.com/semgrep/semgrep
 - ZAP: https://github.com/zaproxy/zaproxy

@@ -28,7 +28,7 @@ Install: `brew install --cask debpalash/tap/voicestudio`
 
 ### OpenCut
 Link: https://github.com/OpenCut-app/OpenCut
-Stars: ★ 99.3k
+Stars: ★ 99.4k
 What it does: Open-source CapCut alternative video editor.
 Use it when: You want a free, simple editor for cutting and captioning clips.
 Works with: Browser; self-hostable
