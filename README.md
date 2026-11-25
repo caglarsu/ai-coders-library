@@ -74,18 +74,17 @@ Tools here have more than 30,000 stars.
 | [OBS Studio](https://github.com/obsproject/obs-studio) | ★ 80.1k | Screen recording and live streaming. | You record product demos, tutorials or bug repros. | macOS, Windows, Linux | `brew install --cask obs` |
 | [LosslessCut](https://github.com/mifi/lossless-cut) | ★ 46.4k | Trims and splits video without re-encoding, so it is instant and keeps full quality. | You need to cut a long recording into clips quickly. | macOS, Windows, Linux | `brew install --cask losslesscut` |
 
-### Best video generation models
+### Best free video generation models
 
-Ranks from [Artificial Analysis](https://artificialanalysis.ai/video/leaderboard/text-to-video), blind human votes, read on 2026-11-25. These boards move monthly, so check the live [text-to-video](https://artificialanalysis.ai/video/leaderboard/text-to-video) and [image-to-video](https://artificialanalysis.ai/video/leaderboard/image-to-video) boards before you commit.
+Only open-weights models you can download and run without paying; closed and API-only models are left out. Ranks are from the [Artificial Analysis](https://artificialanalysis.ai/video/leaderboard/text-to-video) blind-vote boards, read on 2026-11-25. They move monthly, so check the live [text-to-video](https://artificialanalysis.ai/video/leaderboard/text-to-video) and [image-to-video](https://artificialanalysis.ai/video/leaderboard/image-to-video) boards. Run any of them locally with ComfyUI.
 
-| Model | Maker | Rank | Weights | Use it when |
+| Model | Maker | Rank | Licence | Use it when |
 | ----- | ----- | ---- | ------- | ----------- |
-| Wan 3.0 | Alibaba | #1 text-to-video (Elo 1175) | Closed | You want the best quality from a text prompt. |
-| MAGI-2 | Sand.ai | #1 image-to-video (1163), #7 text-to-video | Closed | You animate a still image, keyframe or product shot. |
-| Dreamina Seedance 2.5 | ByteDance | #2 image-to-video (1158), #5 text-to-video | Closed | You want one model that is strong at both. |
-| Gemini Omni Flash 1.2 | Google | #6 text-to-video (1152) | Closed | You already use the Gemini API. |
-| MiniMax H3 (768p) | MiniMax | #3 text-to-video (1164), best open model | Open | You want to run it yourself, for example in ComfyUI. |
-| Hyperflow H3 | Video Rebirth | #4 text-to-video (1156) | Open | You want a second open model to compare. |
+| [MiniMax H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) | MiniMax | #3 text-to-video (Elo 1164), #6 image-to-video (1135); best free model | Free in the EU, UK, US and South Korea. Above $20M yearly revenue you need MiniMax's written permission; commercial products must show "MiniMax H3" | You want the best quality you can run yourself. |
+| [Hyperflow H3](https://huggingface.co/VideoRebirthAI/hyperflow) | Video Rebirth | #4 text-to-video (1156), #10 image-to-video (1120) | Same licence as MiniMax H3 | You want a second H3-based model to compare. |
+| [Pika H3 Flex](https://huggingface.co/Pika-Labs/Pika-H3-Flex) | Pika | #16 text-to-video (1123), #13 image-to-video (1116) | Same licence as MiniMax H3 | You mostly animate still images. |
+| [LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) | Lightricks | #32 text-to-video (938), #35 image-to-video (914) | Free for companies under $10M yearly revenue; paid licence above | You want video and audio generated together in one pass. |
+| [Wan 2.2](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) | Alibaba | Not on the boards | Apache-2.0: free for any use, no revenue cap, region or attribution rule | You need a licence with no conditions at all. |
 
 ## App security
 
