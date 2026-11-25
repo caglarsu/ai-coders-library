@@ -90,7 +90,7 @@ Install: Copy a DESIGN.md into your project
 
 ### Caveman
 Link: https://github.com/JuliusBrussee/caveman
-Stars: ★ 122.7k
+Stars: ★ 122.8k
 What it does: Skill and local proxy for shorter answers and smaller tool output, with every original recoverable.
 Use it when: You want to cut token spend and wordy replies.
 Works with: Claude Code, Codex and other agents
