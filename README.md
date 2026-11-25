@@ -50,6 +50,7 @@ A user sent you this repo to find out which entries suit them. To answer:
 
 | Name | Stars | What it does | Use it when | Works with | Install |
 | ---- | ----- | ------------ | ----------- | ---------- | ------- |
+| [herdr](https://github.com/herdrdev/herdr) | ★ 52.8k | Terminal workspace for coding agents: sessions keep running when you detach or lose SSH, every pane shows working, blocked or idle, and agents can spawn and prompt each other. | You run several agents at once, or on remote machines, and lose track of which one is waiting on you. | Claude Code, Codex, Cursor, OpenCode and other terminal agents; macOS, Linux, Windows | `brew install herdr` or `curl -fsSL https://herdr.dev/install.sh \| sh`, then `herdr` |
 | [colibri](https://github.com/JustVugg/colibri) | ★ 53.4k |Inference engine in C for large MoE models: hot experts on GPU, warm in RAM, cold streamed from NVMe. | You want to run a frontier open-weights model locally on hardware that cannot hold it in VRAM. | CUDA, Vulkan, macOS | `git clone https://github.com/JustVugg/colibri`, then build per its README |
 
 ## App security
