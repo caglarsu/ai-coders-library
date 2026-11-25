@@ -4,7 +4,7 @@ Run the AI pentesters (PentAGI, HexStrike AI, Strix, ARTEX, Claude BugHunter) an
 
 ### Security Audit Skill
 Link: https://github.com/cloudflare/security-audit-skill
-Stars: ★ 78.2k
+Stars: ★ 78.3k
 What it does: Cloudflare's skill for multi-phase security audits with independently verified, machine-readable findings.
 Use it when: You want your agent to audit your own code with fewer false positives.
 Works with: Claude Code and other agents

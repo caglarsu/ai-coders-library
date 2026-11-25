@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 129 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 130 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -26,7 +26,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Cline: https://github.com/cline/cline
 - Goose: https://github.com/aaif-goose/goose
 
-## Skills (31 entries)
+## Skills (32 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/skills.md
 - Matt Pocock's skills: https://github.com/mattpocock/skills
 - Superpowers: https://github.com/obra/superpowers
@@ -58,6 +58,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - rust-anything: https://github.com/erkamyaman/rust-anything
 - OpenFilm: https://github.com/openfilm/openfilm
 - App Store Compliance: https://github.com/mjmirza/app-store-compliance
+- hyperresearch: https://github.com/jordan-gibbs/hyperresearch
 - motionmaxxing: https://github.com/Tejashmakwana/motionmaxxing
 
 ## Agents (5 entries)
