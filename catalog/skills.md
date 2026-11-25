@@ -58,7 +58,7 @@ Install: `/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill` then `/p
 
 ### Graphify
 Link: https://github.com/Graphify-Labs/graphify
-Stars: ★ 153.2k
+Stars: ★ 153.3k
 What it does: Turns a codebase, docs, SQL schemas and PDFs into a queryable knowledge graph using local AST parsing, no vector store.
 Use it when: Your repo is large and the agent burns tokens grepping and reading files to find its way.
 Works with: Claude Code, Cursor, Codex, Gemini CLI
@@ -239,6 +239,14 @@ What it does: Pre-submission guard with 124 documented App Store and Google Play
 Use it when: You are about to submit a mobile app and want to avoid a rejection.
 Works with: Any agent that reads files
 Install: `git clone https://github.com/mjmirza/app-store-compliance`
+
+### hyperresearch
+Link: https://github.com/jordan-gibbs/hyperresearch
+Stars: ★ 5.1k
+What it does: Deep research skill: one prompt runs a multi-step pipeline over the web, scholarly papers, SEC filings and economic data, cite-checks every claim, and keeps every source in a searchable local vault. A paid hosted version also exists.
+Use it when: You want a cited research report from your coding agent instead of a chat answer.
+Works with: Claude Code, Codex; Python 3.11+
+Install: `pip install hyperresearch`, then `hyperresearch install` in your project and run `/hyperresearch <question>`
 
 ### motionmaxxing
 Link: https://github.com/Tejashmakwana/motionmaxxing
