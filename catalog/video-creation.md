@@ -1,6 +1,6 @@
 # Video creation
 
-Tools here have more than 30,000 stars. Smaller agent skills for video, such as OpenFilm and motionmaxxing, are under [Skills](#skills).
+Most tools here have more than 30,000 stars. Smaller agent skills for video, such as OpenFilm and motionmaxxing, are under [Skills](#skills).
 
 ### ComfyUI
 Link: https://github.com/Comfy-Org/ComfyUI
@@ -17,14 +17,6 @@ What it does: Generates a finished short video (script, stock footage, voice, su
 Use it when: You need many short vertical videos fast and stock footage is acceptable.
 Works with: Docker; OpenAI, DeepSeek, Ollama and others
 Install: `git clone https://github.com/harry0703/MoneyPrinterTurbo.git`, then `docker compose -f docker-compose.release.yml up`
-
-### VoiceStudio
-Link: https://github.com/debpalash/VoiceStudio
-Stars: ★ 118.3k
-What it does: Fully local voice cloning, voice design and video dubbing. AGPL.
-Use it when: Your video needs a voiceover or dub and you do not want to send audio to a cloud API. Clone only voices you have consent for.
-Works with: macOS, Linux, Windows
-Install: `brew install --cask debpalash/tap/voicestudio`
 
 ### OpenCut
 Link: https://github.com/OpenCut-app/OpenCut
@@ -90,22 +82,6 @@ Use it when: Your agent needs to cut, convert, resize, subtitle or stitch video 
 Works with: Every OS
 Install: `brew install ffmpeg`
 
-### Voicebox
-Link: https://github.com/jamiepine/voicebox
-Stars: ★ 61.3k
-What it does: Open-source AI voice studio: clone, dictate and create voiceovers locally.
-Use it when: You want a desktop app for voiceovers. Clone only voices you have consent for.
-Works with: macOS, Windows
-Install: Download from voicebox.sh
-
-### whisper.cpp
-Link: https://github.com/ggml-org/whisper.cpp
-Stars: ★ 55.5k
-What it does: Local speech-to-text: OpenAI's Whisper models in C/C++, fast on CPU and Apple silicon, no Python.
-Use it when: You need transcripts or subtitles from recordings without sending audio to a cloud API. Pair it with Whisper small below.
-Works with: macOS, Linux, Windows; CPU, Metal, CUDA, Vulkan
-Install: `brew install whisper-cpp`, then `whisper-cli -m ggml-small.bin -f audio.wav` (16 kHz WAV: `ffmpeg -i in.mp3 -ar 16000 -ac 1 -c:a pcm_s16le audio.wav`)
-
 ### LosslessCut
 Link: https://github.com/mifi/lossless-cut
 Stars: ★ 46.4k
@@ -122,9 +98,17 @@ Use it when: You want topic-to-video like MoneyPrinterTurbo but with generated i
 Works with: Python, FFmpeg, ComfyUI
 Install: `git clone https://github.com/ATH-MaaS/Pixelle-Video.git`, then `uv run streamlit run web/app.py`
 
+### stable-diffusion.cpp
+Link: https://github.com/leejet/stable-diffusion.cpp
+Stars: ★ 8.1k
+What it does: Image and video diffusion in plain C/C++ with no Python: SD, Flux, Wan, LTX-2.5 and MiniMax H3, with a CLI, a server and a web UI.
+Use it when: You want to run the open video models below on a CPU, Apple silicon or a small GPU without ComfyUI or a Python stack.
+Works with: macOS, Linux, Windows; CPU, CUDA, Metal, Vulkan, OpenCL, SYCL
+Install: Prebuilt binaries from its releases, then `sd-cli -m <model> -p "a lovely cat"`
+
 ### Best free video generation models
 
-Only open-weights models you can download and run without paying; closed and API-only models are left out. Ranks are from the [Artificial Analysis](https://artificialanalysis.ai/video/leaderboard/text-to-video) blind-vote boards, read on 2026-11-25. They move monthly, so check the live [text-to-video](https://artificialanalysis.ai/video/leaderboard/text-to-video) and [image-to-video](https://artificialanalysis.ai/video/leaderboard/image-to-video) boards. The **Run** column says how to start each one; ComfyUI runs most of them.
+Only open-weights models you can download and run without paying; closed and API-only models are left out. Ranks are from the [Artificial Analysis](https://artificialanalysis.ai/video/leaderboard/text-to-video) blind-vote boards, read on 2026-11-25. They move monthly, so check the live [text-to-video](https://artificialanalysis.ai/video/leaderboard/text-to-video) and [image-to-video](https://artificialanalysis.ai/video/leaderboard/image-to-video) boards. The **Run** column says how to start each one; ComfyUI and stable-diffusion.cpp run most of them.
 
 ### MiniMax H3
 Link: https://huggingface.co/MiniMaxAI/MiniMax-H3
@@ -165,83 +149,3 @@ Rank: Not on the boards
 Licence: Apache-2.0: free for any use, no revenue cap, region or attribution rule
 Use it when: You need a licence with no conditions at all.
 Run: In ComfyUI, or `git clone https://github.com/Wan-Video/Wan2.2.git`, `pip install -r requirements.txt`, then `python generate.py --task t2v-A14B`
-
-### Best free voice models
-
-Text-to-speech models with open weights and a licence that allows commercial use. Ranks are from the [Artificial Analysis speech arena](https://artificialanalysis.ai/text-to-speech/leaderboard), read on 2026-11-25; check the live board before you commit. Fish Audio Drama 3 (#9) and Breeze TTS 2 (#15) rank higher but are research or non-commercial only, so they are left out. VoiceStudio, above, runs models like these locally.
-
-### Ming-3.0-tts
-Link: https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B
-Maker: Ant Group
-Rank: #27 (Elo 1180); best free model
-Licence: MIT
-Use it when: You want the best free voice quality, in English, Chinese, Japanese, Korean or major European languages.
-Run: `git clone https://github.com/inclusionAI/Ming-3.0-tts.git`, `pip install -r requirements.txt`, then `python infer.py`
-
-### Phonon 31M
-Link: https://huggingface.co/gradium/phonon-31m-en
-Maker: Gradium
-Rank: #46 (1109)
-Licence: Apache-2.0
-Use it when: You need English speech from a tiny model on modest hardware.
-Run: `pip install git+https://github.com/huggingface/transformers`, then load with `transformers` as its model card shows
-
-### Kokoro 82M
-Link: https://huggingface.co/hexgrad/Kokoro-82M
-Maker: hexgrad
-Rank: #68 (1061)
-Licence: Apache-2.0
-Use it when: You want a small, fast, widely supported voice model for narration.
-Run: `pip install kokoro soundfile`, then `from kokoro import KPipeline`
-
-### Maya1
-Link: https://huggingface.co/maya-research/maya1
-Maker: Maya Research
-Rank: #74 (1049)
-Licence: Apache-2.0
-Use it when: You want to describe a voice in words and add emotions like laughter or whispering.
-Run: `pip install torch transformers accelerate snac soundfile`, then load with `transformers` as its model card shows
-
-### Chatterbox
-Link: https://huggingface.co/ResembleAI/chatterbox
-Maker: Resemble AI
-Rank: #87 (1021)
-Licence: MIT
-Use it when: You need to clone a voice from a short sample, in many languages. Clone only voices you have consent for.
-Run: `pip install chatterbox-tts`, then `from chatterbox.tts import ChatterboxTTS`
-
-### VibeVoice 1.5B
-Link: https://huggingface.co/microsoft/VibeVoice-1.5B
-Maker: Microsoft
-Rank: #91 (955)
-Licence: MIT
-Use it when: You generate long, multi-speaker audio such as a podcast or dialogue.
-Run: Clone [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) and follow its install steps
-
-### Tacotron 2
-Link: https://huggingface.co/speechbrain/tts-tacotron2-ljspeech
-Maker: Google (SpeechBrain checkpoint)
-Rank: Not ranked; 2017 research model
-Licence: Apache-2.0
-Use it when: You want a small, classic English single-voice model to learn from or fine-tune on your own voice data.
-Run: `pip install speechbrain torchaudio`, then the Python snippet on its model card; it pairs with the [HiFi-GAN vocoder](https://huggingface.co/speechbrain/tts-hifigan-ljspeech)
-
-### FastSpeech 2
-Link: https://huggingface.co/speechbrain/tts-fastspeech2-ljspeech
-Maker: Microsoft (SpeechBrain checkpoint)
-Rank: Not ranked; 2020 research model
-Licence: Apache-2.0
-Use it when: Like Tacotron 2 but faster, with speed, pitch and energy you can set per call.
-Run: `pip install speechbrain torchaudio`, then the Python snippet on its model card; it pairs with the [HiFi-GAN vocoder](https://huggingface.co/speechbrain/tts-hifigan-ljspeech)
-
-### Free speech-to-text models
-
-Open-weights transcription models you can run locally; whisper.cpp, above, runs them.
-
-### Whisper small
-Link: https://huggingface.co/openai/whisper-small
-Maker: OpenAI
-Rank: Not ranked
-Licence: Apache-2.0
-Use it when: You want accurate multilingual transcription from a 244M-parameter model that runs on a laptop. Use `small.en` for English only.
-Run: In whisper.cpp: `curl -LO https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin`; in Python: `pip install openai-whisper`, then `whisper audio.mp3 --model small`

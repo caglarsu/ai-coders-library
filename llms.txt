@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 135 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 143 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -9,7 +9,7 @@ This index names every entry with its link. Each section's file has the full det
 2. Drop entries whose **Works with** column excludes their assistant.
 3. If they ask about security tools, check that they own or are authorised to test the target before recommending an active scanner or AI pentester.
 4. Recommend at most five entries, best fit first; when two fit equally, prefer the one with more **Stars**. For each give the name, one line on why it fits *this* user, and the **Install** step.
-5. For video and voice models, check the live leaderboards linked in that section; the ranks in this file are a dated snapshot.
+5. For video and voice models, check the live leaderboards linked in the Video creation and Audio sections; the ranks in this file are a dated snapshot.
 6. For models, give the **Run** line instead of an install step.
 7. If nothing here fits, say so. Do not pad the list.
 
@@ -69,7 +69,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - career-ops: https://github.com/career-ops-hq/career-ops
 - Cloudflare OS: https://github.com/cloudflare/cloudflare-os
 
-## Tools (36 entries)
+## Tools (39 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/tools.md
 - REA: https://github.com/morluto/rea
 - n8n: https://github.com/n8n-io/n8n
@@ -91,6 +91,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Headroom: https://github.com/headroomlabs-ai/headroom
 - T3 Code: https://github.com/pingdotgg/t3code
 - CodeGraph: https://github.com/colbymchenry/codegraph
+- AFFiNE: https://github.com/toeverything/AFFiNE
 - Docling: https://github.com/docling-project/docling
 - Mem0: https://github.com/mem0ai/mem0
 - Context7: https://github.com/upstash/context7
@@ -101,6 +102,8 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - agent-browser: https://github.com/vercel-labs/agent-browser
 - colibri: https://github.com/JustVugg/colibri
 - herdr: https://github.com/herdrdev/herdr
+- Vane: https://github.com/ItzCrazyKns/Vane
+- VSCodium: https://github.com/VSCodium/vscodium
 - Cua: https://github.com/trycua/cua
 - OpenShell: https://github.com/ai-openshell/openshell
 - json-render: https://github.com/vercel-labs/json-render
@@ -108,11 +111,10 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - OpenChamber: https://github.com/openchamber/openchamber
 - SwarmChat: https://github.com/Pranjal2041/swarmchat
 
-## Video creation (29 entries)
+## Video creation (18 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/video-creation.md
 - ComfyUI: https://github.com/Comfy-Org/ComfyUI
 - MoneyPrinterTurbo: https://github.com/harry0703/MoneyPrinterTurbo
-- VoiceStudio: https://github.com/debpalash/VoiceStudio
 - OpenCut: https://github.com/OpenCut-app/OpenCut
 - Manim: https://github.com/3b1b/manim
 - HyperFrames: https://github.com/heygen-com/hyperframes
@@ -121,15 +123,21 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Remotion: https://github.com/remotion-dev/remotion
 - anime.js: https://github.com/juliangarnier/anime
 - FFmpeg: https://github.com/FFmpeg/FFmpeg
-- Voicebox: https://github.com/jamiepine/voicebox
-- whisper.cpp: https://github.com/ggml-org/whisper.cpp
 - LosslessCut: https://github.com/mifi/lossless-cut
 - Pixelle-Video: https://github.com/ATH-MaaS/Pixelle-Video
+- stable-diffusion.cpp: https://github.com/leejet/stable-diffusion.cpp
 - MiniMax H3: https://huggingface.co/MiniMaxAI/MiniMax-H3
 - Hyperflow H3: https://huggingface.co/VideoRebirthAI/hyperflow
 - Pika H3 Flex: https://huggingface.co/Pika-Labs/Pika-H3-Flex
 - LTX-2.5: https://huggingface.co/Lightricks/LTX-2.5
 - Wan 2.2: https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B
+
+## Audio (13 entries)
+Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/audio.md
+- VoiceStudio: https://github.com/debpalash/VoiceStudio
+- Voicebox: https://github.com/jamiepine/voicebox
+- whisper.cpp: https://github.com/ggml-org/whisper.cpp
+- audio.cpp: https://github.com/0xShug0/audio.cpp
 - Ming-3.0-tts: https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B
 - Phonon 31M: https://huggingface.co/gradium/phonon-31m-en
 - Kokoro 82M: https://huggingface.co/hexgrad/Kokoro-82M
@@ -139,6 +147,12 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Tacotron 2: https://huggingface.co/speechbrain/tts-tacotron2-ljspeech
 - FastSpeech 2: https://huggingface.co/speechbrain/tts-fastspeech2-ljspeech
 - Whisper small: https://huggingface.co/openai/whisper-small
+
+## Mobile apps (3 entries)
+Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/mobile-apps.md
+- MNN: https://github.com/alibaba/MNN
+- PocketPal: https://github.com/a-ghorbani/pocketpal-ai
+- ChatterUI: https://github.com/Vali-98/ChatterUI
 
 ## App security (14 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/app-security.md

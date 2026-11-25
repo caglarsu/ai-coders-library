@@ -12,7 +12,7 @@ Install: `npx skills add https://github.com/cloudflare/security-audit-skill`
 
 ### Strix
 Link: https://github.com/usestrix/strix
-Stars: ★ 77.5k
+Stars: ★ 77.6k
 What it does: AI agents that pentest your app, confirm findings with proof-of-concepts and suggest fixes.
 Use it when: You want an AI pentest of your own app before release.
 Works with: Local code or URL; Docker
