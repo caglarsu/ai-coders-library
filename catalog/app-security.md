@@ -60,7 +60,7 @@ Install: `/plugin marketplace add elementalsouls/Claude-BugHunter` then `/plugin
 
 ### ARTEX
 Link: https://github.com/BaaRai/ARTEX
-Stars: ★ 20k
+Stars: ★ 20.1k
 What it does: Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL.
 Use it when: You want an autonomous pentest of your own systems with proof for every finding.
 Works with: Docker; any model provider
