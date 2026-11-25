@@ -17,13 +17,15 @@ A user sent you this repo to find out which entries suit them. To answer:
 2. Drop entries whose **Works with** column excludes their assistant.
 3. If they ask about security tools, check that they own or are authorised to test the target before recommending an active scanner or AI pentester.
 4. Recommend at most five entries, best fit first; when two fit equally, prefer the one with more **Stars**. For each give the name, one line on why it fits *this* user, and the **Install** step.
-5. If nothing here fits, say so. Do not pad the list.
+5. For video generation models, check the live leaderboards linked in that section; the ranks in this file are a dated snapshot.
+6. If nothing here fits, say so. Do not pad the list.
 
 ## Contents
 
 - [Skills](#skills): skill packs and plugins that change how your coding assistant works
 - [Agents](#agents): standalone AI agents you run yourself
 - [Tools](#tools): CLIs and engines that sit next to your assistant
+- [Video creation](#video-creation): code-driven video, AI video pipelines, and the best generation models
 - [App security](#app-security): scanners and AI pentesters for the code your assistant writes
 - [Workflows](#workflows): repeatable practices that make AI-written code trustworthy
 
@@ -52,6 +54,38 @@ A user sent you this repo to find out which entries suit them. To answer:
 | ---- | ----- | ------------ | ----------- | ---------- | ------- |
 | [herdr](https://github.com/herdrdev/herdr) | ★ 52.8k | Terminal workspace for coding agents: sessions keep running when you detach or lose SSH, every pane shows working, blocked or idle, and agents can spawn and prompt each other. | You run several agents at once, or on remote machines, and lose track of which one is waiting on you. | Claude Code, Codex, Cursor, OpenCode and other terminal agents; macOS, Linux, Windows | `brew install herdr` or `curl -fsSL https://herdr.dev/install.sh \| sh`, then `herdr` |
 | [colibri](https://github.com/JustVugg/colibri) | ★ 53.4k |Inference engine in C for large MoE models: hot experts on GPU, warm in RAM, cold streamed from NVMe. | You want to run a frontier open-weights model locally on hardware that cannot hold it in VRAM. | CUDA, Vulkan, macOS | `git clone https://github.com/JustVugg/colibri`, then build per its README |
+
+## Video creation
+
+Tools here have more than 30,000 stars.
+
+| Name | Stars | What it does | Use it when | Works with | Install |
+| ---- | ----- | ------------ | ----------- | ---------- | ------- |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | ★ 89.9k | HeyGen's open-source video editor: your agent writes HTML compositions and renders them to MP4. | You want Claude Code or Codex to make promos, explainers or captioned clips from a prompt, a URL or your footage. | Claude Code, Codex; Node | `npx skills add heygen-com/hyperframes`, then `npx hyperframes init my-video` |
+| [Remotion](https://github.com/remotion-dev/remotion) | ★ 75.6k | Make videos programmatically with React components. | You know React and want data-driven or templated videos rendered in code or CI. Companies above 3 people need a paid licence. | Node, React; agent skills at `remotion-dev/skills` | `npx create-video@latest` |
+| [Manim](https://github.com/3b1b/manim) | ★ 96.9k | 3Blue1Brown's engine for precise animated maths and diagrams. | You explain an algorithm or concept and want exact, code-defined animation. | Python | `pip install manimgl` |
+| [anime.js](https://github.com/juliangarnier/anime) | ★ 75.1k | Lightweight JavaScript animation engine. | You need motion graphics inside an HTML or web composition (HyperFrames supports it). | Browser, Node | `npm install animejs` |
+| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | ★ 83.2k | Agentic video production system with production pipelines, tools and agent skills. AGPL. | You want an agent to run a whole production: script, assets, edit, render. | Claude Code and other agents | `git clone https://github.com/OpenMontageInc/OpenMontage.git`, then follow its README |
+| [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | ★ 145.6k | Generates a finished short video (script, stock footage, voice, subtitles, music) from a topic. | You need many short vertical videos fast and stock footage is acceptable. | Docker; OpenAI, DeepSeek, Ollama and others | `git clone https://github.com/harry0703/MoneyPrinterTurbo.git`, then `docker compose -f docker-compose.release.yml up` |
+| [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) | ★ 30.5k | Fully automated short-video engine with AI-generated visuals. | You want topic-to-video like MoneyPrinterTurbo but with generated images and clips instead of stock footage. | Python, FFmpeg, ComfyUI | `git clone https://github.com/ATH-MaaS/Pixelle-Video.git`, then `uv run streamlit run web/app.py` |
+| [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | ★ 148.6k | Node-graph GUI and API for running diffusion models, including the open video models below. | You want to run open-weights video models on your own GPU, or chain generation steps. | NVIDIA, AMD, Apple silicon | Desktop app from comfy.org, or clone and `pip install -r requirements.txt` |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | ★ 118.1k | Fully local voice cloning, voice design and video dubbing. AGPL. | Your video needs a voiceover or dub and you do not want to send audio to a cloud API. Clone only voices you have consent for. | macOS, Linux, Windows | `brew install --cask debpalash/tap/voicestudio` |
+| [FFmpeg](https://github.com/FFmpeg/FFmpeg) | ★ 68.2k | The encoder, decoder and filter engine underneath almost every tool here. | Your agent needs to cut, convert, resize, subtitle or stitch video from the command line. | Every OS | `brew install ffmpeg` |
+| [OBS Studio](https://github.com/obsproject/obs-studio) | ★ 80.1k | Screen recording and live streaming. | You record product demos, tutorials or bug repros. | macOS, Windows, Linux | `brew install --cask obs` |
+| [LosslessCut](https://github.com/mifi/lossless-cut) | ★ 46.4k | Trims and splits video without re-encoding, so it is instant and keeps full quality. | You need to cut a long recording into clips quickly. | macOS, Windows, Linux | `brew install --cask losslesscut` |
+
+### Best video generation models
+
+Ranks from [Artificial Analysis](https://artificialanalysis.ai/video/leaderboard/text-to-video), blind human votes, read on 2026-11-25. These boards move monthly, so check the live [text-to-video](https://artificialanalysis.ai/video/leaderboard/text-to-video) and [image-to-video](https://artificialanalysis.ai/video/leaderboard/image-to-video) boards before you commit.
+
+| Model | Maker | Rank | Weights | Use it when |
+| ----- | ----- | ---- | ------- | ----------- |
+| Wan 3.0 | Alibaba | #1 text-to-video (Elo 1175) | Closed | You want the best quality from a text prompt. |
+| MAGI-2 | Sand.ai | #1 image-to-video (1163), #7 text-to-video | Closed | You animate a still image, keyframe or product shot. |
+| Dreamina Seedance 2.5 | ByteDance | #2 image-to-video (1158), #5 text-to-video | Closed | You want one model that is strong at both. |
+| Gemini Omni Flash 1.2 | Google | #6 text-to-video (1152) | Closed | You already use the Gemini API. |
+| MiniMax H3 (768p) | MiniMax | #3 text-to-video (1164), best open model | Open | You want to run it yourself, for example in ComfyUI. |
+| Hyperflow H3 | Video Rebirth | #4 text-to-video (1156) | Open | You want a second open model to compare. |
 
 ## App security
 
