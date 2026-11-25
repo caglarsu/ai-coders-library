@@ -18,7 +18,7 @@ Start: Read on GitHub
 
 ### AI Agents for Beginners
 Link: https://github.com/microsoft/ai-agents-for-beginners
-Stars: ★ 80.9k
+Stars: ★ 81k
 What it does: Microsoft's 18-lesson course on building AI agents.
 Use it when: You are new to building agents.
 Works with: Python

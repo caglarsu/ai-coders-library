@@ -34,7 +34,7 @@ Install: `npm install -g @openai/codex`
 
 ### Pi
 Link: https://github.com/earendil-works/pi
-Stars: ★ 123.8k
+Stars: ★ 123.9k
 What it does: Minimal, hackable agent toolkit: unified LLM API, agent loop, TUI and coding agent CLI.
 Use it when: You want a small agent you can read, extend or build your own on.
 Works with: Any provider
