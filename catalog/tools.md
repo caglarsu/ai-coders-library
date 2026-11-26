@@ -112,6 +112,14 @@ Use it when: You want your agent to write and run real end-to-end tests.
 Works with: Node, Python, Java, .NET
 Install: `npm init playwright@latest`
 
+### Odysseus
+Link: https://github.com/odysseus-dev/odysseus
+Stars: ★ 96k
+What it does: Self-hosted AI workspace: chat and agents with local or API models, deep research, documents, email, notes, tasks and calendar in one place. AGPL.
+Use it when: You want one private place for AI chat, research and personal admin, on your own server.
+Works with: Ollama and API models, MCP; Docker
+Install: `git clone https://github.com/odysseus-dev/odysseus.git`, `cp .env.example .env`, then `docker compose up -d --build`
+
 ### Home Assistant
 Link: https://github.com/home-assistant/core
 Stars: ★ 92.5k
@@ -160,6 +168,14 @@ Use it when: You want fewer tokens per agent turn without losing accuracy.
 Works with: Python; coding agents
 Install: `pip install headroom-ai`
 
+### PPT Master
+Link: https://github.com/hugohe3/ppt-master
+Stars: ★ 80.2k
+What it does: Turns a document or topic into a native PowerPoint deck with real shapes, transitions and animations you can edit, not pictures of slides.
+Use it when: You need editable decks from reports or notes.
+Works with: Claude Code (tested most), Codex and other agents; Python 3.10+
+Install: `/plugin marketplace add hugohe3/ppt-master`, then `/plugin install ppt-master@ppt-master`
+
 ### T3 Code
 Link: https://github.com/pingdotgg/t3code
 Stars: ★ 79.5k
@@ -183,6 +199,14 @@ What it does: Local-first, open-source alternative to Notion and Miro: docs, whi
 Use it when: You want notes and planning boards that stay on your own disk, or a self-hosted workspace.
 Works with: macOS, Windows, Linux, web; self-host
 Install: Desktop app from affine.pro/download
+
+### oh-my-openagent
+Link: https://github.com/code-yeongyu/oh-my-openagent
+Stars: ★ 71.1k
+What it does: Multi-model agent tool (OmO) with a memory system: one prompt fans work out across models and agents. Sustainable Use licence (fair-code); telemetry can be switched on.
+Use it when: You want multi-agent, multi-model runs from one command.
+Works with: Claude, OpenAI and other providers; macOS, Linux, Windows
+Install: `curl -fsSL https://get.omo.dev/install.sh | bash`, then `omo`; or `npm i -g omo-ai`
 
 ### Docling
 Link: https://github.com/docling-project/docling
@@ -215,6 +239,14 @@ What it does: AI gateway: call 100+ model APIs in one format, with cost tracking
 Use it when: Your app or team uses several model providers.
 Works with: Python SDK, proxy server
 Install: `uv tool install 'litellm[proxy]'`
+
+### Hindsight
+Link: https://github.com/vectorize-io/hindsight
+Stars: ★ 63.4k
+What it does: Memory for agents that learns over time instead of only recalling past chats, with an API, a UI and an MCP server.
+Use it when: Your agent should remember users and lessons across sessions.
+Works with: 25+ LLM providers including Ollama; Python, TypeScript, MCP, coding agents
+Install: `docker run -it --pull always --name hindsight -p 8888:8888 -p 9999:9999 -e HINDSIGHT_API_LLM_API_KEY=<key> -v hindsight-data:/home/hindsight/.pg0 ghcr.io/vectorize-io/hindsight:latest`
 
 ### MemPalace
 Link: https://github.com/MemPalace/mempalace
