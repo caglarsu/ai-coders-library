@@ -4,7 +4,7 @@ Run the AI pentesters (PentAGI, HexStrike AI, Strix, ARTEX, Claude BugHunter) an
 
 ### Security Audit Skill
 Link: https://github.com/cloudflare/security-audit-skill
-Stars: ★ 78.4k
+Stars: ★ 78.5k
 What it does: Cloudflare's skill for multi-phase security audits with independently verified, machine-readable findings.
 Use it when: You want your agent to audit your own code with fewer false positives.
 Works with: Claude Code and other agents
@@ -12,7 +12,7 @@ Install: `npx skills add https://github.com/cloudflare/security-audit-skill`
 
 ### Strix
 Link: https://github.com/usestrix/strix
-Stars: ★ 77.6k
+Stars: ★ 77.7k
 What it does: AI agents that pentest your app, confirm findings with proof-of-concepts and suggest fixes.
 Use it when: You want an AI pentest of your own app before release.
 Works with: Local code or URL; Docker
@@ -36,7 +36,7 @@ Install: `brew install trivy`
 
 ### PentAGI
 Link: https://github.com/vxcontrol/pentagi
-Stars: ★ 35k
+Stars: ★ 35.1k
 What it does: Fully autonomous multi-agent penetration testing system with its own web UI and toolset.
 Use it when: You run security assessments and want an autonomous agent team doing the legwork.
 Works with: Docker; OpenAI, Anthropic, Ollama, Bedrock and others
@@ -52,7 +52,7 @@ Install: `brew install nuclei`
 
 ### Claude BugHunter
 Link: https://github.com/elementalsouls/Claude-BugHunter
-Stars: ★ 23.1k
+Stars: ★ 23.7k
 What it does: 84 skills and 15 commands for bug hunting and red-team work, built from 681 disclosed reports.
 Use it when: You do authorised bug bounty or red-team work with Claude Code.
 Works with: Claude Code
@@ -60,7 +60,7 @@ Install: `/plugin marketplace add elementalsouls/Claude-BugHunter` then `/plugin
 
 ### MobSF
 Link: https://github.com/MobSF/Mobile-Security-Framework-MobSF
-Stars: ★ 22.3k
+Stars: ★ 22.4k
 What it does: Static and dynamic security analysis of Android, iOS and Windows apps.
 Use it when: You ship a mobile app and want its build checked before release.
 Works with: APK, IPA, APPX
@@ -68,7 +68,7 @@ Install: `docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framewor
 
 ### ARTEX
 Link: https://github.com/BaaRai/ARTEX
-Stars: ★ 20.9k
+Stars: ★ 21.4k
 What it does: Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL.
 Use it when: You want an autonomous pentest of your own systems with proof for every finding.
 Works with: Docker; any model provider

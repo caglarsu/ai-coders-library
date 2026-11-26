@@ -4,7 +4,7 @@ Local speech, voice and music: engines that run audio models, and the best free 
 
 ### VoiceStudio
 Link: https://github.com/debpalash/VoiceStudio
-Stars: ★ 118.4k
+Stars: ★ 118.7k
 What it does: Fully local voice cloning, voice design and video dubbing. AGPL.
 Use it when: Your video needs a voiceover or dub and you do not want to send audio to a cloud API. Clone only voices you have consent for.
 Works with: macOS, Linux, Windows

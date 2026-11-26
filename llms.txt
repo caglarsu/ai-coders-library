@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 170 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 173 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -65,7 +65,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - hyperresearch: https://github.com/jordan-gibbs/hyperresearch
 - motionmaxxing: https://github.com/Tejashmakwana/motionmaxxing
 
-## Agents (13 entries)
+## Agents (14 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/agents.md
 - OpenClaw: https://github.com/openclaw/openclaw
 - Hermes Agent: https://github.com/NousResearch/hermes-agent
@@ -80,8 +80,9 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - nanobot: https://github.com/HKUDS/nanobot
 - Comp AI CRM: https://github.com/trycompai/crm
 - Cloudflare OS: https://github.com/cloudflare/cloudflare-os
+- OpenComputer: https://github.com/diggerhq/opencomputer
 
-## Tools (50 entries)
+## Tools (52 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/tools.md
 - REA: https://github.com/morluto/rea
 - n8n: https://github.com/n8n-io/n8n
@@ -98,6 +99,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Agent-Reach: https://github.com/Panniantong/Agent-Reach
 - Playwright: https://github.com/microsoft/playwright
 - Odysseus: https://github.com/odysseus-dev/odysseus
+- RAGFlow: https://github.com/infiniflow/ragflow
 - Home Assistant: https://github.com/home-assistant/core
 - MCP reference servers: https://github.com/modelcontextprotocol/servers
 - Crawl4AI: https://github.com/unclecode/crawl4ai
@@ -126,6 +128,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - VSCodium: https://github.com/VSCodium/vscodium
 - Cua: https://github.com/trycua/cua
 - OpenShell: https://github.com/ai-openshell/openshell
+- XERJ: https://github.com/xerj-org/xerj
 - json-render: https://github.com/vercel-labs/json-render
 - Coder: https://github.com/coder/coder
 - OpenChamber: https://github.com/openchamber/openchamber
