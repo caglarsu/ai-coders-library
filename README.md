@@ -12,7 +12,7 @@ Paste this into your coding assistant:
 
 > Read https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/llms.txt and the section files it links to that matter for me, then tell me which entries are worth installing for how I work. Ask me what you need to know first.
 
-![A Claude Code session: the user pastes the prompt, Claude asks about their setup, then recommends Superpowers, Playwright, Chrome DevTools MCP, Ollama and gpt-oss-20b with install commands](assets/demo.gif)
+![A Claude Code session: the user pastes the prompt, Claude asks about their setup and recommends Superpowers, Playwright, Chrome DevTools MCP and Ollama with gpt-oss-20b, then installs Superpowers and Playwright when asked](assets/demo.gif)
 
 <sub>A real Claude Code session, shortened.</sub>
 
