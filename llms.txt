@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 152 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 153 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -163,7 +163,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - PocketPal: https://github.com/a-ghorbani/pocketpal-ai
 - ChatterUI: https://github.com/Vali-98/ChatterUI
 
-## App security (14 entries)
+## App security (15 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/app-security.md
 - Security Audit Skill: https://github.com/cloudflare/security-audit-skill
 - Strix: https://github.com/usestrix/strix
@@ -178,6 +178,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - HexStrike AI: https://github.com/0x4m4/hexstrike-ai
 - Opengrep: https://github.com/opengrep/opengrep
 - OpenRASP: https://github.com/baidu/openrasp
+- Comp AI: https://github.com/trycompai/comp
 - DongTai IAST: https://github.com/HXSecurity/DongTai
 
 ## Learning (9 entries)

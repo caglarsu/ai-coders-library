@@ -39,7 +39,7 @@ A user sent you this repo to find out which entries suit them. To answer:
 - [Video creation](#video-creation): code-driven video, AI video pipelines, and the best free video models
 - [Audio](#audio): local speech, voice and music engines, and the best free voice and speech-to-text models
 - [Mobile apps](#mobile-apps): run open models on your phone, offline
-- [App security](#app-security): scanners and AI pentesters for the code your assistant writes
+- [App security](#app-security): scanners and AI pentesters for the code your assistant writes, and compliance automation
 - [Learning](#learning): courses, guides and other curated lists
 - [Workflows](#workflows): repeatable practices that make AI-written code trustworthy
 
@@ -260,6 +260,7 @@ Run the AI pentesters (PentAGI, HexStrike AI, Strix, ARTEX, Claude BugHunter) an
 | [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) | ★ 13.9k | MCP server that lets your AI agent run 150+ security tools for pentesting and bug bounty work. | You want Claude or another MCP client to drive nmap, sqlmap and similar tools for you. | Any MCP client | `git clone https://github.com/0x4m4/hexstrike-ai.git` then `pip install -r requirements.txt` |
 | [Opengrep](https://github.com/opengrep/opengrep) | ★ 3.4k | Open fork of the Semgrep engine for finding security issues in code. | You want Semgrep-style rules with a fully open engine. | 30+ languages, CI | `curl -fsSL https://raw.githubusercontent.com/opengrep/opengrep/main/install.sh \| bash` |
 | [OpenRASP](https://github.com/baidu/openrasp) | ★ 3k | Runtime self-protection agent that blocks attacks from inside the app. Quiet since 2025. | You need in-app attack blocking for a Java or PHP service. | Java, PHP | See the [installation wiki](https://github.com/baidu/openrasp/wiki/Installation) |
+| [Comp AI](https://github.com/trycompai/comp) | ★ 2.1k | Open-source compliance platform, an alternative to Vanta and Drata: AI collects evidence, writes policies and tracks controls for SOC 2, ISO 27001, HIPAA and GDPR. This is the free, self-hosted Community Edition (AGPL); the managed Comp AI Cloud is paid. | You need to get a company compliant and want to self-host the tooling instead of paying for a compliance SaaS. | Self-host; Node 20+, Bun, Postgres | `git clone https://github.com/trycompai/comp.git`, copy the `.env.example` files, then `bun install`, `bun run docker:up`, `bun run db:migrate` and `bun run dev` |
 | [DongTai IAST](https://github.com/HXSecurity/DongTai) | ★ 1.3k | Interactive testing that instruments a running Java app to find vulnerabilities while your tests run. Quiet since 2025. | You have a Java service and want runtime findings during integration tests. | Java | See the repo's deployment guide |
 
 ## Learning
