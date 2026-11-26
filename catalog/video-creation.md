@@ -36,7 +36,7 @@ Install: `pip install manimgl`
 
 ### HyperFrames
 Link: https://github.com/heygen-com/hyperframes
-Stars: ★ 90.5k
+Stars: ★ 90.6k
 What it does: HeyGen's open-source video editor: your agent writes HTML compositions and renders them to MP4.
 Use it when: You want Claude Code or Codex to make promos, explainers or captioned clips from a prompt, a URL or your footage.
 Works with: Claude Code, Codex; Node
@@ -60,7 +60,7 @@ Install: `brew install --cask obs`
 
 ### Remotion
 Link: https://github.com/remotion-dev/remotion
-Stars: ★ 75.8k
+Stars: ★ 75.9k
 What it does: Make videos programmatically with React components.
 Use it when: You know React and want data-driven or templated videos rendered in code or CI. Companies above 3 people need a paid licence.
 Works with: Node, React; agent skills at `remotion-dev/skills`
@@ -76,7 +76,7 @@ Install: `npm install animejs`
 
 ### FFmpeg
 Link: https://github.com/FFmpeg/FFmpeg
-Stars: ★ 68.2k
+Stars: ★ 68.3k
 What it does: The encoder, decoder and filter engine underneath almost every tool here.
 Use it when: Your agent needs to cut, convert, resize, subtitle or stitch video from the command line.
 Works with: Every OS

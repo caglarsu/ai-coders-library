@@ -10,7 +10,7 @@ Install: `npm install -g openclaw@latest` then `openclaw onboard --install-daemo
 
 ### Hermes Agent
 Link: https://github.com/NousResearch/hermes-agent
-Stars: ★ 266.2k
+Stars: ★ 266.3k
 What it does: Nous Research's terminal agent with configurable tools and model providers that learns as you use it.
 Use it when: You want an open-source CLI agent and the freedom to pick your own model.
 Works with: macOS, Linux; many model providers
@@ -18,7 +18,7 @@ Install: `curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash`
 
 ### Paperclip
 Link: https://github.com/paperclipai/paperclip
-Stars: ★ 117.2k
+Stars: ★ 117.3k
 What it does: App for managing a team of AI agents at work: roles, tasks and oversight.
 Use it when: You run several agents on real business work and need to organise them.
 Works with: Claude Code, Codex and others
@@ -42,7 +42,7 @@ Install: `git clone https://github.com/666ghj/MiroFish.git`, `cp .env.example .e
 
 ### career-ops
 Link: https://github.com/career-ops-hq/career-ops
-Stars: ★ 84.9k
+Stars: ★ 85k
 What it does: Job search agent: scans boards, scores each job against your CV, tailors resume and cover letter, tracks applications.
 Use it when: You are job hunting and want your coding assistant to do the legwork. You still press Submit.
 Works with: Claude Code, Codex, OpenCode
@@ -50,7 +50,7 @@ Install: `npx @santifer/career-ops init`
 
 ### Ruflo
 Link: https://github.com/ruvnet/ruflo
-Stars: ★ 82.4k
+Stars: ★ 82.5k
 What it does: Agent harness for Claude Code and Codex: runs swarms of agents on one task, with plugins and an MCP server.
 Use it when: You want several agents to split up and work through a big task together.
 Works with: Claude Code, Codex; Node
@@ -66,7 +66,7 @@ Install: Clone it into a private repo (steps in its README), then run `claude` a
 
 ### DeepTutor
 Link: https://github.com/HKUDS/DeepTutor
-Stars: ★ 63k
+Stars: ★ 63.1k
 What it does: Personal AI tutor: chat about your own documents, solve problems step by step, generate questions, and track what you have learned.
 Use it when: You learn from papers, books or course material and want a tutor that remembers you.
 Works with: Hosted and local models; desktop app (macOS, Windows), Docker or pip
@@ -74,7 +74,7 @@ Install: `docker run --rm -p 127.0.0.1:3782:3782 -v deeptutor-data:/app/data ghc
 
 ### Multica
 Link: https://github.com/multica-ai/multica
-Stars: ★ 58k
+Stars: ★ 58.1k
 What it does: Workspace where you assign issues to coding agents like teammates: they pick up work, report progress, raise blockers and hand it back for review. Apache-2.0 with extra terms: hosting it for others needs a paid licence, and the branding must stay.
 Use it when: You run several agent CLIs and want one board to give them work and track it.
 Works with: Claude Code, Codex and other agent CLIs; desktop app or self-host

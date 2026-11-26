@@ -42,7 +42,7 @@ Start: Read on GitHub
 
 ### Awesome Claude Skills
 Link: https://github.com/ComposioHQ/awesome-claude-skills
-Stars: ★ 80.3k
+Stars: ★ 80.4k
 What it does: Curated list of Claude skills and resources.
 Use it when: You are looking for a skill this library does not list.
 Works with: Claude Code

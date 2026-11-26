@@ -2,7 +2,7 @@
 
 ### DeepSeek Harness
 Link: https://github.com/deepseek-ai/deepseek-harness
-Stars: ★ 287.3k
+Stars: ★ 287.4k
 What it does: DeepSeek's plugin-based agent harness.
 Use it when: You use DeepSeek models and want their official agent.
 Works with: DeepSeek and other providers

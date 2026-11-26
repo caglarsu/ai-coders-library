@@ -2,7 +2,7 @@
 
 ### REA
 Link: https://github.com/morluto/rea
-Stars: ★ 479k
+Stars: ★ 479.3k
 What it does: Reverse engineering with agents, from app behaviour down to native binaries.
 Use it when: You need to understand a binary, app bundle or web app you do not have the source for.
 Works with: Claude Code, Codex and other agents; MCP
@@ -18,7 +18,7 @@ Install: `docker run -it --rm -p 5678:5678 docker.n8n.io/n8nio/n8n`
 
 ### Firecrawl
 Link: https://github.com/firecrawl/firecrawl
-Stars: ★ 210.5k
+Stars: ★ 210.6k
 What it does: Search, scrape and crawl the web into clean data for agents. AGPL; self-hosting is free, the hosted API is paid.
 Use it when: Your agent needs reliable web pages, search results or site crawls as input.
 Works with: Any agent; CLI, API, MCP
@@ -26,7 +26,7 @@ Install: `npx -y firecrawl-cli@latest scrape https://example.com`
 
 ### MarkItDown
 Link: https://github.com/microsoft/markitdown
-Stars: ★ 198.5k
+Stars: ★ 198.6k
 What it does: Converts PDF, Word, PowerPoint, Excel and more to Markdown for LLMs.
 Use it when: You need to feed office documents to an agent.
 Works with: Python; MCP
@@ -66,7 +66,7 @@ Install: `brew install --cask cc-switch`
 
 ### Orca
 Link: https://github.com/stablyai/orca
-Stars: ★ 139.3k
+Stars: ★ 139.7k
 What it does: Runs a fleet of agents on your own subscriptions, on desktop, mobile or a remote runtime.
 Use it when: You want many agents working in parallel without paying for API usage.
 Works with: Claude Code, Codex, Grok and others
@@ -186,27 +186,27 @@ Install: `/plugin marketplace add hugohe3/ppt-master`, then `/plugin install ppt
 
 ### T3 Code
 Link: https://github.com/pingdotgg/t3code
-Stars: ★ 80.2k
+Stars: ★ 80.4k
 What it does: Control Claude Code, Codex and other agents from any computer or phone.
 Use it when: You want to check on or steer your agents when you are away from your desk.
 Works with: Claude Code, Codex
 Install: `curl -fsSL https://t3.codes/install.sh | sh`
 
-### CodeGraph
-Link: https://github.com/colbymchenry/codegraph
-Stars: ★ 78.7k
-What it does: Pre-indexed code knowledge graph that stays in sync with your code.
-Use it when: Your agent spends many turns searching a large codebase.
-Works with: Claude Code, Codex, Gemini, Cursor, OpenCode and others
-Install: `npm i -g @colbymchenry/codegraph`
-
 ### AFFiNE
 Link: https://github.com/toeverything/AFFiNE
-Stars: ★ 78.7k
+Stars: ★ 78.8k
 What it does: Local-first, open-source alternative to Notion and Miro: docs, whiteboards and databases in one place, with built-in AI. The server code is under an enterprise licence; the rest is MIT.
 Use it when: You want notes and planning boards that stay on your own disk, or a self-hosted workspace.
 Works with: macOS, Windows, Linux, web; self-host
 Install: Desktop app from affine.pro/download
+
+### CodeGraph
+Link: https://github.com/colbymchenry/codegraph
+Stars: ★ 78.8k
+What it does: Pre-indexed code knowledge graph that stays in sync with your code.
+Use it when: Your agent spends many turns searching a large codebase.
+Works with: Claude Code, Codex, Gemini, Cursor, OpenCode and others
+Install: `npm i -g @colbymchenry/codegraph`
 
 ### oh-my-openagent
 Link: https://github.com/code-yeongyu/oh-my-openagent
@@ -242,7 +242,7 @@ Install: `npx ctx7 setup`
 
 ### LiteLLM
 Link: https://github.com/BerriAI/litellm
-Stars: ★ 63.9k
+Stars: ★ 64k
 What it does: AI gateway: call 100+ model APIs in one format, with cost tracking and fallbacks.
 Use it when: Your app or team uses several model providers.
 Works with: Python SDK, proxy server
@@ -290,7 +290,7 @@ Install: `npm install -g agent-browser`
 
 ### colibri
 Link: https://github.com/JustVugg/colibri
-Stars: ★ 53.5k
+Stars: ★ 53.6k
 What it does: Inference engine in C for large MoE models: hot experts on GPU, warm in RAM, cold streamed from NVMe.
 Use it when: You want to run a frontier open-weights model locally on hardware that cannot hold it in VRAM.
 Works with: CUDA, Vulkan, macOS
@@ -306,7 +306,7 @@ Install: `brew install herdr` or `curl -fsSL https://herdr.dev/install.sh | sh`,
 
 ### Tailscale
 Link: https://github.com/tailscale/tailscale
-Stars: ★ 39.6k
+Stars: ★ 39.7k
 What it does: WireGuard mesh VPN: each device gets a private address, with no ports opened on your router. The client is open source; the coordination server is Tailscale's, with a free personal plan.
 Use it when: You want to reach your home LLM box, Open WebUI or agents from your laptop or phone, from anywhere.
 Works with: macOS, Windows, Linux, iOS, Android

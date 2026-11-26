@@ -108,8 +108,8 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Headroom: https://github.com/headroomlabs-ai/headroom
 - PPT Master: https://github.com/hugohe3/ppt-master
 - T3 Code: https://github.com/pingdotgg/t3code
-- CodeGraph: https://github.com/colbymchenry/codegraph
 - AFFiNE: https://github.com/toeverything/AFFiNE
+- CodeGraph: https://github.com/colbymchenry/codegraph
 - oh-my-openagent: https://github.com/code-yeongyu/oh-my-openagent
 - Docling: https://github.com/docling-project/docling
 - Mem0: https://github.com/mem0ai/mem0
