@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 153 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 154 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -61,13 +61,14 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - hyperresearch: https://github.com/jordan-gibbs/hyperresearch
 - motionmaxxing: https://github.com/Tejashmakwana/motionmaxxing
 
-## Agents (6 entries)
+## Agents (7 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/agents.md
 - OpenClaw: https://github.com/openclaw/openclaw
 - Hermes Agent: https://github.com/NousResearch/hermes-agent
 - Paperclip: https://github.com/paperclipai/paperclip
 - MiroFish: https://github.com/666ghj/MiroFish
 - career-ops: https://github.com/career-ops-hq/career-ops
+- Comp AI CRM: https://github.com/trycompai/crm
 - Cloudflare OS: https://github.com/cloudflare/cloudflare-os
 
 ## Tools (46 entries)

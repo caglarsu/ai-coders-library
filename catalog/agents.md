@@ -40,6 +40,14 @@ Use it when: You are job hunting and want your coding assistant to do the legwor
 Works with: Claude Code, Codex, OpenCode
 Install: `npx @santifer/career-ops init`
 
+### Comp AI CRM
+Link: https://github.com/trycompai/crm
+Stars: ★ 12.3k
+What it does: Agent-first CRM from the Comp AI team: an agent runs on its own schedule, researches contacts and companies, and writes only facts it has evidence for; weak evidence becomes a suggestion for a person to confirm. Works with no data-vendor keys, using your own emails and meetings.
+Use it when: You want a self-hosted CRM where an agent keeps records up to date instead of your sales team.
+Works with: Self-host on Bun, Postgres and Docker; built for Vercel (AI Gateway, Sandbox)
+Install: `git clone https://github.com/trycompai/crm.git && cd crm`, `cp .env.example .env`, `bun install`, `docker compose up -d`, `bun run db:deploy`, then `bun run dev`
+
 ### Cloudflare OS
 Link: https://github.com/cloudflare/cloudflare-os
 Stars: ★ 11.9k
