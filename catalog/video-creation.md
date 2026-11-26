@@ -36,7 +36,7 @@ Install: `pip install manimgl`
 
 ### HyperFrames
 Link: https://github.com/heygen-com/hyperframes
-Stars: ★ 90.6k
+Stars: ★ 90.7k
 What it does: HeyGen's open-source video editor: your agent writes HTML compositions and renders them to MP4.
 Use it when: You want Claude Code or Codex to make promos, explainers or captioned clips from a prompt, a URL or your footage.
 Works with: Claude Code, Codex; Node
@@ -44,7 +44,7 @@ Install: `npx skills add heygen-com/hyperframes`, then `npx hyperframes init my-
 
 ### OpenMontage
 Link: https://github.com/OpenMontageInc/OpenMontage
-Stars: ★ 83.5k
+Stars: ★ 83.6k
 What it does: Agentic video production system with production pipelines, tools and agent skills. AGPL.
 Use it when: You want an agent to run a whole production: script, assets, edit, render.
 Works with: Claude Code and other agents
@@ -84,7 +84,7 @@ Install: `brew install ffmpeg`
 
 ### LosslessCut
 Link: https://github.com/mifi/lossless-cut
-Stars: ★ 46.4k
+Stars: ★ 46.5k
 What it does: Trims and splits video without re-encoding, so it is instant and keeps full quality.
 Use it when: You need to cut a long recording into clips quickly.
 Works with: macOS, Windows, Linux
@@ -92,7 +92,7 @@ Install: `brew install --cask losslesscut`
 
 ### Pixelle-Video
 Link: https://github.com/ATH-MaaS/Pixelle-Video
-Stars: ★ 30.5k
+Stars: ★ 30.6k
 What it does: Fully automated short-video engine with AI-generated visuals.
 Use it when: You want topic-to-video like MoneyPrinterTurbo but with generated images and clips instead of stock footage.
 Works with: Python, FFmpeg, ComfyUI

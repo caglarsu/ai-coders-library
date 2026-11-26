@@ -66,7 +66,7 @@ Install: Clone it into a private repo (steps in its README), then run `claude` a
 
 ### DeepTutor
 Link: https://github.com/HKUDS/DeepTutor
-Stars: ★ 63.1k
+Stars: ★ 63.2k
 What it does: Personal AI tutor: chat about your own documents, solve problems step by step, generate questions, and track what you have learned.
 Use it when: You learn from papers, books or course material and want a tutor that remembers you.
 Works with: Hosted and local models; desktop app (macOS, Windows), Docker or pip

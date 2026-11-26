@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 173 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 182 curated skills, tools, agents, models and workflows for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -106,8 +106,8 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - RTK: https://github.com/rtk-ai/rtk
 - screenshot-to-code: https://github.com/abi/screenshot-to-code
 - Headroom: https://github.com/headroomlabs-ai/headroom
-- PPT Master: https://github.com/hugohe3/ppt-master
 - T3 Code: https://github.com/pingdotgg/t3code
+- PPT Master: https://github.com/hugohe3/ppt-master
 - AFFiNE: https://github.com/toeverything/AFFiNE
 - CodeGraph: https://github.com/colbymchenry/codegraph
 - oh-my-openagent: https://github.com/code-yeongyu/oh-my-openagent
@@ -181,7 +181,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - PocketPal: https://github.com/a-ghorbani/pocketpal-ai
 - ChatterUI: https://github.com/Vali-98/ChatterUI
 
-## App security (16 entries)
+## App security (17 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/app-security.md
 - Security Audit Skill: https://github.com/cloudflare/security-audit-skill
 - Strix: https://github.com/usestrix/strix
@@ -195,6 +195,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Semgrep: https://github.com/semgrep/semgrep
 - ZAP: https://github.com/zaproxy/zaproxy
 - HexStrike AI: https://github.com/0x4m4/hexstrike-ai
+- BLA: https://github.com/qybaihe/bla
 - Opengrep: https://github.com/opengrep/opengrep
 - OpenRASP: https://github.com/baidu/openrasp
 - Comp AI: https://github.com/trycompai/comp
@@ -206,9 +207,20 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Awesome MCP Servers: https://github.com/punkpeye/awesome-mcp-servers
 - AI Agents for Beginners: https://github.com/microsoft/ai-agents-for-beginners
 - Learn Claude Code: https://github.com/shareAI-lab/learn-claude-code
+- AI Engineering from Scratch: https://github.com/rohitg00/ai-engineering-from-scratch
 - Prompt Engineering Guide: https://github.com/dair-ai/Prompt-Engineering-Guide
 - Awesome Claude Skills: https://github.com/ComposioHQ/awesome-claude-skills
-- AI Engineering from Scratch: https://github.com/rohitg00/ai-engineering-from-scratch
 - Claude Code Best Practice: https://github.com/shanraisshan/claude-code-best-practice
 - Awesome Claude Code: https://github.com/hesreallyhim/awesome-claude-code
 - Claude Cookbooks: https://github.com/anthropics/claude-cookbooks
+
+## Workflows (8 entries)
+Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/workflows.md
+- Spec first, build in a fresh session: https://code.claude.com/docs/en/best-practices
+- A short instruction file: https://agents.md
+- One small task, then commit: https://addyosmani.com/blog/ai-coding-workflow/
+- Red/green TDD: https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/
+- Give it a check and ask for evidence: https://code.claude.com/docs/en/best-practices
+- Review in a fresh context, against the spec: https://code.claude.com/docs/en/best-practices
+- Parallel agents in git worktrees: https://code.claude.com/docs/en/common-workflows
+- Hard rules in hooks, not prompts: https://code.claude.com/docs/en/best-practices

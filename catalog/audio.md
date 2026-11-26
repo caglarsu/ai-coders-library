@@ -4,7 +4,7 @@ Local speech, voice and music: engines that run audio models, and the best free 
 
 ### VoiceStudio
 Link: https://github.com/debpalash/VoiceStudio
-Stars: ★ 118.7k
+Stars: ★ 118.8k
 What it does: Fully local voice cloning, voice design and video dubbing. AGPL.
 Use it when: Your video needs a voiceover or dub and you do not want to send audio to a cloud API. Clone only voices you have consent for.
 Works with: macOS, Linux, Windows
@@ -20,7 +20,7 @@ Install: Download from voicebox.sh
 
 ### whisper.cpp
 Link: https://github.com/ggml-org/whisper.cpp
-Stars: ★ 55.5k
+Stars: ★ 55.6k
 What it does: Local speech-to-text: OpenAI's Whisper models in C/C++, fast on CPU and Apple silicon, no Python.
 Use it when: You need transcripts or subtitles from recordings without sending audio to a cloud API. Pair it with Whisper small below.
 Works with: macOS, Linux, Windows; CPU, Metal, CUDA, Vulkan

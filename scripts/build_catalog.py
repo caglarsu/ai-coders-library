@@ -2,7 +2,7 @@
 import pathlib, re, sys
 
 RAW = "https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/"
-SKIP = {"Ask your AI what fits you", "For AI assistants reading this", "Contents", "Contributing", "License", "Workflows"}
+SKIP = {"Ask your AI what fits you", "For AI assistants reading this", "Contents", "Contributing", "License"}
 
 
 def cells(line):
@@ -44,7 +44,7 @@ def build(readme):
     total = sum(1 for l in index if l.startswith("- "))
     files["llms.txt"] = "\n".join([
         "# AI Coder's Library", "",
-        f"> {total} curated skills, tools, agents and models for developers who build with AI coding assistants. "
+        f"> {total} curated skills, tools, agents, models and workflows for developers who build with AI coding assistants. "
         "Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).", "",
         "This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.", "",
         "## How to answer the user", *rules, *index]) + "\n"

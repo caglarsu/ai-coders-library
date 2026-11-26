@@ -4,7 +4,7 @@ Run the AI pentesters (PentAGI, HexStrike AI, Strix, ARTEX, Claude BugHunter) an
 
 ### Security Audit Skill
 Link: https://github.com/cloudflare/security-audit-skill
-Stars: ★ 78.6k
+Stars: ★ 78.7k
 What it does: Cloudflare's skill for multi-phase security audits with independently verified, machine-readable findings.
 Use it when: You want your agent to audit your own code with fewer false positives.
 Works with: Claude Code and other agents
@@ -52,7 +52,7 @@ Install: `brew install nuclei`
 
 ### Claude BugHunter
 Link: https://github.com/elementalsouls/Claude-BugHunter
-Stars: ★ 23.9k
+Stars: ★ 24.2k
 What it does: 84 skills and 15 commands for bug hunting and red-team work, built from 681 disclosed reports.
 Use it when: You do authorised bug bounty or red-team work with Claude Code.
 Works with: Claude Code
@@ -68,7 +68,7 @@ Install: `docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framewor
 
 ### ARTEX
 Link: https://github.com/BaaRai/ARTEX
-Stars: ★ 21.7k
+Stars: ★ 21.9k
 What it does: Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL.
 Use it when: You want an autonomous pentest of your own systems with proof for every finding.
 Works with: Docker; any model provider
@@ -97,6 +97,14 @@ What it does: MCP server that lets your AI agent run 150+ security tools for pen
 Use it when: You want Claude or another MCP client to drive nmap, sqlmap and similar tools for you.
 Works with: Any MCP client
 Install: `git clone https://github.com/0x4m4/hexstrike-ai.git` then `pip install -r requirements.txt`
+
+### BLA
+Link: https://github.com/qybaihe/bla
+Stars: ★ 7k
+What it does: MCP server and CLI that hardens release builds (JS/TS bundles, Electron ASAR, WASM, Python, native binaries, model files) against AI reverse-engineering agents with decoys and obfuscation. Launched October 2026; its benchmarks are the authors' own.
+Use it when: You ship closed-source builds and want AI agents to struggle to clone your logic. Run your own tests on the hardened output before shipping.
+Works with: Claude Code, Codex, Cursor and any MCP client; Node 22+
+Install: `npx bla-agents harden .`, then `--apply` to replace the build
 
 ### Opengrep
 Link: https://github.com/opengrep/opengrep
