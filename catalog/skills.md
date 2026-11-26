@@ -2,7 +2,7 @@
 
 ### Matt Pocock's skills
 Link: https://github.com/mattpocock/skills
-Stars: ★ 332.9k
+Stars: ★ 333.2k
 What it does: Matt Pocock's own engineering skills, straight from his agent setup.
 Use it when: You want battle-tested everyday skills from a well-known TypeScript educator.
 Works with: Claude Code, Codex
@@ -10,7 +10,7 @@ Install: `claude plugin install mattpocock-skills@claude-plugins-official`
 
 ### Superpowers
 Link: https://github.com/obra/superpowers
-Stars: ★ 326.6k
+Stars: ★ 327k
 What it does: Skills framework that makes the agent brainstorm, plan, write tests first, debug systematically and verify before claiming done.
 Use it when: Your assistant jumps straight to code, skips tests, or says "fixed" without checking.
 Works with: Claude Code, Codex, Gemini CLI, OpenCode, Cursor
@@ -18,7 +18,7 @@ Install: `/plugin install superpowers@claude-plugins-official`
 
 ### ECC
 Link: https://github.com/affaan-m/ECC
-Stars: ★ 310.8k
+Stars: ★ 311k
 What it does: Agent harness pack: skills, instincts, memory, security checks and research-first development.
 Use it when: You want one install that tunes your whole agent setup rather than single skills.
 Works with: Claude Code, Codex, OpenCode, Cursor
@@ -26,7 +26,7 @@ Install: `npx ecc-universal@2.2.3 setup`
 
 ### Karpathy Skills
 Link: https://github.com/multica-ai/andrej-karpathy-skills
-Stars: ★ 235.7k
+Stars: ★ 235.8k
 What it does: One CLAUDE.md that counters the LLM coding pitfalls Andrej Karpathy described.
 Use it when: You want a single drop-in file that makes the agent more careful.
 Works with: Claude Code and any agent that reads CLAUDE.md
@@ -34,7 +34,7 @@ Install: `curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andre
 
 ### Anthropic Skills
 Link: https://github.com/anthropics/skills
-Stars: ★ 200.6k
+Stars: ★ 200.8k
 What it does: Anthropic's official agent skills: documents, design, testing and more, plus examples to copy.
 Use it when: You want the reference skills, or a template for writing your own.
 Works with: Claude Code, Claude apps, API
@@ -42,7 +42,7 @@ Install: `/plugin marketplace add anthropics/skills`
 
 ### Ponytail
 Link: https://github.com/DietrichGebert/ponytail
-Stars: ★ 198.8k
+Stars: ★ 199k
 What it does: Makes the agent take the simplest solution that works: stdlib before dependencies, one line before fifty.
 Use it when: Your assistant over-engineers: extra abstractions, new dependencies, boilerplate "for later".
 Works with: Claude Code, Codex
@@ -50,7 +50,7 @@ Install: `/plugin marketplace add DietrichGebert/ponytail` then `/plugin install
 
 ### UI UX Pro Max
 Link: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
-Stars: ★ 154.2k
+Stars: ★ 154.4k
 What it does: Design intelligence skill for professional UI across web and mobile.
 Use it when: Your agent's interfaces look amateur and you want design rules applied.
 Works with: Claude Code and other agents
@@ -58,7 +58,7 @@ Install: `/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill` then `/p
 
 ### Graphify
 Link: https://github.com/Graphify-Labs/graphify
-Stars: ★ 153.4k
+Stars: ★ 153.6k
 What it does: Turns a codebase, docs, SQL schemas and PDFs into a queryable knowledge graph using local AST parsing, no vector store.
 Use it when: Your repo is large and the agent burns tokens grepping and reading files to find its way.
 Works with: Claude Code, Cursor, Codex, Gemini CLI
@@ -90,7 +90,7 @@ Install: Copy a DESIGN.md into your project
 
 ### Caveman
 Link: https://github.com/JuliusBrussee/caveman
-Stars: ★ 122.9k
+Stars: ★ 123k
 What it does: Skill and local proxy for shorter answers and smaller tool output, with every original recoverable.
 Use it when: You want to cut token spend and wordy replies.
 Works with: Claude Code, Codex and other agents
@@ -98,7 +98,7 @@ Install: `npx skills add JuliusBrussee/caveman -g`
 
 ### Taste Skill
 Link: https://github.com/Leonxlnx/taste-skill
-Stars: ★ 121.6k
+Stars: ★ 121.8k
 What it does: Gives agents design taste: art direction, reference images and a browser check.
 Use it when: You want pages that do not look like generic AI output.
 Works with: Claude Code and other agents
@@ -106,7 +106,7 @@ Install: `/plugin marketplace add Leonxlnx/taste-skill` then `/plugin install ta
 
 ### Addy Osmani's agent skills
 Link: https://github.com/addyosmani/agent-skills
-Stars: ★ 120.4k
+Stars: ★ 120.5k
 What it does: 26 production-grade engineering skills, such as code review, testing and performance.
 Use it when: You want a broad, well-maintained set of engineering habits for your agent.
 Works with: Claude Code, Codex, Cursor and others
@@ -114,7 +114,7 @@ Install: `npx skills add addyosmani/agent-skills`
 
 ### Impeccable
 Link: https://github.com/pbakaus/impeccable
-Stars: ★ 116.9k
+Stars: ★ 117.2k
 What it does: Design vocabulary for your agent: commands to polish, critique and audit UI, and a detector for AI-slop design.
 Use it when: Your agent builds UI that looks generic and you want it to look designed.
 Works with: Claude Code and other agents; Chrome or Edge for page scans
@@ -122,7 +122,7 @@ Install: `npx impeccable install`
 
 ### Archify
 Link: https://github.com/tt-a1i/archify
-Stars: ★ 99.9k
+Stars: ★ 100.2k
 What it does: Turns an idea, plan or codebase into a validated interactive architecture diagram.
 Use it when: You need architecture, sequence or data-flow diagrams that are checked before you see them.
 Works with: Claude Code, Codex, Cursor, OpenCode, Copilot
@@ -138,7 +138,7 @@ Install: `/plugin marketplace add Egonex-AI/Understand-Anything` then `/plugin i
 
 ### OpenSpec
 Link: https://github.com/Fission-AI/OpenSpec
-Stars: ★ 75.7k
+Stars: ★ 75.8k
 What it does: Lightweight spec-driven development for AI coding assistants.
 Use it when: You want specs and change proposals without a heavy process.
 Works with: Claude Code, Cursor, Codex and others
@@ -146,7 +146,7 @@ Install: `npm install -g @fission-ai/openspec@latest`
 
 ### last30days
 Link: https://github.com/mvanhorn/last30days-skill
-Stars: ★ 75.1k
+Stars: ★ 75.4k
 What it does: Researches a topic across Reddit, X, YouTube, Hacker News, Polymarket and the web, then writes a grounded summary.
 Use it when: You need to know what people are saying about a tool or topic right now.
 Works with: Claude Code and other agents
@@ -154,7 +154,7 @@ Install: `/plugin marketplace add mvanhorn/last30days-skill` then `/plugin insta
 
 ### Humanizer
 Link: https://github.com/blader/humanizer
-Stars: ★ 73.6k
+Stars: ★ 73.8k
 What it does: Removes the tell-tale signs of AI-generated writing from text.
 Use it when: Your docs, posts or emails read like a chatbot wrote them.
 Works with: Claude Code, Codex and others
@@ -162,7 +162,7 @@ Install: `/plugin marketplace add blader/humanizer` then `/plugin install humani
 
 ### Diagram Design
 Link: https://github.com/cathrynlavery/diagram-design
-Stars: ★ 73.1k
+Stars: ★ 73.5k
 What it does: 52 editorial diagram types as self-contained HTML and SVG, styled to match your site.
 Use it when: You want diagrams for docs or a blog that look like they belong there, not like Mermaid.
 Works with: Claude Code, Codex, Copilot, Cursor and others
@@ -170,7 +170,7 @@ Install: `npx skills add cathrynlavery/diagram-design`
 
 ### CLI-Anything
 Link: https://github.com/HKUDS/CLI-Anything
-Stars: ★ 65.7k
+Stars: ★ 66k
 What it does: Generates agent-friendly CLIs for desktop software (CAD, 3D, office, media) and hosts a hub of community-built ones.
 Use it when: You want your agent to drive an app that has no API or CLI of its own.
 Works with: Claude Code, any agent that runs shell commands
@@ -186,7 +186,7 @@ Install: `npx skills add coreyhaines31/marketingskills`
 
 ### i-have-adhd
 Link: https://github.com/ayghri/i-have-adhd
-Stars: ★ 62.4k
+Stars: ★ 62.5k
 What it does: Makes the agent lead with the next action, number steps and stop burying the answer.
 Use it when: Long agent replies lose you, or you want answers you can act on at a glance.
 Works with: Claude Code and other agents
@@ -194,7 +194,7 @@ Install: `claude plugin marketplace add ayghri/i-have-adhd` then `claude plugin 
 
 ### Hallmark
 Link: https://github.com/Nutlope/hallmark
-Stars: ★ 61.1k
+Stars: ★ 61.3k
 What it does: Design skill from Together AI that keeps pages from looking AI-generated: 50 themes, layouts built around what the visitor came to do, and checks for contrast, focus, motion and phone layout in a real browser.
 Use it when: Your agent builds landing pages or UIs that all look the same.
 Works with: Claude Code, Codex, Cursor, OpenCode; Node 18+
@@ -202,7 +202,7 @@ Install: `npx skills add nutlope/hallmark -g`, or in Claude Code `/plugin market
 
 ### Emil Kowalski's skills
 Link: https://github.com/emilkowalski/skills
-Stars: ★ 59.6k
+Stars: ★ 59.8k
 What it does: UI and animation skills from a designer-engineer who worked at Vercel and Linear: they list the small mistakes agents make, like the wrong easing or a solid border where a soft shadow belongs, and how to fix them.
 Use it when: You want animations and interface details that feel right, not just work.
 Works with: Claude Code, Codex, Cursor and other agents that read skills
@@ -242,7 +242,7 @@ Install: `claude plugin marketplace add obsidianmd/obsidian-skills` then `claude
 
 ### Get Shit Done
 Link: https://github.com/open-gsd/gsd-core
-Stars: ★ 11.8k
+Stars: ★ 11.9k
 What it does: Meta-prompting, context engineering and spec-driven development system, now maintained as GSD Core.
 Use it when: You want structure for long agent projects without much ceremony.
 Works with: Claude Code, OpenCode, Codex, Cursor, Copilot and more
@@ -250,7 +250,7 @@ Install: `npx @opengsd/gsd-core@latest`
 
 ### rust-anything
 Link: https://github.com/erkamyaman/rust-anything
-Stars: ★ 9.6k
+Stars: ★ 9.8k
 What it does: Rewrites an app in Rust one piece at a time, checking each step against the original's recorded behaviour.
 Use it when: You want to port a TypeScript or Python CLI, server or library to Rust without breaking it.
 Works with: Claude Code; Rust toolchain
@@ -258,7 +258,7 @@ Install: `cargo install rust-anything`
 
 ### OpenFilm
 Link: https://github.com/openfilm/openfilm
-Stars: ★ 9.4k
+Stars: ★ 9.5k
 What it does: Open-source AI video agent: your coding agent finds footage, music and voices, writes each shot and cuts the film while you watch, and you can point at anything or edit it by hand.
 Use it when: You want an agent to make a whole video and then change it yourself on a timeline.
 Works with: Claude Code, Codex; desktop app for macOS and Windows
@@ -266,7 +266,7 @@ Install: `npx skills add openfilm/openfilm` (Node 22.2+, ffmpeg), or the desktop
 
 ### App Store Compliance
 Link: https://github.com/mjmirza/app-store-compliance
-Stars: ★ 6.5k
+Stars: ★ 6.7k
 What it does: Pre-submission guard with 124 documented App Store and Google Play rejection patterns and fixes. Free under $20M yearly revenue.
 Use it when: You are about to submit a mobile app and want to avoid a rejection.
 Works with: Any agent that reads files

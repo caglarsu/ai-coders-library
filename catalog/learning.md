@@ -50,7 +50,7 @@ Start: Read on GitHub
 
 ### AI Engineering from Scratch
 Link: https://github.com/rohitg00/ai-engineering-from-scratch
-Stars: ★ 80.1k
+Stars: ★ 80.3k
 What it does: 542 lessons in 20 phases: build model internals, retrieval pipelines and agent runtimes yourself, in Python, TypeScript, Rust, Julia and Go.
 Use it when: You want to understand AI engineering by building it, not just calling APIs.
 Works with: Website, your coding agent, or local code
@@ -74,7 +74,7 @@ Start: Read on GitHub
 
 ### Claude Cookbooks
 Link: https://github.com/anthropics/claude-cookbooks
-Stars: ★ 55.2k
+Stars: ★ 55.3k
 What it does: Anthropic's notebooks and recipes for using Claude.
 Use it when: You build with the Claude API and want working examples.
 Works with: Python, Claude API
