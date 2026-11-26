@@ -4,7 +4,7 @@ Run the AI pentesters (PentAGI, HexStrike AI, Strix, ARTEX, Claude BugHunter) an
 
 ### Security Audit Skill
 Link: https://github.com/cloudflare/security-audit-skill
-Stars: ★ 78.3k
+Stars: ★ 78.4k
 What it does: Cloudflare's skill for multi-phase security audits with independently verified, machine-readable findings.
 Use it when: You want your agent to audit your own code with fewer false positives.
 Works with: Claude Code and other agents
@@ -20,7 +20,7 @@ Install: `curl -sSL https://strix.ai/install | bash`, then `strix --target ./app
 
 ### Trivy
 Link: https://github.com/aquasecurity/trivy
-Stars: ★ 39.7k
+Stars: ★ 39.8k
 What it does: Finds vulnerable dependencies, misconfigurations and leaked secrets in repos, containers, Kubernetes and IaC; generates SBOMs.
 Use it when: Your assistant adds dependencies or writes Dockerfiles and Terraform, and you want them checked.
 Works with: Repos, images, K8s, IaC, CI
@@ -44,7 +44,7 @@ Install: `brew install nuclei`
 
 ### Claude BugHunter
 Link: https://github.com/elementalsouls/Claude-BugHunter
-Stars: ★ 22.7k
+Stars: ★ 23.1k
 What it does: 84 skills and 15 commands for bug hunting and red-team work, built from 681 disclosed reports.
 Use it when: You do authorised bug bounty or red-team work with Claude Code.
 Works with: Claude Code
@@ -60,7 +60,7 @@ Install: `docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framewor
 
 ### ARTEX
 Link: https://github.com/BaaRai/ARTEX
-Stars: ★ 20.5k
+Stars: ★ 20.8k
 What it does: Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL.
 Use it when: You want an autonomous pentest of your own systems with proof for every finding.
 Works with: Docker; any model provider
@@ -68,7 +68,7 @@ Install: `git clone https://github.com/BaaRai/ARTEX.git` then `docker compose up
 
 ### Semgrep
 Link: https://github.com/semgrep/semgrep
-Stars: ★ 17.9k
+Stars: ★ 18k
 What it does: Fast static analysis with rules that look like the code they match.
 Use it when: You want a pre-merge check on AI-written code, or to hunt every variant of a bug you just fixed.
 Works with: 30+ languages, CI

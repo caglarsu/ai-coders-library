@@ -2,7 +2,7 @@
 
 ### REA
 Link: https://github.com/morluto/rea
-Stars: ★ 478.2k
+Stars: ★ 478.5k
 What it does: Reverse engineering with agents, from app behaviour down to native binaries.
 Use it when: You need to understand a binary, app bundle or web app you do not have the source for.
 Works with: Claude Code, Codex and other agents; MCP
@@ -10,7 +10,7 @@ Install: `npx rea-agents setup`
 
 ### n8n
 Link: https://github.com/n8n-io/n8n
-Stars: ★ 212.1k
+Stars: ★ 212.2k
 What it does: Workflow automation with native AI steps and 400+ integrations. Fair-code licence: free to self-host for your own use.
 Use it when: You want to wire AI into business workflows visually.
 Works with: Self-host or cloud
@@ -18,7 +18,7 @@ Install: `docker run -it --rm -p 5678:5678 docker.n8n.io/n8nio/n8n`
 
 ### Firecrawl
 Link: https://github.com/firecrawl/firecrawl
-Stars: ★ 209.8k
+Stars: ★ 210.1k
 What it does: Search, scrape and crawl the web into clean data for agents. AGPL; self-hosting is free, the hosted API is paid.
 Use it when: Your agent needs reliable web pages, search results or site crawls as input.
 Works with: Any agent; CLI, API, MCP
@@ -26,7 +26,7 @@ Install: `npx -y firecrawl-cli@latest scrape https://example.com`
 
 ### MarkItDown
 Link: https://github.com/microsoft/markitdown
-Stars: ★ 198.4k
+Stars: ★ 198.5k
 What it does: Converts PDF, Word, PowerPoint, Excel and more to Markdown for LLMs.
 Use it when: You need to feed office documents to an agent.
 Works with: Python; MCP
@@ -50,7 +50,7 @@ Install: Clone, then `docker compose up -d` in `docker/`
 
 ### Open WebUI
 Link: https://github.com/open-webui/open-webui
-Stars: ★ 159.5k
+Stars: ★ 159.6k
 What it does: Self-hosted chat interface for Ollama and any OpenAI-compatible API, with document chat, web search and multi-user accounts. Its licence requires keeping the "Open WebUI" branding above 50 users.
 Use it when: You want a ChatGPT-style front end for your local models, for yourself or a team.
 Works with: Ollama, llama.cpp server, vLLM, LiteLLM and other OpenAI-compatible APIs; Docker or pip
@@ -58,7 +58,7 @@ Install: `docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gatewa
 
 ### CC Switch
 Link: https://github.com/farion1231/cc-switch
-Stars: ★ 157.1k
+Stars: ★ 157.2k
 What it does: Desktop app to manage providers, MCP servers and skills across Claude Code, Codex, OpenCode and others.
 Use it when: You switch between agents or model providers often.
 Works with: macOS, Windows, Linux
@@ -66,7 +66,7 @@ Install: `brew install --cask cc-switch`
 
 ### Orca
 Link: https://github.com/stablyai/orca
-Stars: ★ 137.7k
+Stars: ★ 138.1k
 What it does: Runs a fleet of agents on your own subscriptions, on desktop, mobile or a remote runtime.
 Use it when: You want many agents working in parallel without paying for API usage.
 Works with: Claude Code, Codex, Grok and others
@@ -90,7 +90,7 @@ Install: `pip install browser-use`
 
 ### claude-mem
 Link: https://github.com/thedotmack/claude-mem
-Stars: ★ 119.7k
+Stars: ★ 119.8k
 What it does: Captures what your agent does, compresses it, and brings the relevant parts back next session.
 Use it when: Your agent forgets everything between sessions.
 Works with: Claude Code and other agents
@@ -122,7 +122,7 @@ Install: Home Assistant OS or Docker, following home-assistant.io/installation
 
 ### MCP reference servers
 Link: https://github.com/modelcontextprotocol/servers
-Stars: ★ 92.2k
+Stars: ★ 92.3k
 What it does: Official reference MCP servers: filesystem, git, memory, fetch and more.
 Use it when: You want trusted basic MCP servers, or examples for writing your own.
 Works with: Any MCP client
@@ -154,7 +154,7 @@ Install: See its README
 
 ### Headroom
 Link: https://github.com/headroomlabs-ai/headroom
-Stars: ★ 80.8k
+Stars: ★ 80.9k
 What it does: Compresses tool output, logs, files and RAG chunks before they reach the model.
 Use it when: You want fewer tokens per agent turn without losing accuracy.
 Works with: Python; coding agents
@@ -162,7 +162,7 @@ Install: `pip install headroom-ai`
 
 ### T3 Code
 Link: https://github.com/pingdotgg/t3code
-Stars: ★ 79.2k
+Stars: ★ 79.5k
 What it does: Control Claude Code, Codex and other agents from any computer or phone.
 Use it when: You want to check on or steer your agents when you are away from your desk.
 Works with: Claude Code, Codex
@@ -178,7 +178,7 @@ Install: `npm i -g @colbymchenry/codegraph`
 
 ### AFFiNE
 Link: https://github.com/toeverything/AFFiNE
-Stars: ★ 78.4k
+Stars: ★ 78.5k
 What it does: Local-first, open-source alternative to Notion and Miro: docs, whiteboards and databases in one place, with built-in AI. The server code is under an enterprise licence; the rest is MIT.
 Use it when: You want notes and planning boards that stay on your own disk, or a self-hosted workspace.
 Works with: macOS, Windows, Linux, web; self-host
@@ -186,7 +186,7 @@ Install: Desktop app from affine.pro/download
 
 ### Docling
 Link: https://github.com/docling-project/docling
-Stars: ★ 71k
+Stars: ★ 71.1k
 What it does: Parses documents, including layout and tables, into AI-ready formats.
 Use it when: You need accurate structure from complex PDFs, not just text.
 Works with: Python; MCP
@@ -226,7 +226,7 @@ Install: `uv tool install mempalace`
 
 ### Chrome DevTools MCP
 Link: https://github.com/ChromeDevTools/chrome-devtools-mcp
-Stars: ★ 59.3k
+Stars: ★ 59.4k
 What it does: Gives agents Chrome DevTools: page inspection, console, network and performance traces.
 Use it when: Your agent needs to debug or profile a page in a real browser.
 Works with: Any MCP client
@@ -234,7 +234,7 @@ Install: `npm i chrome-devtools-mcp@latest -g`
 
 ### Open Code Review
 Link: https://github.com/alibaba/open-code-review
-Stars: ★ 56.3k
+Stars: ★ 56.4k
 What it does: Code review tool combining deterministic checks with an LLM agent, with line-level findings.
 Use it when: You want automated AI review on every pull request.
 Works with: CLI, CI; agent skill
@@ -242,7 +242,7 @@ Install: `npm install -g @alibaba-group/open-code-review`
 
 ### agent-browser
 Link: https://github.com/vercel-labs/agent-browser
-Stars: ★ 53.9k
+Stars: ★ 54k
 What it does: Browser automation CLI designed for AI agents.
 Use it when: You want your agent to click through a web app from the shell.
 Works with: Any agent that runs shell commands
@@ -258,7 +258,7 @@ Install: `git clone https://github.com/JustVugg/colibri`, then build per its REA
 
 ### herdr
 Link: https://github.com/herdrdev/herdr
-Stars: ★ 52.8k
+Stars: ★ 52.9k
 What it does: Terminal workspace for coding agents: sessions keep running when you detach or lose SSH, every pane shows working, blocked or idle, and agents can spawn and prompt each other.
 Use it when: You run several agents at once, or on remote machines, and lose track of which one is waiting on you.
 Works with: Claude Code, Codex, Cursor, OpenCode and other terminal agents; macOS, Linux, Windows
@@ -338,7 +338,7 @@ Install: Desktop app from its releases, or `curl -fsSL https://raw.githubusercon
 
 ### SwarmChat
 Link: https://github.com/Pranjal2041/swarmchat
-Stars: ★ 245
+Stars: ★ 246
 What it does: Open-source Slack for AI agents: channels, DMs, threads and files through a CLI, plus a live browser view of every chat. `swarmchat wait` blocks until a reply arrives, so a waiting agent spends no tokens.
 Use it when: Several agents need to talk to each other and you want to watch the conversation.
 Works with: Claude Code and any agent with a shell; Python 3.9+, no dependencies
