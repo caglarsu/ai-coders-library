@@ -106,6 +106,14 @@ Use it when: You need in-app attack blocking for a Java or PHP service.
 Works with: Java, PHP
 Install: See the [installation wiki](https://github.com/baidu/openrasp/wiki/Installation)
 
+### Comp AI
+Link: https://github.com/trycompai/comp
+Stars: ★ 2.1k
+What it does: Open-source compliance platform, an alternative to Vanta and Drata: AI collects evidence, writes policies and tracks controls for SOC 2, ISO 27001, HIPAA and GDPR. This is the free, self-hosted Community Edition (AGPL); the managed Comp AI Cloud is paid.
+Use it when: You need to get a company compliant and want to self-host the tooling instead of paying for a compliance SaaS.
+Works with: Self-host; Node 20+, Bun, Postgres
+Install: `git clone https://github.com/trycompai/comp.git`, copy the `.env.example` files, then `bun install`, `bun run docker:up`, `bun run db:migrate` and `bun run dev`
+
 ### DongTai IAST
 Link: https://github.com/HXSecurity/DongTai
 Stars: ★ 1.3k
