@@ -48,6 +48,14 @@ Use it when: You are looking for a skill this library does not list.
 Works with: Claude Code
 Start: Read on GitHub
 
+### AI Engineering from Scratch
+Link: https://github.com/rohitg00/ai-engineering-from-scratch
+Stars: ★ 80.1k
+What it does: 542 lessons in 20 phases: build model internals, retrieval pipelines and agent runtimes yourself, in Python, TypeScript, Rust, Julia and Go.
+Use it when: You want to understand AI engineering by building it, not just calling APIs.
+Works with: Website, your coding agent, or local code
+Start: aiengineeringfromscratch.com, or `npx skills add rohitg00/ai-engineering-from-scratch` to make your agent the tutor
+
 ### Claude Code Best Practice
 Link: https://github.com/shanraisshan/claude-code-best-practice
 Stars: ★ 69.4k

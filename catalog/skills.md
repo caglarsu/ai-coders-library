@@ -192,6 +192,38 @@ Use it when: Long agent replies lose you, or you want answers you can act on at 
 Works with: Claude Code and other agents
 Install: `claude plugin marketplace add ayghri/i-have-adhd` then `claude plugin install i-have-adhd@i-have-adhd`
 
+### Hallmark
+Link: https://github.com/Nutlope/hallmark
+Stars: ★ 61.1k
+What it does: Design skill from Together AI that keeps pages from looking AI-generated: 50 themes, layouts built around what the visitor came to do, and checks for contrast, focus, motion and phone layout in a real browser.
+Use it when: Your agent builds landing pages or UIs that all look the same.
+Works with: Claude Code, Codex, Cursor, OpenCode; Node 18+
+Install: `npx skills add nutlope/hallmark -g`, or in Claude Code `/plugin marketplace add nutlope/hallmark`
+
+### Emil Kowalski's skills
+Link: https://github.com/emilkowalski/skills
+Stars: ★ 59.6k
+What it does: UI and animation skills from a designer-engineer who worked at Vercel and Linear: they list the small mistakes agents make, like the wrong easing or a solid border where a soft shadow belongs, and how to fix them.
+Use it when: You want animations and interface details that feel right, not just work.
+Works with: Claude Code, Codex, Cursor and other agents that read skills
+Install: `npx skills@latest add emilkowalski/skills`
+
+### Academic Research Skills
+Link: https://github.com/Imbad0202/academic-research-skills
+Stars: ★ 58.6k
+What it does: Claude Code skills for the whole academic paper pipeline: research, literature review, writing, peer review and revision. Non-commercial licence (CC BY-NC 4.0).
+Use it when: You write papers or literature reviews and want a guided, checked process.
+Works with: Claude Code, claude.ai and Claude Desktop (paid plans)
+Install: `/plugin marketplace add Imbad0202/academic-research-skills`, then `/plugin install academic-research-skills`
+
+### Scientific Agent Skills
+Link: https://github.com/K-Dense-AI/scientific-agent-skills
+Stars: ★ 58.5k
+What it does: 177 skills that turn an agent into a research assistant for science: databases, analysis libraries such as scanpy, and lab workflows.
+Use it when: You use an agent for scientific research or data analysis.
+Works with: Claude Code, Codex, Gemini CLI, Cursor, Antigravity
+Install: `npx skills add K-Dense-AI/scientific-agent-skills`
+
 ### BMAD Method
 Link: https://github.com/bmad-code-org/BMAD-METHOD
 Stars: ★ 55.8k

@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 154 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 170 curated skills, tools, agents and models for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -26,7 +26,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Cline: https://github.com/cline/cline
 - Goose: https://github.com/aaif-goose/goose
 
-## Skills (32 entries)
+## Skills (36 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/skills.md
 - Matt Pocock's skills: https://github.com/mattpocock/skills
 - Superpowers: https://github.com/obra/superpowers
@@ -52,6 +52,10 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - CLI-Anything: https://github.com/HKUDS/CLI-Anything
 - Marketing Skills: https://github.com/coreyhaines31/marketingskills
 - i-have-adhd: https://github.com/ayghri/i-have-adhd
+- Hallmark: https://github.com/Nutlope/hallmark
+- Emil Kowalski's skills: https://github.com/emilkowalski/skills
+- Academic Research Skills: https://github.com/Imbad0202/academic-research-skills
+- Scientific Agent Skills: https://github.com/K-Dense-AI/scientific-agent-skills
 - BMAD Method: https://github.com/bmad-code-org/BMAD-METHOD
 - Obsidian Skills: https://github.com/obsidianmd/obsidian-skills
 - Get Shit Done: https://github.com/open-gsd/gsd-core
@@ -61,17 +65,23 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - hyperresearch: https://github.com/jordan-gibbs/hyperresearch
 - motionmaxxing: https://github.com/Tejashmakwana/motionmaxxing
 
-## Agents (7 entries)
+## Agents (13 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/agents.md
 - OpenClaw: https://github.com/openclaw/openclaw
 - Hermes Agent: https://github.com/NousResearch/hermes-agent
 - Paperclip: https://github.com/paperclipai/paperclip
+- OpenDesign: https://github.com/nexu-io/open-design
 - MiroFish: https://github.com/666ghj/MiroFish
 - career-ops: https://github.com/career-ops-hq/career-ops
+- Ruflo: https://github.com/ruvnet/ruflo
+- AI Job Search: https://github.com/ai-job-search-dev/ai-job-search
+- DeepTutor: https://github.com/HKUDS/DeepTutor
+- Multica: https://github.com/multica-ai/multica
+- nanobot: https://github.com/HKUDS/nanobot
 - Comp AI CRM: https://github.com/trycompai/crm
 - Cloudflare OS: https://github.com/cloudflare/cloudflare-os
 
-## Tools (46 entries)
+## Tools (50 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/tools.md
 - REA: https://github.com/morluto/rea
 - n8n: https://github.com/n8n-io/n8n
@@ -87,19 +97,23 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - claude-mem: https://github.com/thedotmack/claude-mem
 - Agent-Reach: https://github.com/Panniantong/Agent-Reach
 - Playwright: https://github.com/microsoft/playwright
+- Odysseus: https://github.com/odysseus-dev/odysseus
 - Home Assistant: https://github.com/home-assistant/core
 - MCP reference servers: https://github.com/modelcontextprotocol/servers
 - Crawl4AI: https://github.com/unclecode/crawl4ai
 - RTK: https://github.com/rtk-ai/rtk
 - screenshot-to-code: https://github.com/abi/screenshot-to-code
 - Headroom: https://github.com/headroomlabs-ai/headroom
+- PPT Master: https://github.com/hugohe3/ppt-master
 - T3 Code: https://github.com/pingdotgg/t3code
 - CodeGraph: https://github.com/colbymchenry/codegraph
 - AFFiNE: https://github.com/toeverything/AFFiNE
+- oh-my-openagent: https://github.com/code-yeongyu/oh-my-openagent
 - Docling: https://github.com/docling-project/docling
 - Mem0: https://github.com/mem0ai/mem0
 - Context7: https://github.com/upstash/context7
 - LiteLLM: https://github.com/BerriAI/litellm
+- Hindsight: https://github.com/vectorize-io/hindsight
 - MemPalace: https://github.com/MemPalace/mempalace
 - Chrome DevTools MCP: https://github.com/ChromeDevTools/chrome-devtools-mcp
 - Open Code Review: https://github.com/alibaba/open-code-review
@@ -164,10 +178,11 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - PocketPal: https://github.com/a-ghorbani/pocketpal-ai
 - ChatterUI: https://github.com/Vali-98/ChatterUI
 
-## App security (15 entries)
+## App security (16 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/app-security.md
 - Security Audit Skill: https://github.com/cloudflare/security-audit-skill
 - Strix: https://github.com/usestrix/strix
+- Shannon: https://github.com/KeygraphHQ/shannon
 - Trivy: https://github.com/aquasecurity/trivy
 - PentAGI: https://github.com/vxcontrol/pentagi
 - Nuclei: https://github.com/projectdiscovery/nuclei
@@ -182,7 +197,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Comp AI: https://github.com/trycompai/comp
 - DongTai IAST: https://github.com/HXSecurity/DongTai
 
-## Learning (9 entries)
+## Learning (10 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/learning.md
 - LLMs from Scratch: https://github.com/rasbt/LLMs-from-scratch
 - Awesome MCP Servers: https://github.com/punkpeye/awesome-mcp-servers
@@ -190,6 +205,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Learn Claude Code: https://github.com/shareAI-lab/learn-claude-code
 - Prompt Engineering Guide: https://github.com/dair-ai/Prompt-Engineering-Guide
 - Awesome Claude Skills: https://github.com/ComposioHQ/awesome-claude-skills
+- AI Engineering from Scratch: https://github.com/rohitg00/ai-engineering-from-scratch
 - Claude Code Best Practice: https://github.com/shanraisshan/claude-code-best-practice
 - Awesome Claude Code: https://github.com/hesreallyhim/awesome-claude-code
 - Claude Cookbooks: https://github.com/anthropics/claude-cookbooks

@@ -18,6 +18,14 @@ Use it when: You want an AI pentest of your own app before release.
 Works with: Local code or URL; Docker
 Install: `curl -sSL https://strix.ai/install | bash`, then `strix --target ./app`
 
+### Shannon
+Link: https://github.com/KeygraphHQ/shannon
+Stars: ★ 52.3k
+What it does: Autonomous AI pentester for web apps and APIs: reads your source, finds attack paths and runs real exploits to prove each finding. AGPL; Keygraph sells paid tiers.
+Use it when: You want proof-backed findings on an app you own before it ships.
+Works with: Anthropic, OpenAI, Bedrock and other providers; Docker, Node 22+
+Install: `npx @keygraph/shannon@latest`
+
 ### Trivy
 Link: https://github.com/aquasecurity/trivy
 Stars: ★ 39.8k
@@ -60,7 +68,7 @@ Install: `docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framewor
 
 ### ARTEX
 Link: https://github.com/BaaRai/ARTEX
-Stars: ★ 20.8k
+Stars: ★ 20.9k
 What it does: Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL.
 Use it when: You want an autonomous pentest of your own systems with proof for every finding.
 Works with: Docker; any model provider
