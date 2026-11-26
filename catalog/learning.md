@@ -2,7 +2,7 @@
 
 ### LLMs from Scratch
 Link: https://github.com/rasbt/LLMs-from-scratch
-Stars: ★ 109k
+Stars: ★ 109.1k
 What it does: Builds a ChatGPT-like model in PyTorch, step by step.
 Use it when: You want to understand how LLMs work.
 Works with: Python, PyTorch

@@ -2,7 +2,7 @@
 
 ### DeepSeek Harness
 Link: https://github.com/deepseek-ai/deepseek-harness
-Stars: ★ 287k
+Stars: ★ 287.1k
 What it does: DeepSeek's plugin-based agent harness.
 Use it when: You use DeepSeek models and want their official agent.
 Works with: DeepSeek and other providers
@@ -10,7 +10,7 @@ Install: `npx @deepseek-ai/dsh web`
 
 ### OpenCode
 Link: https://github.com/anomalyco/opencode
-Stars: ★ 229.1k
+Stars: ★ 229.2k
 What it does: Open-source coding agent that works with almost any model provider.
 Use it when: You want a Claude Code-style agent without being tied to one vendor.
 Works with: Any provider, local models
@@ -26,7 +26,7 @@ Install: `curl -fsSL https://claude.ai/install.sh | bash`
 
 ### Codex
 Link: https://github.com/openai/codex
-Stars: ★ 136.4k
+Stars: ★ 136.5k
 What it does: OpenAI's open-source coding agent for the terminal.
 Use it when: You use ChatGPT or OpenAI models. Needs a ChatGPT plan or API key.
 Works with: macOS, Linux, Windows
