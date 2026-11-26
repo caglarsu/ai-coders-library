@@ -2,7 +2,7 @@
 
 ### REA
 Link: https://github.com/morluto/rea
-Stars: ★ 479.3k
+Stars: ★ 479.5k
 What it does: Reverse engineering with agents, from app behaviour down to native binaries.
 Use it when: You need to understand a binary, app bundle or web app you do not have the source for.
 Works with: Claude Code, Codex and other agents; MCP
@@ -10,7 +10,7 @@ Install: `npx rea-agents setup`
 
 ### n8n
 Link: https://github.com/n8n-io/n8n
-Stars: ★ 212.2k
+Stars: ★ 212.3k
 What it does: Workflow automation with native AI steps and 400+ integrations. Fair-code licence: free to self-host for your own use.
 Use it when: You want to wire AI into business workflows visually.
 Works with: Self-host or cloud
@@ -18,7 +18,7 @@ Install: `docker run -it --rm -p 5678:5678 docker.n8n.io/n8nio/n8n`
 
 ### Firecrawl
 Link: https://github.com/firecrawl/firecrawl
-Stars: ★ 210.6k
+Stars: ★ 210.7k
 What it does: Search, scrape and crawl the web into clean data for agents. AGPL; self-hosting is free, the hosted API is paid.
 Use it when: Your agent needs reliable web pages, search results or site crawls as input.
 Works with: Any agent; CLI, API, MCP
@@ -66,7 +66,7 @@ Install: `brew install --cask cc-switch`
 
 ### Orca
 Link: https://github.com/stablyai/orca
-Stars: ★ 139.7k
+Stars: ★ 140k
 What it does: Runs a fleet of agents on your own subscriptions, on desktop, mobile or a remote runtime.
 Use it when: You want many agents working in parallel without paying for API usage.
 Works with: Claude Code, Codex, Grok and others
@@ -74,7 +74,7 @@ Install: `brew install --cask stablyai/orca/orca`
 
 ### llama.cpp
 Link: https://github.com/ggml-org/llama.cpp
-Stars: ★ 136.3k
+Stars: ★ 136.4k
 What it does: Fast LLM inference in C/C++ on almost any hardware.
 Use it when: You want maximum control and speed running local models.
 Works with: CPU, CUDA, Metal, Vulkan
@@ -98,7 +98,7 @@ Install: `npx claude-mem install`
 
 ### Agent-Reach
 Link: https://github.com/Panniantong/Agent-Reach
-Stars: ★ 114.9k
+Stars: ★ 115k
 What it does: One CLI for your agent to read and search X, Reddit, YouTube, GitHub and more without API fees.
 Use it when: Your agent needs social and video sites as sources.
 Works with: Claude Code and other agents
@@ -162,7 +162,7 @@ Install: `brew install rtk`
 
 ### screenshot-to-code
 Link: https://github.com/abi/screenshot-to-code
-Stars: ★ 81.4k
+Stars: ★ 81.5k
 What it does: Turns a screenshot into clean HTML, Tailwind, React or Vue code.
 Use it when: You have a design image and want a coded starting point.
 Works with: Docker; Claude, GPT and Gemini
@@ -176,21 +176,21 @@ Use it when: You want fewer tokens per agent turn without losing accuracy.
 Works with: Python; coding agents
 Install: `pip install headroom-ai`
 
-### PPT Master
-Link: https://github.com/hugohe3/ppt-master
-Stars: ★ 80.4k
-What it does: Turns a document or topic into a native PowerPoint deck with real shapes, transitions and animations you can edit, not pictures of slides.
-Use it when: You need editable decks from reports or notes.
-Works with: Claude Code (tested most), Codex and other agents; Python 3.10+
-Install: `/plugin marketplace add hugohe3/ppt-master`, then `/plugin install ppt-master@ppt-master`
-
 ### T3 Code
 Link: https://github.com/pingdotgg/t3code
-Stars: ★ 80.4k
+Stars: ★ 80.6k
 What it does: Control Claude Code, Codex and other agents from any computer or phone.
 Use it when: You want to check on or steer your agents when you are away from your desk.
 Works with: Claude Code, Codex
 Install: `curl -fsSL https://t3.codes/install.sh | sh`
+
+### PPT Master
+Link: https://github.com/hugohe3/ppt-master
+Stars: ★ 80.5k
+What it does: Turns a document or topic into a native PowerPoint deck with real shapes, transitions and animations you can edit, not pictures of slides.
+Use it when: You need editable decks from reports or notes.
+Works with: Claude Code (tested most), Codex and other agents; Python 3.10+
+Install: `/plugin marketplace add hugohe3/ppt-master`, then `/plugin install ppt-master@ppt-master`
 
 ### AFFiNE
 Link: https://github.com/toeverything/AFFiNE
@@ -250,7 +250,7 @@ Install: `uv tool install 'litellm[proxy]'`
 
 ### Hindsight
 Link: https://github.com/vectorize-io/hindsight
-Stars: ★ 63.6k
+Stars: ★ 63.7k
 What it does: Memory for agents that learns over time instead of only recalling past chats, with an API, a UI and an MCP server.
 Use it when: Your agent should remember users and lessons across sessions.
 Works with: 25+ LLM providers including Ollama; Python, TypeScript, MCP, coding agents
@@ -266,7 +266,7 @@ Install: `uv tool install mempalace`
 
 ### Chrome DevTools MCP
 Link: https://github.com/ChromeDevTools/chrome-devtools-mcp
-Stars: ★ 59.4k
+Stars: ★ 59.5k
 What it does: Gives agents Chrome DevTools: page inspection, console, network and performance traces.
 Use it when: Your agent needs to debug or profile a page in a real browser.
 Works with: Any MCP client
@@ -274,7 +274,7 @@ Install: `npm i chrome-devtools-mcp@latest -g`
 
 ### Open Code Review
 Link: https://github.com/alibaba/open-code-review
-Stars: ★ 56.5k
+Stars: ★ 56.6k
 What it does: Code review tool combining deterministic checks with an LLM agent, with line-level findings.
 Use it when: You want automated AI review on every pull request.
 Works with: CLI, CI; agent skill
