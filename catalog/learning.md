@@ -18,7 +18,7 @@ Start: Read on GitHub
 
 ### AI Agents for Beginners
 Link: https://github.com/microsoft/ai-agents-for-beginners
-Stars: ★ 81k
+Stars: ★ 81.1k
 What it does: Microsoft's 18-lesson course on building AI agents.
 Use it when: You are new to building agents.
 Works with: Python
@@ -26,7 +26,7 @@ Start: Read on GitHub
 
 ### Learn Claude Code
 Link: https://github.com/shareAI-lab/learn-claude-code
-Stars: ★ 80.9k
+Stars: ★ 81k
 What it does: Builds a nano Claude Code-like agent harness from zero, step by step.
 Use it when: You want to understand how coding agents work inside.
 Works with: Python
@@ -34,7 +34,7 @@ Start: Read on GitHub
 
 ### AI Engineering from Scratch
 Link: https://github.com/rohitg00/ai-engineering-from-scratch
-Stars: ★ 80.5k
+Stars: ★ 80.6k
 What it does: 542 lessons in 20 phases: build model internals, retrieval pipelines and agent runtimes yourself, in Python, TypeScript, Rust, Julia and Go.
 Use it when: You want to understand AI engineering by building it, not just calling APIs.
 Works with: Website, your coding agent, or local code

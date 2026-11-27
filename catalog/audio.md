@@ -4,7 +4,7 @@ Local speech, voice and music: engines that run audio models, and the best free 
 
 ### VoiceStudio
 Link: https://github.com/debpalash/VoiceStudio
-Stars: ★ 118.8k
+Stars: ★ 118.9k
 What it does: Fully local voice cloning, voice design and video dubbing. AGPL.
 Use it when: Your video needs a voiceover or dub and you do not want to send audio to a cloud API. Clone only voices you have consent for.
 Works with: macOS, Linux, Windows
@@ -12,7 +12,7 @@ Install: `brew install --cask debpalash/tap/voicestudio`
 
 ### Voicebox
 Link: https://github.com/jamiepine/voicebox
-Stars: ★ 61.3k
+Stars: ★ 61.4k
 What it does: Open-source AI voice studio: clone, dictate and create voiceovers locally.
 Use it when: You want a desktop app for voiceovers. Clone only voices you have consent for.
 Works with: macOS, Windows

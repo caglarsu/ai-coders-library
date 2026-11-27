@@ -10,7 +10,7 @@ Install: `npm install -g openclaw@latest` then `openclaw onboard --install-daemo
 
 ### Hermes Agent
 Link: https://github.com/NousResearch/hermes-agent
-Stars: ★ 266.3k
+Stars: ★ 266.4k
 What it does: Nous Research's terminal agent with configurable tools and model providers that learns as you use it.
 Use it when: You want an open-source CLI agent and the freedom to pick your own model.
 Works with: macOS, Linux; many model providers
@@ -18,7 +18,7 @@ Install: `curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash`
 
 ### Paperclip
 Link: https://github.com/paperclipai/paperclip
-Stars: ★ 117.3k
+Stars: ★ 117.4k
 What it does: App for managing a team of AI agents at work: roles, tasks and oversight.
 Use it when: You run several agents on real business work and need to organise them.
 Works with: Claude Code, Codex and others
@@ -26,7 +26,7 @@ Install: `npx paperclipai@latest onboard --yes`
 
 ### OpenDesign
 Link: https://github.com/nexu-io/open-design
-Stars: ★ 109.6k
+Stars: ★ 109.7k
 What it does: Collaborative AI design workspace: start from a brief and let your coding agent build prototypes, websites and motion that follow your design system. A paid cloud plan also exists.
 Use it when: You want design work done by the coding agent you already use, with templates and design systems.
 Works with: Claude Code, Codex and other agent CLIs it finds on your machine; macOS, Windows, Linux from source
@@ -42,7 +42,7 @@ Install: `git clone https://github.com/666ghj/MiroFish.git`, `cp .env.example .e
 
 ### career-ops
 Link: https://github.com/career-ops-hq/career-ops
-Stars: ★ 85k
+Stars: ★ 85.1k
 What it does: Job search agent: scans boards, scores each job against your CV, tailors resume and cover letter, tracks applications.
 Use it when: You are job hunting and want your coding assistant to do the legwork. You still press Submit.
 Works with: Claude Code, Codex, OpenCode
@@ -66,7 +66,7 @@ Install: Clone it into a private repo (steps in its README), then run `claude` a
 
 ### DeepTutor
 Link: https://github.com/HKUDS/DeepTutor
-Stars: ★ 63.2k
+Stars: ★ 63.3k
 What it does: Personal AI tutor: chat about your own documents, solve problems step by step, generate questions, and track what you have learned.
 Use it when: You learn from papers, books or course material and want a tutor that remembers you.
 Works with: Hosted and local models; desktop app (macOS, Windows), Docker or pip
