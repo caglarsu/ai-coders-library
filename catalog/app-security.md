@@ -4,7 +4,7 @@ Run the AI pentesters (PentAGI, HexStrike AI, Strix, ARTEX, Claude BugHunter) an
 
 ### Security Audit Skill
 Link: https://github.com/cloudflare/security-audit-skill
-Stars: ★ 78.7k
+Stars: ★ 78.9k
 What it does: Cloudflare's skill for multi-phase security audits with independently verified, machine-readable findings.
 Use it when: You want your agent to audit your own code with fewer false positives.
 Works with: Claude Code and other agents
@@ -12,7 +12,7 @@ Install: `npx skills add https://github.com/cloudflare/security-audit-skill`
 
 ### Strix
 Link: https://github.com/usestrix/strix
-Stars: ★ 77.7k
+Stars: ★ 77.8k
 What it does: AI agents that pentest your app, confirm findings with proof-of-concepts and suggest fixes.
 Use it when: You want an AI pentest of your own app before release.
 Works with: Local code or URL; Docker
@@ -20,7 +20,7 @@ Install: `curl -sSL https://strix.ai/install | bash`, then `strix --target ./app
 
 ### Shannon
 Link: https://github.com/KeygraphHQ/shannon
-Stars: ★ 52.3k
+Stars: ★ 52.4k
 What it does: Autonomous AI pentester for web apps and APIs: reads your source, finds attack paths and runs real exploits to prove each finding. AGPL; Keygraph sells paid tiers.
 Use it when: You want proof-backed findings on an app you own before it ships.
 Works with: Anthropic, OpenAI, Bedrock and other providers; Docker, Node 22+
@@ -52,7 +52,7 @@ Install: `brew install nuclei`
 
 ### Claude BugHunter
 Link: https://github.com/elementalsouls/Claude-BugHunter
-Stars: ★ 24.2k
+Stars: ★ 24.6k
 What it does: 84 skills and 15 commands for bug hunting and red-team work, built from 681 disclosed reports.
 Use it when: You do authorised bug bounty or red-team work with Claude Code.
 Works with: Claude Code
@@ -68,7 +68,7 @@ Install: `docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framewor
 
 ### ARTEX
 Link: https://github.com/BaaRai/ARTEX
-Stars: ★ 21.9k
+Stars: ★ 22.3k
 What it does: Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL.
 Use it when: You want an autonomous pentest of your own systems with proof for every finding.
 Works with: Docker; any model provider

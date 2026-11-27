@@ -2,7 +2,7 @@
 
 ### REA
 Link: https://github.com/morluto/rea
-Stars: ★ 479.5k
+Stars: ★ 479.8k
 What it does: Reverse engineering with agents, from app behaviour down to native binaries.
 Use it when: You need to understand a binary, app bundle or web app you do not have the source for.
 Works with: Claude Code, Codex and other agents; MCP
@@ -18,7 +18,7 @@ Install: `docker run -it --rm -p 5678:5678 docker.n8n.io/n8nio/n8n`
 
 ### Firecrawl
 Link: https://github.com/firecrawl/firecrawl
-Stars: ★ 210.7k
+Stars: ★ 211k
 What it does: Search, scrape and crawl the web into clean data for agents. AGPL; self-hosting is free, the hosted API is paid.
 Use it when: Your agent needs reliable web pages, search results or site crawls as input.
 Works with: Any agent; CLI, API, MCP
@@ -42,7 +42,7 @@ Install: `curl -fsSL https://ollama.com/install.sh | sh`
 
 ### Dify
 Link: https://github.com/langgenius/dify
-Stars: ★ 161.9k
+Stars: ★ 162k
 What it does: Platform for agentic workflows and RAG pipelines. Modified Apache licence.
 Use it when: You want to build and host an LLM app without writing a backend.
 Works with: Self-host or cloud
@@ -66,7 +66,7 @@ Install: `brew install --cask cc-switch`
 
 ### Orca
 Link: https://github.com/stablyai/orca
-Stars: ★ 140k
+Stars: ★ 140.4k
 What it does: Runs a fleet of agents on your own subscriptions, on desktop, mobile or a remote runtime.
 Use it when: You want many agents working in parallel without paying for API usage.
 Works with: Claude Code, Codex, Grok and others
@@ -82,7 +82,7 @@ Install: `curl -LsSf https://llama.app/install.sh | sh`
 
 ### Browser Use
 Link: https://github.com/browser-use/browser-use
-Stars: ★ 122.1k
+Stars: ★ 122.2k
 What it does: Python library for AI browser agents.
 Use it when: You build an app or script where an AI drives a browser.
 Works with: Python
@@ -90,7 +90,7 @@ Install: `pip install browser-use`
 
 ### claude-mem
 Link: https://github.com/thedotmack/claude-mem
-Stars: ★ 119.9k
+Stars: ★ 120k
 What it does: Captures what your agent does, compresses it, and brings the relevant parts back next session.
 Use it when: Your agent forgets everything between sessions.
 Works with: Claude Code and other agents
@@ -98,7 +98,7 @@ Install: `npx claude-mem install`
 
 ### Agent-Reach
 Link: https://github.com/Panniantong/Agent-Reach
-Stars: ★ 115k
+Stars: ★ 115.1k
 What it does: One CLI for your agent to read and search X, Reddit, YouTube, GitHub and more without API fees.
 Use it when: Your agent needs social and video sites as sources.
 Works with: Claude Code and other agents
@@ -154,7 +154,7 @@ Install: `pip install -U crawl4ai`
 
 ### RTK
 Link: https://github.com/rtk-ai/rtk
-Stars: ★ 87.9k
+Stars: ★ 88k
 What it does: CLI proxy that cuts token use 60-90% on common dev commands.
 Use it when: Your agent burns context on noisy command output.
 Works with: Any agent that runs shell commands
@@ -168,21 +168,21 @@ Use it when: You have a design image and want a coded starting point.
 Works with: Docker; Claude, GPT and Gemini
 Install: See its README
 
-### Headroom
-Link: https://github.com/headroomlabs-ai/headroom
-Stars: ★ 80.9k
-What it does: Compresses tool output, logs, files and RAG chunks before they reach the model.
-Use it when: You want fewer tokens per agent turn without losing accuracy.
-Works with: Python; coding agents
-Install: `pip install headroom-ai`
-
 ### T3 Code
 Link: https://github.com/pingdotgg/t3code
-Stars: ★ 80.6k
+Stars: ★ 81k
 What it does: Control Claude Code, Codex and other agents from any computer or phone.
 Use it when: You want to check on or steer your agents when you are away from your desk.
 Works with: Claude Code, Codex
 Install: `curl -fsSL https://t3.codes/install.sh | sh`
+
+### Headroom
+Link: https://github.com/headroomlabs-ai/headroom
+Stars: ★ 81k
+What it does: Compresses tool output, logs, files and RAG chunks before they reach the model.
+Use it when: You want fewer tokens per agent turn without losing accuracy.
+Works with: Python; coding agents
+Install: `pip install headroom-ai`
 
 ### PPT Master
 Link: https://github.com/hugohe3/ppt-master
@@ -192,9 +192,17 @@ Use it when: You need editable decks from reports or notes.
 Works with: Claude Code (tested most), Codex and other agents; Python 3.10+
 Install: `/plugin marketplace add hugohe3/ppt-master`, then `/plugin install ppt-master@ppt-master`
 
+### Unsloth
+Link: https://github.com/unslothai/unsloth
+Stars: ★ 80.3k
+What it does: Fine-tunes and runs open models (Gemma, Llama, Qwen and others) faster and with less GPU memory; code library, web UI and desktop app.
+Use it when: You want an open model tuned on your own data, on your own GPU or free Colab.
+Works with: NVIDIA GPUs, Colab; exports GGUF for Ollama and llama.cpp
+Install: `uv pip install unsloth --torch-backend=auto`
+
 ### AFFiNE
 Link: https://github.com/toeverything/AFFiNE
-Stars: ★ 78.8k
+Stars: ★ 79k
 What it does: Local-first, open-source alternative to Notion and Miro: docs, whiteboards and databases in one place, with built-in AI. The server code is under an enterprise licence; the rest is MIT.
 Use it when: You want notes and planning boards that stay on your own disk, or a self-hosted workspace.
 Works with: macOS, Windows, Linux, web; self-host
@@ -256,6 +264,14 @@ Use it when: Your agent should remember users and lessons across sessions.
 Works with: 25+ LLM providers including Ollama; Python, TypeScript, MCP, coding agents
 Install: `docker run -it --pull always --name hindsight -p 8888:8888 -p 9999:9999 -e HINDSIGHT_API_LLM_API_KEY=<key> -v hindsight-data:/home/hindsight/.pg0 ghcr.io/vectorize-io/hindsight:latest`
 
+### CrewAI
+Link: https://github.com/crewAIInc/crewAI
+Stars: ★ 61.3k
+What it does: Python framework for teams of agents with roles, tasks and flows. MIT; the company sells a hosted AMP suite.
+Use it when: You build an app where several agents split up a job.
+Works with: Python; most model providers and local models
+Install: `uv tool install crewai`
+
 ### MemPalace
 Link: https://github.com/MemPalace/mempalace
 Stars: ★ 60.7k
@@ -282,7 +298,7 @@ Install: `npm install -g @alibaba-group/open-code-review`
 
 ### agent-browser
 Link: https://github.com/vercel-labs/agent-browser
-Stars: ★ 54.1k
+Stars: ★ 54.2k
 What it does: Browser automation CLI designed for AI agents.
 Use it when: You want your agent to click through a web app from the shell.
 Works with: Any agent that runs shell commands
@@ -298,7 +314,7 @@ Install: `git clone https://github.com/JustVugg/colibri`, then build per its REA
 
 ### herdr
 Link: https://github.com/herdrdev/herdr
-Stars: ★ 53k
+Stars: ★ 53.1k
 What it does: Terminal workspace for coding agents: sessions keep running when you detach or lose SSH, every pane shows working, blocked or idle, and agents can spawn and prompt each other.
 Use it when: You run several agents at once, or on remote machines, and lose track of which one is waiting on you.
 Works with: Claude Code, Codex, Cursor, OpenCode and other terminal agents; macOS, Linux, Windows
@@ -322,11 +338,19 @@ Install: `docker run -d -p 3000:3000 -v vane-data:/home/vane/data --name vane it
 
 ### Frigate
 Link: https://github.com/blakeblackshear/frigate
-Stars: ★ 37.9k
+Stars: ★ 38k
 What it does: Network video recorder for IP cameras, with real-time object detection that runs locally.
 Use it when: You want camera alerts for people, cars or packages without sending video to a cloud. A GPU or AI accelerator is highly recommended.
 Works with: Docker; Home Assistant
 Install: Docker, following docs.frigate.video
+
+### Qdrant
+Link: https://github.com/qdrant/qdrant
+Stars: ★ 35.7k
+What it does: Fast vector database with filtering, for search and retrieval over your own data.
+Use it when: You build RAG or semantic search and need somewhere to store and query embeddings.
+Works with: Docker, Python, JS, Rust, Go clients
+Install: `docker run -p 6333:6333 qdrant/qdrant`
 
 ### VSCodium
 Link: https://github.com/VSCodium/vscodium
@@ -344,6 +368,30 @@ Use it when: You build or test agents that operate a full desktop, not just a te
 Works with: macOS, Linux, Windows sandboxes
 Install: `curl -fsSL https://cua.ai/install.sh | sh`
 
+### OpenAI Agents SDK
+Link: https://github.com/openai/openai-agents-python
+Stars: ★ 30.9k
+What it does: Lightweight Python framework for multi-agent apps: handoffs, guardrails, tools and tracing.
+Use it when: You want a small, readable agent framework rather than a big platform.
+Works with: Python; OpenAI and other providers
+Install: `pip install openai-agents`
+
+### TOON
+Link: https://github.com/toon-format/toon
+Stars: ★ 25.7k
+What it does: Compact, human-readable replacement for JSON in prompts: drops repeated keys and braces so tables and records cost fewer tokens.
+Use it when: You send lists of records or tabular data to a model and want a smaller bill and context.
+Works with: TypeScript/JS library and CLI; ports in other languages
+Install: `npm install @toon-format/toon`
+
+### Google ADK
+Link: https://github.com/google/adk-python
+Stars: ★ 22.4k
+What it does: Google's Agent Development Kit: build, evaluate and deploy agents and multi-agent systems in code.
+Use it when: You build agents in Python and want evals and deployment included.
+Works with: Python; Gemini and other models
+Install: `pip install google-adk`
+
 ### OpenShell
 Link: https://github.com/ai-openshell/openshell
 Stars: ★ 22k
@@ -359,6 +407,14 @@ What it does: AI search engine and MCP server in one Rust binary: indexes code, 
 Use it when: Your agents need fast, cheap search over your code and docs.
 Works with: MCP clients such as Claude Code and Codex; Linux, macOS, Windows
 Install: `curl -fsSL https://xerj.org/get | sh`
+
+### Pydantic AI
+Link: https://github.com/pydantic/pydantic-ai
+Stars: ★ 21.4k
+What it does: Type-safe Python agent framework from the Pydantic team, with validated structured output.
+Use it when: You need agents whose answers your code can trust as typed data.
+Works with: Python; most model providers
+Install: `uv add pydantic-ai`
 
 ### json-render
 Link: https://github.com/vercel-labs/json-render

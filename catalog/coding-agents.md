@@ -2,7 +2,7 @@
 
 ### DeepSeek Harness
 Link: https://github.com/deepseek-ai/deepseek-harness
-Stars: ★ 287.5k
+Stars: ★ 287.6k
 What it does: DeepSeek's plugin-based agent harness.
 Use it when: You use DeepSeek models and want their official agent.
 Works with: DeepSeek and other providers
@@ -34,7 +34,7 @@ Install: `npm install -g @openai/codex`
 
 ### Pi
 Link: https://github.com/earendil-works/pi
-Stars: ★ 124k
+Stars: ★ 124.1k
 What it does: Minimal, hackable agent toolkit: unified LLM API, agent loop, TUI and coding agent CLI.
 Use it when: You want a small agent you can read, extend or build your own on.
 Works with: Any provider

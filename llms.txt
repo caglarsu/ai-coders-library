@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 182 curated skills, tools, agents, models and workflows for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 189 curated skills, tools, agents, models and workflows for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -82,7 +82,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Cloudflare OS: https://github.com/cloudflare/cloudflare-os
 - OpenComputer: https://github.com/diggerhq/opencomputer
 
-## Tools (52 entries)
+## Tools (59 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/tools.md
 - REA: https://github.com/morluto/rea
 - n8n: https://github.com/n8n-io/n8n
@@ -105,9 +105,10 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Crawl4AI: https://github.com/unclecode/crawl4ai
 - RTK: https://github.com/rtk-ai/rtk
 - screenshot-to-code: https://github.com/abi/screenshot-to-code
-- Headroom: https://github.com/headroomlabs-ai/headroom
 - T3 Code: https://github.com/pingdotgg/t3code
+- Headroom: https://github.com/headroomlabs-ai/headroom
 - PPT Master: https://github.com/hugohe3/ppt-master
+- Unsloth: https://github.com/unslothai/unsloth
 - AFFiNE: https://github.com/toeverything/AFFiNE
 - CodeGraph: https://github.com/colbymchenry/codegraph
 - oh-my-openagent: https://github.com/code-yeongyu/oh-my-openagent
@@ -116,6 +117,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Context7: https://github.com/upstash/context7
 - LiteLLM: https://github.com/BerriAI/litellm
 - Hindsight: https://github.com/vectorize-io/hindsight
+- CrewAI: https://github.com/crewAIInc/crewAI
 - MemPalace: https://github.com/MemPalace/mempalace
 - Chrome DevTools MCP: https://github.com/ChromeDevTools/chrome-devtools-mcp
 - Open Code Review: https://github.com/alibaba/open-code-review
@@ -125,10 +127,15 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Tailscale: https://github.com/tailscale/tailscale
 - Vane: https://github.com/ItzCrazyKns/Vane
 - Frigate: https://github.com/blakeblackshear/frigate
+- Qdrant: https://github.com/qdrant/qdrant
 - VSCodium: https://github.com/VSCodium/vscodium
 - Cua: https://github.com/trycua/cua
+- OpenAI Agents SDK: https://github.com/openai/openai-agents-python
+- TOON: https://github.com/toon-format/toon
+- Google ADK: https://github.com/google/adk-python
 - OpenShell: https://github.com/ai-openshell/openshell
 - XERJ: https://github.com/xerj-org/xerj
+- Pydantic AI: https://github.com/pydantic/pydantic-ai
 - json-render: https://github.com/vercel-labs/json-render
 - Coder: https://github.com/coder/coder
 - OpenChamber: https://github.com/openchamber/openchamber
