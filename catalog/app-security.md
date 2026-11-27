@@ -60,7 +60,7 @@ Install: `/plugin marketplace add elementalsouls/Claude-BugHunter` then `/plugin
 
 ### ARTEX
 Link: https://github.com/BaaRai/ARTEX
-Stars: ★ 23k
+Stars: ★ 23.1k
 What it does: Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL.
 Use it when: You want an autonomous pentest of your own systems with proof for every finding.
 Works with: Docker; any model provider
@@ -100,7 +100,7 @@ Install: `git clone https://github.com/0x4m4/hexstrike-ai.git` then `pip install
 
 ### BLA
 Link: https://github.com/qybaihe/bla
-Stars: ★ 7k
+Stars: ★ 7.1k
 What it does: MCP server and CLI that hardens release builds (JS/TS bundles, Electron ASAR, WASM, Python, native binaries, model files) against AI reverse-engineering agents with decoys and obfuscation. Launched October 2026; its benchmarks are the authors' own.
 Use it when: You ship closed-source builds and want AI agents to struggle to clone your logic. Run your own tests on the hardened output before shipping.
 Works with: Claude Code, Codex, Cursor and any MCP client; Node 22+
