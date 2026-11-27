@@ -10,7 +10,7 @@ Install: `npm install -g openclaw@latest` then `openclaw onboard --install-daemo
 
 ### Hermes Agent
 Link: https://github.com/NousResearch/hermes-agent
-Stars: ★ 266.4k
+Stars: ★ 266.6k
 What it does: Nous Research's terminal agent with configurable tools and model providers that learns as you use it.
 Use it when: You want an open-source CLI agent and the freedom to pick your own model.
 Works with: macOS, Linux; many model providers
@@ -18,7 +18,7 @@ Install: `curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash`
 
 ### Paperclip
 Link: https://github.com/paperclipai/paperclip
-Stars: ★ 117.4k
+Stars: ★ 117.5k
 What it does: App for managing a team of AI agents at work: roles, tasks and oversight.
 Use it when: You run several agents on real business work and need to organise them.
 Works with: Claude Code, Codex and others
@@ -26,7 +26,7 @@ Install: `npx paperclipai@latest onboard --yes`
 
 ### OpenDesign
 Link: https://github.com/nexu-io/open-design
-Stars: ★ 109.7k
+Stars: ★ 109.8k
 What it does: Collaborative AI design workspace: start from a brief and let your coding agent build prototypes, websites and motion that follow your design system. A paid cloud plan also exists.
 Use it when: You want design work done by the coding agent you already use, with templates and design systems.
 Works with: Claude Code, Codex and other agent CLIs it finds on your machine; macOS, Windows, Linux from source
@@ -34,7 +34,7 @@ Install: Desktop app from open-design.ai or its GitHub releases
 
 ### MiroFish
 Link: https://github.com/666ghj/MiroFish
-Stars: ★ 86.8k
+Stars: ★ 86.9k
 What it does: Multi-agent simulation engine: give it seed material such as news, a policy draft or a story, and it builds a world of AI agents, runs the simulation and writes a report you can question. AGPL.
 Use it when: You want to rehearse how people might react to an event, a policy or a plot. Treat the output as a simulation, not a forecast, and start with short runs: it uses a lot of LLM tokens.
 Works with: Any OpenAI-compatible LLM API, Zep Cloud for memory; Docker. [MiroFish-Offline](https://github.com/nikmcfly/MiroFish-Offline) runs it on Ollama and Neo4j instead.
@@ -42,7 +42,7 @@ Install: `git clone https://github.com/666ghj/MiroFish.git`, `cp .env.example .e
 
 ### career-ops
 Link: https://github.com/career-ops-hq/career-ops
-Stars: ★ 85.1k
+Stars: ★ 85.2k
 What it does: Job search agent: scans boards, scores each job against your CV, tailors resume and cover letter, tracks applications.
 Use it when: You are job hunting and want your coding assistant to do the legwork. You still press Submit.
 Works with: Claude Code, Codex, OpenCode
@@ -58,7 +58,7 @@ Install: `npx ruflo@latest init` in your project, then give Claude Code a task
 
 ### AI Job Search
 Link: https://github.com/ai-job-search-dev/ai-job-search
-Stars: ★ 73.6k
+Stars: ★ 73.7k
 What it does: Job application framework on Claude Code: scrapes postings, ranks the fits, tailors your CV and cover letters, and prepares interviews.
 Use it when: You are job hunting and want a structured, local workflow. Keep your copy private: `/setup` writes your personal data into tracked files.
 Works with: Claude Code; Python 3.10+, Bun, LaTeX
@@ -66,7 +66,7 @@ Install: Clone it into a private repo (steps in its README), then run `claude` a
 
 ### DeepTutor
 Link: https://github.com/HKUDS/DeepTutor
-Stars: ★ 63.3k
+Stars: ★ 63.7k
 What it does: Personal AI tutor: chat about your own documents, solve problems step by step, generate questions, and track what you have learned.
 Use it when: You learn from papers, books or course material and want a tutor that remembers you.
 Works with: Hosted and local models; desktop app (macOS, Windows), Docker or pip
@@ -74,7 +74,7 @@ Install: `docker run --rm -p 127.0.0.1:3782:3782 -v deeptutor-data:/app/data ghc
 
 ### Multica
 Link: https://github.com/multica-ai/multica
-Stars: ★ 58.1k
+Stars: ★ 58.2k
 What it does: Workspace where you assign issues to coding agents like teammates: they pick up work, report progress, raise blockers and hand it back for review. Apache-2.0 with extra terms: hosting it for others needs a paid licence, and the branding must stay.
 Use it when: You run several agent CLIs and want one board to give them work and track it.
 Works with: Claude Code, Codex and other agent CLIs; desktop app or self-host

@@ -10,7 +10,7 @@ Start: Read on GitHub
 
 ### Awesome MCP Servers
 Link: https://github.com/punkpeye/awesome-mcp-servers
-Stars: ★ 98.5k
+Stars: ★ 98.6k
 What it does: Large list of MCP servers.
 Use it when: You are looking for an MCP server for a specific service.
 Works with: Any MCP client
@@ -34,19 +34,11 @@ Start: Read on GitHub
 
 ### AI Engineering from Scratch
 Link: https://github.com/rohitg00/ai-engineering-from-scratch
-Stars: ★ 80.6k
+Stars: ★ 80.8k
 What it does: 542 lessons in 20 phases: build model internals, retrieval pipelines and agent runtimes yourself, in Python, TypeScript, Rust, Julia and Go.
 Use it when: You want to understand AI engineering by building it, not just calling APIs.
 Works with: Website, your coding agent, or local code
 Start: aiengineeringfromscratch.com, or `npx skills add rohitg00/ai-engineering-from-scratch` to make your agent the tutor
-
-### Prompt Engineering Guide
-Link: https://github.com/dair-ai/Prompt-Engineering-Guide
-Stars: ★ 80.4k
-What it does: Guides and papers on prompting, context engineering, RAG and agents.
-Use it when: You want the techniques behind good prompts and context.
-Works with: Any model
-Start: Read on GitHub
 
 ### Awesome Claude Skills
 Link: https://github.com/ComposioHQ/awesome-claude-skills
@@ -56,9 +48,17 @@ Use it when: You are looking for a skill this library does not list.
 Works with: Claude Code
 Start: Read on GitHub
 
+### Prompt Engineering Guide
+Link: https://github.com/dair-ai/Prompt-Engineering-Guide
+Stars: ★ 80.4k
+What it does: Guides and papers on prompting, context engineering, RAG and agents.
+Use it when: You want the techniques behind good prompts and context.
+Works with: Any model
+Start: Read on GitHub
+
 ### Claude Code Best Practice
 Link: https://github.com/shanraisshan/claude-code-best-practice
-Stars: ★ 69.4k
+Stars: ★ 69.5k
 What it does: Practices for moving from vibe coding to agentic engineering with Claude Code.
 Use it when: You use Claude Code daily and want better habits.
 Works with: Claude Code

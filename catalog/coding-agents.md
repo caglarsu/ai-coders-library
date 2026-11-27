@@ -2,7 +2,7 @@
 
 ### DeepSeek Harness
 Link: https://github.com/deepseek-ai/deepseek-harness
-Stars: ★ 287.6k
+Stars: ★ 287.9k
 What it does: DeepSeek's plugin-based agent harness.
 Use it when: You use DeepSeek models and want their official agent.
 Works with: DeepSeek and other providers
@@ -10,7 +10,7 @@ Install: `npx @deepseek-ai/dsh web`
 
 ### OpenCode
 Link: https://github.com/anomalyco/opencode
-Stars: ★ 229.4k
+Stars: ★ 229.6k
 What it does: Open-source coding agent that works with almost any model provider.
 Use it when: You want a Claude Code-style agent without being tied to one vendor.
 Works with: Any provider, local models
@@ -18,7 +18,7 @@ Install: `curl -fsSL https://opencode.ai/v2/install | bash`
 
 ### Claude Code
 Link: https://github.com/anthropics/claude-code
-Stars: ★ 157.2k
+Stars: ★ 157.3k
 What it does: Anthropic's agentic coding tool for the terminal, IDE and desktop.
 Use it when: You want the agent most skills in this library are built for. Needs a Claude plan or API key.
 Works with: macOS, Linux, Windows
@@ -26,7 +26,7 @@ Install: `curl -fsSL https://claude.ai/install.sh | bash`
 
 ### Codex
 Link: https://github.com/openai/codex
-Stars: ★ 136.6k
+Stars: ★ 136.7k
 What it does: OpenAI's open-source coding agent for the terminal.
 Use it when: You use ChatGPT or OpenAI models. Needs a ChatGPT plan or API key.
 Works with: macOS, Linux, Windows
@@ -34,7 +34,7 @@ Install: `npm install -g @openai/codex`
 
 ### Pi
 Link: https://github.com/earendil-works/pi
-Stars: ★ 124.1k
+Stars: ★ 124.2k
 What it does: Minimal, hackable agent toolkit: unified LLM API, agent loop, TUI and coding agent CLI.
 Use it when: You want a small agent you can read, extend or build your own on.
 Works with: Any provider
@@ -74,7 +74,7 @@ Install: `npm i -g cline`, or install from the VS Code marketplace
 
 ### Goose
 Link: https://github.com/aaif-goose/goose
-Stars: ★ 57k
+Stars: ★ 57.1k
 What it does: Extensible open-source agent that installs, runs, edits and tests with any LLM.
 Use it when: You want a general local agent with MCP extensions beyond coding.
 Works with: Any provider; desktop app and CLI

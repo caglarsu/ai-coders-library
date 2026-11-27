@@ -45,10 +45,10 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Impeccable: https://github.com/pbakaus/impeccable
 - Archify: https://github.com/tt-a1i/archify
 - Understand Anything: https://github.com/Egonex-AI/Understand-Anything
-- OpenSpec: https://github.com/Fission-AI/OpenSpec
 - last30days: https://github.com/mvanhorn/last30days-skill
-- Humanizer: https://github.com/blader/humanizer
+- OpenSpec: https://github.com/Fission-AI/OpenSpec
 - Diagram Design: https://github.com/cathrynlavery/diagram-design
+- Humanizer: https://github.com/blader/humanizer
 - CLI-Anything: https://github.com/HKUDS/CLI-Anything
 - Marketing Skills: https://github.com/coreyhaines31/marketingskills
 - i-have-adhd: https://github.com/ayghri/i-have-adhd
@@ -104,8 +104,8 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - MCP reference servers: https://github.com/modelcontextprotocol/servers
 - Crawl4AI: https://github.com/unclecode/crawl4ai
 - RTK: https://github.com/rtk-ai/rtk
-- screenshot-to-code: https://github.com/abi/screenshot-to-code
 - T3 Code: https://github.com/pingdotgg/t3code
+- screenshot-to-code: https://github.com/abi/screenshot-to-code
 - Headroom: https://github.com/headroomlabs-ai/headroom
 - PPT Master: https://github.com/hugohe3/ppt-master
 - Unsloth: https://github.com/unslothai/unsloth
@@ -197,8 +197,8 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - PentAGI: https://github.com/vxcontrol/pentagi
 - Nuclei: https://github.com/projectdiscovery/nuclei
 - Claude BugHunter: https://github.com/elementalsouls/Claude-BugHunter
-- MobSF: https://github.com/MobSF/Mobile-Security-Framework-MobSF
 - ARTEX: https://github.com/BaaRai/ARTEX
+- MobSF: https://github.com/MobSF/Mobile-Security-Framework-MobSF
 - Semgrep: https://github.com/semgrep/semgrep
 - ZAP: https://github.com/zaproxy/zaproxy
 - HexStrike AI: https://github.com/0x4m4/hexstrike-ai
@@ -215,8 +215,8 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - AI Agents for Beginners: https://github.com/microsoft/ai-agents-for-beginners
 - Learn Claude Code: https://github.com/shareAI-lab/learn-claude-code
 - AI Engineering from Scratch: https://github.com/rohitg00/ai-engineering-from-scratch
-- Prompt Engineering Guide: https://github.com/dair-ai/Prompt-Engineering-Guide
 - Awesome Claude Skills: https://github.com/ComposioHQ/awesome-claude-skills
+- Prompt Engineering Guide: https://github.com/dair-ai/Prompt-Engineering-Guide
 - Claude Code Best Practice: https://github.com/shanraisshan/claude-code-best-practice
 - Awesome Claude Code: https://github.com/hesreallyhim/awesome-claude-code
 - Claude Cookbooks: https://github.com/anthropics/claude-cookbooks

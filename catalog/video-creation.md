@@ -4,7 +4,7 @@ Most tools here have more than 30,000 stars. Smaller agent skills for video, suc
 
 ### ComfyUI
 Link: https://github.com/Comfy-Org/ComfyUI
-Stars: ★ 148.8k
+Stars: ★ 148.9k
 What it does: Node-graph GUI and API for running diffusion models, including the open video models below.
 Use it when: You want to run open-weights video models on your own GPU, or chain generation steps.
 Works with: NVIDIA, AMD, Apple silicon
@@ -36,7 +36,7 @@ Install: `pip install manimgl`
 
 ### HyperFrames
 Link: https://github.com/heygen-com/hyperframes
-Stars: ★ 90.9k
+Stars: ★ 91.3k
 What it does: HeyGen's open-source video editor: your agent writes HTML compositions and renders them to MP4.
 Use it when: You want Claude Code or Codex to make promos, explainers or captioned clips from a prompt, a URL or your footage.
 Works with: Claude Code, Codex; Node
@@ -44,7 +44,7 @@ Install: `npx skills add heygen-com/hyperframes`, then `npx hyperframes init my-
 
 ### OpenMontage
 Link: https://github.com/OpenMontageInc/OpenMontage
-Stars: ★ 83.7k
+Stars: ★ 83.8k
 What it does: Agentic video production system with production pipelines, tools and agent skills. AGPL.
 Use it when: You want an agent to run a whole production: script, assets, edit, render.
 Works with: Claude Code and other agents
@@ -60,7 +60,7 @@ Install: `brew install --cask obs`
 
 ### Remotion
 Link: https://github.com/remotion-dev/remotion
-Stars: ★ 76k
+Stars: ★ 76.1k
 What it does: Make videos programmatically with React components.
 Use it when: You know React and want data-driven or templated videos rendered in code or CI. Companies above 3 people need a paid licence.
 Works with: Node, React; agent skills at `remotion-dev/skills`
