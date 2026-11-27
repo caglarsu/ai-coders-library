@@ -2,7 +2,7 @@
 
 ### Matt Pocock's skills
 Link: https://github.com/mattpocock/skills
-Stars: ★ 334k
+Stars: ★ 334.1k
 What it does: Matt Pocock's own engineering skills, straight from his agent setup.
 Use it when: You want battle-tested everyday skills from a well-known TypeScript educator.
 Works with: Claude Code, Codex
@@ -42,7 +42,7 @@ Install: `/plugin marketplace add anthropics/skills`
 
 ### Ponytail
 Link: https://github.com/DietrichGebert/ponytail
-Stars: ★ 199.7k
+Stars: ★ 199.8k
 What it does: Makes the agent take the simplest solution that works: stdlib before dependencies, one line before fifty.
 Use it when: Your assistant over-engineers: extra abstractions, new dependencies, boilerplate "for later".
 Works with: Claude Code, Codex
@@ -114,7 +114,7 @@ Install: `npx skills add addyosmani/agent-skills`
 
 ### Impeccable
 Link: https://github.com/pbakaus/impeccable
-Stars: ★ 117.8k
+Stars: ★ 117.9k
 What it does: Design vocabulary for your agent: commands to polish, critique and audit UI, and a detector for AI-slop design.
 Use it when: Your agent builds UI that looks generic and you want it to look designed.
 Works with: Claude Code and other agents; Chrome or Edge for page scans
@@ -138,7 +138,7 @@ Install: `/plugin marketplace add Egonex-AI/Understand-Anything` then `/plugin i
 
 ### last30days
 Link: https://github.com/mvanhorn/last30days-skill
-Stars: ★ 76.1k
+Stars: ★ 76.2k
 What it does: Researches a topic across Reddit, X, YouTube, Hacker News, Polymarket and the web, then writes a grounded summary.
 Use it when: You need to know what people are saying about a tool or topic right now.
 Works with: Claude Code and other agents
@@ -154,7 +154,7 @@ Install: `npm install -g @fission-ai/openspec@latest`
 
 ### Diagram Design
 Link: https://github.com/cathrynlavery/diagram-design
-Stars: ★ 74.2k
+Stars: ★ 74.3k
 What it does: 52 editorial diagram types as self-contained HTML and SVG, styled to match your site.
 Use it when: You want diagrams for docs or a blog that look like they belong there, not like Mermaid.
 Works with: Claude Code, Codex, Copilot, Cursor and others
@@ -170,7 +170,7 @@ Install: `/plugin marketplace add blader/humanizer` then `/plugin install humani
 
 ### CLI-Anything
 Link: https://github.com/HKUDS/CLI-Anything
-Stars: ★ 66.7k
+Stars: ★ 66.8k
 What it does: Generates agent-friendly CLIs for desktop software (CAD, 3D, office, media) and hosts a hub of community-built ones.
 Use it when: You want your agent to drive an app that has no API or CLI of its own.
 Works with: Claude Code, any agent that runs shell commands
@@ -202,7 +202,7 @@ Install: `npx skills add nutlope/hallmark -g`, or in Claude Code `/plugin market
 
 ### Emil Kowalski's skills
 Link: https://github.com/emilkowalski/skills
-Stars: ★ 60.3k
+Stars: ★ 60.4k
 What it does: UI and animation skills from a designer-engineer who worked at Vercel and Linear: they list the small mistakes agents make, like the wrong easing or a solid border where a soft shadow belongs, and how to fix them.
 Use it when: You want animations and interface details that feel right, not just work.
 Works with: Claude Code, Codex, Cursor and other agents that read skills
@@ -266,7 +266,7 @@ Install: `npx skills add openfilm/openfilm` (Node 22.2+, ffmpeg), or the desktop
 
 ### App Store Compliance
 Link: https://github.com/mjmirza/app-store-compliance
-Stars: ★ 7.3k
+Stars: ★ 7.4k
 What it does: Pre-submission guard with 124 documented App Store and Google Play rejection patterns and fixes. Free under $20M yearly revenue.
 Use it when: You are about to submit a mobile app and want to avoid a rejection.
 Works with: Any agent that reads files

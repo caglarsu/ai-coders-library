@@ -12,7 +12,7 @@ Install: Desktop app from comfy.org, or clone and `pip install -r requirements.t
 
 ### MoneyPrinterTurbo
 Link: https://github.com/harry0703/MoneyPrinterTurbo
-Stars: ★ 145.9k
+Stars: ★ 146k
 What it does: Generates a finished short video (script, stock footage, voice, subtitles, music) from a topic.
 Use it when: You need many short vertical videos fast and stock footage is acceptable.
 Works with: Docker; OpenAI, DeepSeek, Ollama and others
@@ -52,7 +52,7 @@ Install: `git clone https://github.com/OpenMontageInc/OpenMontage.git`, then fol
 
 ### OBS Studio
 Link: https://github.com/obsproject/obs-studio
-Stars: ★ 80.2k
+Stars: ★ 80.3k
 What it does: Screen recording and live streaming.
 Use it when: You record product demos, tutorials or bug repros.
 Works with: macOS, Windows, Linux
@@ -97,6 +97,14 @@ What it does: Fully automated short-video engine with AI-generated visuals.
 Use it when: You want topic-to-video like MoneyPrinterTurbo but with generated images and clips instead of stock footage.
 Works with: Python, FFmpeg, ComfyUI
 Install: `git clone https://github.com/ATH-MaaS/Pixelle-Video.git`, then `uv run streamlit run web/app.py`
+
+### OpenMotion
+Link: https://github.com/nexu-io/openmotion
+Stars: ★ 16.9k
+What it does: Agentic video studio from the OpenDesign team: give it a reference video or link and your agent rebuilds the shots in HTML with your brand, then you edit timing and render MP4. The default setup uses their hosted MCP; self-hosting is documented.
+Use it when: You want a promo or social video remade in your own style without a video editor.
+Works with: Claude Code, Codex and other agents; your own image, video, music and voice API keys
+Install: `npx skills add nexu-io/openmotion --skill openmotion`
 
 ### stable-diffusion.cpp
 Link: https://github.com/leejet/stable-diffusion.cpp

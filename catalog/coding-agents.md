@@ -2,7 +2,7 @@
 
 ### DeepSeek Harness
 Link: https://github.com/deepseek-ai/deepseek-harness
-Stars: ★ 287.9k
+Stars: ★ 288k
 What it does: DeepSeek's plugin-based agent harness.
 Use it when: You use DeepSeek models and want their official agent.
 Works with: DeepSeek and other providers
@@ -58,7 +58,7 @@ Install: Download from zed.dev
 
 ### OpenHands
 Link: https://github.com/OpenHands/OpenHands
-Stars: ★ 94.4k
+Stars: ★ 94.5k
 What it does: Open platform for autonomous software-development agents, local or cloud.
 Use it when: You want agents that take a whole issue to a pull request in a sandbox.
 Works with: Docker; any model provider

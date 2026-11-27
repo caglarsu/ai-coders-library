@@ -2,7 +2,7 @@
 
 ### REA
 Link: https://github.com/morluto/rea
-Stars: ★ 480.6k
+Stars: ★ 480.7k
 What it does: Reverse engineering with agents, from app behaviour down to native binaries.
 Use it when: You need to understand a binary, app bundle or web app you do not have the source for.
 Works with: Claude Code, Codex and other agents; MCP
@@ -66,7 +66,7 @@ Install: `brew install --cask cc-switch`
 
 ### Orca
 Link: https://github.com/stablyai/orca
-Stars: ★ 141.8k
+Stars: ★ 142k
 What it does: Runs a fleet of agents on your own subscriptions, on desktop, mobile or a remote runtime.
 Use it when: You want many agents working in parallel without paying for API usage.
 Works with: Claude Code, Codex, Grok and others
@@ -98,7 +98,7 @@ Install: `npx claude-mem install`
 
 ### Agent-Reach
 Link: https://github.com/Panniantong/Agent-Reach
-Stars: ★ 115.2k
+Stars: ★ 115.3k
 What it does: One CLI for your agent to read and search X, Reddit, YouTube, GitHub and more without API fees.
 Use it when: Your agent needs social and video sites as sources.
 Works with: Claude Code and other agents
@@ -162,7 +162,7 @@ Install: `brew install rtk`
 
 ### T3 Code
 Link: https://github.com/pingdotgg/t3code
-Stars: ★ 81.7k
+Stars: ★ 81.8k
 What it does: Control Claude Code, Codex and other agents from any computer or phone.
 Use it when: You want to check on or steer your agents when you are away from your desk.
 Works with: Claude Code, Codex
@@ -202,7 +202,7 @@ Install: `uv pip install unsloth --torch-backend=auto`
 
 ### AFFiNE
 Link: https://github.com/toeverything/AFFiNE
-Stars: ★ 79.2k
+Stars: ★ 79.3k
 What it does: Local-first, open-source alternative to Notion and Miro: docs, whiteboards and databases in one place, with built-in AI. The server code is under an enterprise licence; the rest is MIT.
 Use it when: You want notes and planning boards that stay on your own disk, or a self-hosted workspace.
 Works with: macOS, Windows, Linux, web; self-host

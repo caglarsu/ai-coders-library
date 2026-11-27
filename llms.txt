@@ -1,6 +1,6 @@
 # AI Coder's Library
 
-> 189 curated skills, tools, agents, models and workflows for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
+> 190 curated skills, tools, agents, models and workflows for developers who build with AI coding assistants. Each entry has what it does, when to use it, what it works with, how to install it and its GitHub stars (updated daily).
 
 This index names every entry with its link. Each section's file has the full details; read the files for the sections that matter to the user.
 
@@ -144,7 +144,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Gemma 4 26B-A4B: https://huggingface.co/google/gemma-4-26B-A4B
 - Qwen3.8-27B: https://huggingface.co/Qwen/Qwen3.8-27B
 
-## Video creation (18 entries)
+## Video creation (19 entries)
 Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/catalog/video-creation.md
 - ComfyUI: https://github.com/Comfy-Org/ComfyUI
 - MoneyPrinterTurbo: https://github.com/harry0703/MoneyPrinterTurbo
@@ -158,6 +158,7 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - FFmpeg: https://github.com/FFmpeg/FFmpeg
 - LosslessCut: https://github.com/mifi/lossless-cut
 - Pixelle-Video: https://github.com/ATH-MaaS/Pixelle-Video
+- OpenMotion: https://github.com/nexu-io/openmotion
 - stable-diffusion.cpp: https://github.com/leejet/stable-diffusion.cpp
 - MiniMax H3: https://huggingface.co/MiniMaxAI/MiniMax-H3
 - Hyperflow H3: https://huggingface.co/VideoRebirthAI/hyperflow
