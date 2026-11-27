@@ -1,0 +1,10 @@
+title: AI Coder's Library
+description: Curated skills, tools, agents, free models and workflows for developers who build with AI coding assistants.
+url: https://caglarsu.github.io
+baseurl: /ai-coders-library
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+exclude:
+  - scripts
