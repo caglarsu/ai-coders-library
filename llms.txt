@@ -102,8 +102,8 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - RAGFlow: https://github.com/infiniflow/ragflow
 - Home Assistant: https://github.com/home-assistant/core
 - MCP reference servers: https://github.com/modelcontextprotocol/servers
-- Crawl4AI: https://github.com/unclecode/crawl4ai
 - RTK: https://github.com/rtk-ai/rtk
+- Crawl4AI: https://github.com/unclecode/crawl4ai
 - T3 Code: https://github.com/pingdotgg/t3code
 - screenshot-to-code: https://github.com/abi/screenshot-to-code
 - Headroom: https://github.com/headroomlabs-ai/headroom
@@ -132,9 +132,9 @@ Full details: https://raw.githubusercontent.com/caglarsu/ai-coders-library/main/
 - Cua: https://github.com/trycua/cua
 - OpenAI Agents SDK: https://github.com/openai/openai-agents-python
 - TOON: https://github.com/toon-format/toon
+- XERJ: https://github.com/xerj-org/xerj
 - Google ADK: https://github.com/google/adk-python
 - OpenShell: https://github.com/ai-openshell/openshell
-- XERJ: https://github.com/xerj-org/xerj
 - Pydantic AI: https://github.com/pydantic/pydantic-ai
 - json-render: https://github.com/vercel-labs/json-render
 - Coder: https://github.com/coder/coder

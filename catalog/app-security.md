@@ -4,7 +4,7 @@ Run the AI pentesters (PentAGI, HexStrike AI, Strix, ARTEX, Claude BugHunter) an
 
 ### Security Audit Skill
 Link: https://github.com/cloudflare/security-audit-skill
-Stars: ★ 79.1k
+Stars: ★ 79.4k
 What it does: Cloudflare's skill for multi-phase security audits with independently verified, machine-readable findings.
 Use it when: You want your agent to audit your own code with fewer false positives.
 Works with: Claude Code and other agents
@@ -12,7 +12,7 @@ Install: `npx skills add https://github.com/cloudflare/security-audit-skill`
 
 ### Strix
 Link: https://github.com/usestrix/strix
-Stars: ★ 77.9k
+Stars: ★ 78.1k
 What it does: AI agents that pentest your app, confirm findings with proof-of-concepts and suggest fixes.
 Use it when: You want an AI pentest of your own app before release.
 Works with: Local code or URL; Docker
@@ -52,7 +52,7 @@ Install: `brew install nuclei`
 
 ### Claude BugHunter
 Link: https://github.com/elementalsouls/Claude-BugHunter
-Stars: ★ 25.5k
+Stars: ★ 26.7k
 What it does: 84 skills and 15 commands for bug hunting and red-team work, built from 681 disclosed reports.
 Use it when: You do authorised bug bounty or red-team work with Claude Code.
 Works with: Claude Code
@@ -60,7 +60,7 @@ Install: `/plugin marketplace add elementalsouls/Claude-BugHunter` then `/plugin
 
 ### ARTEX
 Link: https://github.com/BaaRai/ARTEX
-Stars: ★ 23.1k
+Stars: ★ 24.1k
 What it does: Self-hosted, model-agnostic autonomous pentesting system with evidence-backed findings. AGPL.
 Use it when: You want an autonomous pentest of your own systems with proof for every finding.
 Works with: Docker; any model provider

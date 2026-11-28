@@ -12,7 +12,7 @@ Install: MNN Chat from [Google Play](https://play.google.com/store/apps/details?
 
 ### PocketPal
 Link: https://github.com/a-ghorbani/pocketpal-ai
-Stars: ★ 9.8k
+Stars: ★ 9.9k
 What it does: Runs GGUF models such as Gemma, Qwen, Phi and Llama fully offline on your phone, with model downloads from Hugging Face. An optional one-time purchase adds hands-free voice and a local API server.
 Use it when: You want a private chat model on your phone that works with no connection and no account.
 Works with: iOS, Android
@@ -20,7 +20,7 @@ Install: App Store or Google Play
 
 ### ChatterUI
 Link: https://github.com/Vali-98/ChatterUI
-Stars: ★ 2.9k
+Stars: ★ 3k
 What it does: Mobile frontend for LLMs: GGUF models on the device, or Ollama and other APIs, with character chats and full control of samplers and prompt formatting. AGPL.
 Use it when: You want fine-grained control over chats on your phone, on-device or against your own server.
 Works with: Android

@@ -4,7 +4,7 @@ Most tools here have more than 30,000 stars. Smaller agent skills for video, suc
 
 ### ComfyUI
 Link: https://github.com/Comfy-Org/ComfyUI
-Stars: ★ 148.9k
+Stars: ★ 149k
 What it does: Node-graph GUI and API for running diffusion models, including the open video models below.
 Use it when: You want to run open-weights video models on your own GPU, or chain generation steps.
 Works with: NVIDIA, AMD, Apple silicon
@@ -12,7 +12,7 @@ Install: Desktop app from comfy.org, or clone and `pip install -r requirements.t
 
 ### MoneyPrinterTurbo
 Link: https://github.com/harry0703/MoneyPrinterTurbo
-Stars: ★ 146k
+Stars: ★ 146.1k
 What it does: Generates a finished short video (script, stock footage, voice, subtitles, music) from a topic.
 Use it when: You need many short vertical videos fast and stock footage is acceptable.
 Works with: Docker; OpenAI, DeepSeek, Ollama and others
@@ -28,7 +28,7 @@ Install: See its README
 
 ### Manim
 Link: https://github.com/3b1b/manim
-Stars: ★ 97k
+Stars: ★ 97.1k
 What it does: 3Blue1Brown's engine for precise animated maths and diagrams.
 Use it when: You explain an algorithm or concept and want exact, code-defined animation.
 Works with: Python
@@ -36,7 +36,7 @@ Install: `pip install manimgl`
 
 ### HyperFrames
 Link: https://github.com/heygen-com/hyperframes
-Stars: ★ 91.3k
+Stars: ★ 91.8k
 What it does: HeyGen's open-source video editor: your agent writes HTML compositions and renders them to MP4.
 Use it when: You want Claude Code or Codex to make promos, explainers or captioned clips from a prompt, a URL or your footage.
 Works with: Claude Code, Codex; Node
@@ -44,7 +44,7 @@ Install: `npx skills add heygen-com/hyperframes`, then `npx hyperframes init my-
 
 ### OpenMontage
 Link: https://github.com/OpenMontageInc/OpenMontage
-Stars: ★ 83.8k
+Stars: ★ 84k
 What it does: Agentic video production system with production pipelines, tools and agent skills. AGPL.
 Use it when: You want an agent to run a whole production: script, assets, edit, render.
 Works with: Claude Code and other agents
@@ -52,7 +52,7 @@ Install: `git clone https://github.com/OpenMontageInc/OpenMontage.git`, then fol
 
 ### OBS Studio
 Link: https://github.com/obsproject/obs-studio
-Stars: ★ 80.3k
+Stars: ★ 80.2k
 What it does: Screen recording and live streaming.
 Use it when: You record product demos, tutorials or bug repros.
 Works with: macOS, Windows, Linux
@@ -60,7 +60,7 @@ Install: `brew install --cask obs`
 
 ### Remotion
 Link: https://github.com/remotion-dev/remotion
-Stars: ★ 76.1k
+Stars: ★ 76.3k
 What it does: Make videos programmatically with React components.
 Use it when: You know React and want data-driven or templated videos rendered in code or CI. Companies above 3 people need a paid licence.
 Works with: Node, React; agent skills at `remotion-dev/skills`
@@ -68,7 +68,7 @@ Install: `npx create-video@latest`
 
 ### anime.js
 Link: https://github.com/juliangarnier/anime
-Stars: ★ 75.1k
+Stars: ★ 75.2k
 What it does: Lightweight JavaScript animation engine.
 Use it when: You need motion graphics inside an HTML or web composition (HyperFrames supports it).
 Works with: Browser, Node
@@ -100,7 +100,7 @@ Install: `git clone https://github.com/ATH-MaaS/Pixelle-Video.git`, then `uv run
 
 ### OpenMotion
 Link: https://github.com/nexu-io/openmotion
-Stars: ★ 16.9k
+Stars: ★ 17.1k
 What it does: Agentic video studio from the OpenDesign team: give it a reference video or link and your agent rebuilds the shots in HTML with your brand, then you edit timing and render MP4. The default setup uses their hosted MCP; self-hosting is documented.
 Use it when: You want a promo or social video remade in your own style without a video editor.
 Works with: Claude Code, Codex and other agents; your own image, video, music and voice API keys
@@ -108,7 +108,7 @@ Install: `npx skills add nexu-io/openmotion --skill openmotion`
 
 ### stable-diffusion.cpp
 Link: https://github.com/leejet/stable-diffusion.cpp
-Stars: ★ 8.1k
+Stars: ★ 8.2k
 What it does: Image and video diffusion in plain C/C++ with no Python: SD, Flux, Wan, LTX-2.5 and MiniMax H3, with a CLI, a server and a web UI.
 Use it when: You want to run the open video models below on a CPU, Apple silicon or a small GPU without ComfyUI or a Python stack.
 Works with: macOS, Linux, Windows; CPU, CUDA, Metal, Vulkan, OpenCL, SYCL
